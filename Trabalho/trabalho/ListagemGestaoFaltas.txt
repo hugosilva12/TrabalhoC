@@ -1,0 +1,40 @@
+-------Janeiro-------------NRF: 6 
+ZEROFaltas: 2
+123
+32
+UMFalta: 1
+33
+DUAS/TRÊSFaltas: 2
+333
+331
+MAISTRÊSFaltas: 1
+341
+-------Fevereiro-------------NRF: 0 Mês Não analisado!
+-------Março-------------NRF: 5 
+ZEROFaltas: 2
+123
+32
+UMFalta: 1
+33
+DUAS/TRÊSFaltas: 2
+333
+331
+MAISTRÊSFaltas: 0
+-------Abril-------------NRF: 4 
+ZEROFaltas: 2
+13
+12
+UMFalta: 1
+13
+DUAS/TRÊSFaltas: 2
+33
+3431
+MAISTRÊSFaltas: 0
+-------Maio-------------NRF: 0 Mês Não analisado!
+-------Junho-------------NRF: 0 Mês Não analisado!
+-------Julho-------------NRF: 0 Mês Não analisado!
+-------Agosto-------------NRF: 0 Mês Não analisado!
+-------Setembro-------------NRF: 0 Mês Não analisado!
+-------Outubro-------------NRF: 0 Mês Não analisado!
+-------Novembro-------------NRF: 0 Mês Não analisado!
+-------Dezembro-------------NRF: 0 Mês Não analisado!

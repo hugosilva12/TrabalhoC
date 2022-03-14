@@ -1,0 +1,77 @@
+\hypertarget{_funcionarios_fx_8h}{}\doxysection{Funcionarios\+Fx.\+h File Reference}
+\label{_funcionarios_fx_8h}\index{FuncionariosFx.h@{FuncionariosFx.h}}
+
+
+Biblioteca para guardar e importar lista de funcionários. (parte pública)  
+
+
+{\ttfamily \#include \char`\"{}Gestao\+Funcionarios.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_funcionarios_fx_8h_a4d1fe19553ef038844fd68294a4dda5d}\label{_funcionarios_fx_8h_a4d1fe19553ef038844fd68294a4dda5d}} 
+\#define {\bfseries F\+I\+L\+E\+\_\+\+F\+U\+N\+C\+I\+O\+N\+A\+R\+I\+OS}~\char`\"{}funcionarios.\+bin\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_funcionarios_fx_8h_a0dc8eccbbc9c02ac75683d57d75642ff}{obtem\+Contadorfx}} (char $\ast$nomeficheiro)
+\item 
+void \mbox{\hyperlink{_funcionarios_fx_8h_a6f44293310b05c5d3b8ce96267123ce9}{carregar\+Funcionarios\+Fx}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios, char $\ast$nomeficheiro)
+\item 
+void \mbox{\hyperlink{_funcionarios_fx_8h_a9646350ee8714a9bf6eaf7578ccc1b68}{guardar\+Funcionarios\+Fx}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios, char $\ast$nomeficheiro)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Biblioteca para guardar e importar lista de funcionários. (parte pública) 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+20 Novembro 2020
+\end{DoxyDate}
+Biblioteca com assinatura das funções de escrita e leitura em ficheiro binário da lista de funcionários 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_funcionarios_fx_8h_a6f44293310b05c5d3b8ce96267123ce9}\label{_funcionarios_fx_8h_a6f44293310b05c5d3b8ce96267123ce9}} 
+\index{FuncionariosFx.h@{FuncionariosFx.h}!carregarFuncionariosFx@{carregarFuncionariosFx}}
+\index{carregarFuncionariosFx@{carregarFuncionariosFx}!FuncionariosFx.h@{FuncionariosFx.h}}
+\doxysubsubsection{\texorpdfstring{carregarFuncionariosFx()}{carregarFuncionariosFx()}}
+{\footnotesize\ttfamily void carregar\+Funcionarios\+Fx (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios,  }\item[{char $\ast$}]{nomeficheiro }\end{DoxyParamCaption})}
+
+Lê dados de um ficheiro (caso exista) e preenche a lista de funcionários e o seu número 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador para a lista de funcionários que será preenchida, se o ficheiro existir \\
+\hline
+{\em nomeficheiro} & nome do ficheiro que contém a lista de funcionários \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcionarios_fx_8h_a9646350ee8714a9bf6eaf7578ccc1b68}\label{_funcionarios_fx_8h_a9646350ee8714a9bf6eaf7578ccc1b68}} 
+\index{FuncionariosFx.h@{FuncionariosFx.h}!guardarFuncionariosFx@{guardarFuncionariosFx}}
+\index{guardarFuncionariosFx@{guardarFuncionariosFx}!FuncionariosFx.h@{FuncionariosFx.h}}
+\doxysubsubsection{\texorpdfstring{guardarFuncionariosFx()}{guardarFuncionariosFx()}}
+{\footnotesize\ttfamily void guardar\+Funcionarios\+Fx (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios,  }\item[{char $\ast$}]{nomeficheiro }\end{DoxyParamCaption})}
+
+Escreve o conteúdo da lista de funcionários em ficheiro 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador para a lista de funcionários que será escrita em ficheiro \\
+\hline
+{\em nomeficheiro} & nome do ficheiro no qual a lista será escrita \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcionarios_fx_8h_a0dc8eccbbc9c02ac75683d57d75642ff}\label{_funcionarios_fx_8h_a0dc8eccbbc9c02ac75683d57d75642ff}} 
+\index{FuncionariosFx.h@{FuncionariosFx.h}!obtemContadorfx@{obtemContadorfx}}
+\index{obtemContadorfx@{obtemContadorfx}!FuncionariosFx.h@{FuncionariosFx.h}}
+\doxysubsubsection{\texorpdfstring{obtemContadorfx()}{obtemContadorfx()}}
+{\footnotesize\ttfamily int obtem\+Contadorfx (\begin{DoxyParamCaption}\item[{char $\ast$}]{nomeficheiro }\end{DoxyParamCaption})}
+
+Lê de um ficheiro (caso exista) o número de alunos atualmente na lista 
+\begin{DoxyParams}{Parameters}
+{\em nomeficheiro} & nome do ficheiro no qual está o número \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o número lido, caso não tenha sido possível ler retorna 0 
+\end{DoxyReturn}

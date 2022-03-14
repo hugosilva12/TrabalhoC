@@ -1,0 +1,122 @@
+\hypertarget{_utils_8c}{}\doxysection{Utils.\+c File Reference}
+\label{_utils_8c}\index{Utils.c@{Utils.c}}
+
+
+Ficheiro c para implementação das operações diversas.  
+
+
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Utils.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_utils_8c_a11ac4d3ec555747d95fee8ae7aa18b5d}{clean\+Input\+Buffer}} ()
+\item 
+float \mbox{\hyperlink{_utils_8c_ad117d9390f78559910d84ec715828476}{obter\+Percentagem}} ()
+\item 
+int \mbox{\hyperlink{_utils_8c_a593e20ecb6e58d8978a585114c9f1aa2}{verifica\+Existencia\+Ficheiro}} (char $\ast$filename)
+\item 
+int \mbox{\hyperlink{_utils_8c_a1bbcef20229533e1a10cb3ccc169f0b2}{calcular\+Idade}} (\mbox{\hyperlink{struct_data}{Data}} data)
+\item 
+int \mbox{\hyperlink{_utils_8c_add6ddc863ae1a21748764a218bac9d70}{numero\+Linhas}} (char $\ast$filename)
+\item 
+int \mbox{\hyperlink{_utils_8c_adf46e57c769c6767fcb908014ce5841f}{visualizar\+Relatorioem\+Memoria}} ()
+\item 
+int \mbox{\hyperlink{_utils_8c_a65f3911747b2ee437208b294593abcd3}{Substituir\+Relatorio\+Processado}} (char $\ast$filename)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro c para implementação das operações diversas. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+23 Novembro 2020 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_utils_8c_a1bbcef20229533e1a10cb3ccc169f0b2}\label{_utils_8c_a1bbcef20229533e1a10cb3ccc169f0b2}} 
+\index{Utils.c@{Utils.c}!calcularIdade@{calcularIdade}}
+\index{calcularIdade@{calcularIdade}!Utils.c@{Utils.c}}
+\doxysubsubsection{\texorpdfstring{calcularIdade()}{calcularIdade()}}
+{\footnotesize\ttfamily int calcular\+Idade (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_data}{Data}}}]{data }\end{DoxyParamCaption})}
+
+Efetua uma operação que calcula a diferença de anos entre a data atual e uma data passada como parâmetro 
+\begin{DoxyParams}{Parameters}
+{\em data} & data que irá ser comparada com a data atual \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+um valor inteiro que corresponde à diferença de anos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_utils_8c_a11ac4d3ec555747d95fee8ae7aa18b5d}\label{_utils_8c_a11ac4d3ec555747d95fee8ae7aa18b5d}} 
+\index{Utils.c@{Utils.c}!cleanInputBuffer@{cleanInputBuffer}}
+\index{cleanInputBuffer@{cleanInputBuffer}!Utils.c@{Utils.c}}
+\doxysubsubsection{\texorpdfstring{cleanInputBuffer()}{cleanInputBuffer()}}
+{\footnotesize\ttfamily void clean\+Input\+Buffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função que limpa o Buffer do teclado \mbox{\Hypertarget{_utils_8c_add6ddc863ae1a21748764a218bac9d70}\label{_utils_8c_add6ddc863ae1a21748764a218bac9d70}} 
+\index{Utils.c@{Utils.c}!numeroLinhas@{numeroLinhas}}
+\index{numeroLinhas@{numeroLinhas}!Utils.c@{Utils.c}}
+\doxysubsubsection{\texorpdfstring{numeroLinhas()}{numeroLinhas()}}
+{\footnotesize\ttfamily int numero\+Linhas (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Obtêm o número de linhas de um ficheio, caso ele exista 
+\begin{DoxyParams}{Parameters}
+{\em filename} & nome do ficheiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o número de linhas que o ficheiro possui 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_utils_8c_ad117d9390f78559910d84ec715828476}\label{_utils_8c_ad117d9390f78559910d84ec715828476}} 
+\index{Utils.c@{Utils.c}!obterPercentagem@{obterPercentagem}}
+\index{obterPercentagem@{obterPercentagem}!Utils.c@{Utils.c}}
+\doxysubsubsection{\texorpdfstring{obterPercentagem()}{obterPercentagem()}}
+{\footnotesize\ttfamily float obter\+Percentagem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função que lê da consola um valor float \begin{DoxyReturn}{Returns}
+retorna um valor float inserido pelo utilizador 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_utils_8c_a65f3911747b2ee437208b294593abcd3}\label{_utils_8c_a65f3911747b2ee437208b294593abcd3}} 
+\index{Utils.c@{Utils.c}!SubstituirRelatorioProcessado@{SubstituirRelatorioProcessado}}
+\index{SubstituirRelatorioProcessado@{SubstituirRelatorioProcessado}!Utils.c@{Utils.c}}
+\doxysubsubsection{\texorpdfstring{SubstituirRelatorioProcessado()}{SubstituirRelatorioProcessado()}}
+{\footnotesize\ttfamily int Substituir\+Relatorio\+Processado (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Verifica se um relatório já existe, caso exista lê da consola a operação que o utilizador deseja realizar sobre este 
+\begin{DoxyParams}{Parameters}
+{\em filename} & nome do relatório que será verificado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 caso o relatório não exista ou o utilizador o pretenda subsituir, 0 caso o relatório exista e o utilizador não o pretenda substituir 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_utils_8c_a593e20ecb6e58d8978a585114c9f1aa2}\label{_utils_8c_a593e20ecb6e58d8978a585114c9f1aa2}} 
+\index{Utils.c@{Utils.c}!verificaExistenciaFicheiro@{verificaExistenciaFicheiro}}
+\index{verificaExistenciaFicheiro@{verificaExistenciaFicheiro}!Utils.c@{Utils.c}}
+\doxysubsubsection{\texorpdfstring{verificaExistenciaFicheiro()}{verificaExistenciaFicheiro()}}
+{\footnotesize\ttfamily int verifica\+Existencia\+Ficheiro (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Verifica se um ficheiro existe 
+\begin{DoxyParams}{Parameters}
+{\em filename} & nome de um ficheiro \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 1 caso o ficheiro exista, 0 caso o contrário 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_utils_8c_adf46e57c769c6767fcb908014ce5841f}\label{_utils_8c_adf46e57c769c6767fcb908014ce5841f}} 
+\index{Utils.c@{Utils.c}!visualizarRelatorioemMemoria@{visualizarRelatorioemMemoria}}
+\index{visualizarRelatorioemMemoria@{visualizarRelatorioemMemoria}!Utils.c@{Utils.c}}
+\doxysubsubsection{\texorpdfstring{visualizarRelatorioemMemoria()}{visualizarRelatorioemMemoria()}}
+{\footnotesize\ttfamily int visualizar\+Relatorioem\+Memoria (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função que lê da consola a decisão do utilizador, caso exista um relatório de vencimentos em memória \begin{DoxyReturn}{Returns}
+0 caso o utilizador pretenda subsituir o relatório, 1 caso o utilizador pretenda visualizar o relatório que já se encontra em memória 
+\end{DoxyReturn}

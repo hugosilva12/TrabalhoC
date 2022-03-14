@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trabalho Prático: Referência ao ficheiro ProcessamentoSalario.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Trabalho Prático
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência ao ficheiro ProcessamentoSalario.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Ficheiro c que implementa as funções da biblioteca <a class="el" href="_processamento_salario_8h.html" title="Biblioteca criada para a funcionalidade de processamento de salário.">ProcessamentoSalario.h</a>.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="_processamento_salario_8h_source.html">ProcessamentoSalario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_tabela_irs_8h_source.html">TabelaIrs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_tabela_seguranca_social_8h_source.html">TabelaSegurancaSocial.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_utils_8h_source.html">Utils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_gestao_funcionarios_8h_source.html">GestaoFuncionarios.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a126264e82634e5f4e365503100727a90"><td class="memItemLeft" align="right" valign="top"><a id="a126264e82634e5f4e365503100727a90"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>NUMERO_HORAS_DIA</b>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a126264e82634e5f4e365503100727a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab6c33d92d0a1c8e02cedcb9a06bd40"><td class="memItemLeft" align="right" valign="top"><a id="a0ab6c33d92d0a1c8e02cedcb9a06bd40"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>NUMERO_HORAS_MEIO_DIA</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a0ab6c33d92d0a1c8e02cedcb9a06bd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428244df8a021a2eb03b530012822025"><td class="memItemLeft" align="right" valign="top"><a id="a428244df8a021a2eb03b530012822025"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>VALOR_PER</b>&#160;&#160;&#160;0.01</td></tr>
+<tr class="separator:a428244df8a021a2eb03b530012822025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a7f2b763430407d5e985906a78d7f3ae6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#a7f2b763430407d5e985906a78d7f3ae6">subsidioAlimentacao</a> (int numeroDiasTrabalhadosSemana, int numeroDiasTrabalhadosFimdesemana, float subsidio)</td></tr>
+<tr class="separator:a7f2b763430407d5e985906a78d7f3ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e925df59edbb91bf77739d20dd15e1b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#a0e925df59edbb91bf77739d20dd15e1b">calculoSalarioBruto</a> (int numeroDiasTrabalhadosSemana, int numeroDiasTrabalhadosFimdesemana, int numeroMeioDiasTrabalhados, float valorHora)</td></tr>
+<tr class="separator:a0e925df59edbb91bf77739d20dd15e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a04abf73e3dfd28d51cc79e501cd62"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#a05a04abf73e3dfd28d51cc79e501cd62">calculoBonus</a> (<a class="el" href="struct_data.html">Data</a> dataNascimento, <a class="el" href="struct_data.html">Data</a> dataEntrada, int numeroFaltas, float salarioBruto)</td></tr>
+<tr class="separator:a05a04abf73e3dfd28d51cc79e501cd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8649a3d983a0370b92587eca0c3519"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#a8f8649a3d983a0370b92587eca0c3519">calculoRetencaoIrs</a> (<a class="el" href="struct_tabela_irs.html">TabelaIrs</a> tabelaIrs, <a class="el" href="struct_funcionario.html">Funcionario</a> func, float salarioBruto)</td></tr>
+<tr class="separator:a8f8649a3d983a0370b92587eca0c3519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59dbcdcb7cac561a2356acf55aa32bc4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#a59dbcdcb7cac561a2356acf55aa32bc4">calculoSegurancaSocial</a> (<a class="el" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> tabelaSegurancaSocial, <a class="el" href="struct_funcionario.html">Funcionario</a> func, float salarioBruto, float *impostoSegurancaSocialEmpresa)</td></tr>
+<tr class="separator:a59dbcdcb7cac561a2356acf55aa32bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a453647eed481afe17f674f669ed580ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#a453647eed481afe17f674f669ed580ff">calculoSalario</a> (<a class="el" href="struct_funcionario.html">Funcionario</a> *func, <a class="el" href="struct_dados_processamento_salario.html">DadosProcessamentoSalario</a> dados, <a class="el" href="struct_tabela_irs.html">TabelaIrs</a> tabelaIrs, <a class="el" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> tabelaSS, <a class="el" href="struct_vencimento_processado.html">VencimentoProcessado</a> *vencimento)</td></tr>
+<tr class="separator:a453647eed481afe17f674f669ed580ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab97add7ee3028b70d2f184e9692b7c8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#ab97add7ee3028b70d2f184e9692b7c8b">ProcessamentoSalario</a> (<a class="el" href="struct_lista_processamentos.html">ListaProcessamentos</a> listaDados, <a class="el" href="struct_lista_funcionarios.html">ListaFuncionarios</a> listaFuncionarios, <a class="el" href="struct_tabela_irs.html">TabelaIrs</a> tabelaIrs, <a class="el" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> tabelaSegurancaSocial, <a class="el" href="struct_lista_vencimentos_processados_mes.html">ListaVencimentosProcessadosMes</a> *listaVencimentosProcessados)</td></tr>
+<tr class="separator:ab97add7ee3028b70d2f184e9692b7c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcfe7c90ee4978eb01a45bfc0f6c5502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_processamento_salario_8c.html#abcfe7c90ee4978eb01a45bfc0f6c5502">imprimirVencimentosProcessados</a> (<a class="el" href="struct_lista_vencimentos_processados_mes.html">ListaVencimentosProcessadosMes</a> listaVencimentosProcessados)</td></tr>
+<tr class="separator:abcfe7c90ee4978eb01a45bfc0f6c5502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Ficheiro c que implementa as funções da biblioteca <a class="el" href="_processamento_salario_8h.html" title="Biblioteca criada para a funcionalidade de processamento de salário.">ProcessamentoSalario.h</a>. </p>
+<dl class="section author"><dt>Autor</dt><dd>Hugo Silva </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>25 Novembro 2020</dd></dl>
+<p>Ficheiro c que implementa as funções da bibloteca ProcessamentoSalario, responsável pelos cálculos de salário de um conjunto de funcionários </p>
+</div><h2 class="groupheader">Documentação das funções</h2>
+<a id="a05a04abf73e3dfd28d51cc79e501cd62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a04abf73e3dfd28d51cc79e501cd62">&#9670;&nbsp;</a></span>calculoBonus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float calculoBonus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_data.html">Data</a>&#160;</td>
+          <td class="paramname"><em>dataNascimento</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_data.html">Data</a>&#160;</td>
+          <td class="paramname"><em>dataEntrada</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numeroFaltas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>salarioBruto</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calcula o bónus a receber pelo funcionário face à sua idade, tempo na empresa e número de faltas </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataNascimento</td><td>data de nascimento utilizada para obter a sua idade </td></tr>
+    <tr><td class="paramname">dataEntrada</td><td>data de entrada na empresa para obter anos de experiência </td></tr>
+    <tr><td class="paramname">numeroFaltas</td><td>número de faltas </td></tr>
+    <tr><td class="paramname">salarioBruto</td><td>valor utilizado para cáculo do bónus </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>um valor positivo caso a percentagem de bónus seja positiva, retorna um valor negativo caso o funcionário contenha um numéro excessivo de faltas </dd></dl>
+
+</div>
+</div>
+<a id="a8f8649a3d983a0370b92587eca0c3519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f8649a3d983a0370b92587eca0c3519">&#9670;&nbsp;</a></span>calculoRetencaoIrs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float calculoRetencaoIrs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_tabela_irs.html">TabelaIrs</a>&#160;</td>
+          <td class="paramname"><em>tabelaIrs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_funcionario.html">Funcionario</a>&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>salarioBruto</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Efetua o cálculo de retenção de IRS mediante o estado civil, número de dependentes e nível salarial </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tabelaIrs</td><td>tabelas de IRS </td></tr>
+    <tr><td class="paramname">func</td><td>informação relativa a um funcionário </td></tr>
+    <tr><td class="paramname">salarioBruto</td><td>salário bruto no qual será aplicada a taxa de retenção </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>valor da retenção de IRS resultante do produto do salário bruto com a taxa </dd></dl>
+
+</div>
+</div>
+<a id="a453647eed481afe17f674f669ed580ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a453647eed481afe17f674f669ed580ff">&#9670;&nbsp;</a></span>calculoSalario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void calculoSalario </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_funcionario.html">Funcionario</a> *&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_dados_processamento_salario.html">DadosProcessamentoSalario</a>&#160;</td>
+          <td class="paramname"><em>dados</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_tabela_irs.html">TabelaIrs</a>&#160;</td>
+          <td class="paramname"><em>tabelaIrs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a>&#160;</td>
+          <td class="paramname"><em>tabelaSS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vencimento_processado.html">VencimentoProcessado</a> *&#160;</td>
+          <td class="paramname"><em>vencimento</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executa o processamento de um salário. Nesta função é calculado o salário bruto, líquido, subsídio de alimentação, retenção de IRS, taxa para a Segurança Social e despesas totais da empresa <br  />
+ </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>apontador para os dados de um funcionário </td></tr>
+    <tr><td class="paramname">dados</td><td>dados para efetuar cálculos (Número de dias trabalhados, faltas, etc) </td></tr>
+    <tr><td class="paramname">tabelaIrs</td><td>tabela de IRS </td></tr>
+    <tr><td class="paramname">tabelaSS</td><td>tabela da Segurança Social </td></tr>
+    <tr><td class="paramname">vencimento</td><td>apontador que irá guardar os dados resultantes do processamento de salário </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0e925df59edbb91bf77739d20dd15e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e925df59edbb91bf77739d20dd15e1b">&#9670;&nbsp;</a></span>calculoSalarioBruto()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float calculoSalarioBruto </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numeroDiasTrabalhadosSemana</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numeroDiasTrabalhadosFimdesemana</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numeroMeioDiasTrabalhados</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>valorHora</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calcula o salário bruto fruto do número de dias trabalhados </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numeroDiasTrabalhadosSemana</td><td>número de dias que o funcionário trabalhou na semana </td></tr>
+    <tr><td class="paramname">numeroDiasTrabalhadosFimdesemana</td><td>número de dias que trabalhou no fim de semana </td></tr>
+    <tr><td class="paramname">numeroMeioDiasTrabalhados</td><td>número de meios dias trabalhou </td></tr>
+    <tr><td class="paramname">valorHora</td><td>valor que o funcionário ganha por hora </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>retorna o valor correspondente ao salário bruto do funcionário </dd></dl>
+
+</div>
+</div>
+<a id="a59dbcdcb7cac561a2356acf55aa32bc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59dbcdcb7cac561a2356acf55aa32bc4">&#9670;&nbsp;</a></span>calculoSegurancaSocial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float calculoSegurancaSocial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a>&#160;</td>
+          <td class="paramname"><em>tabelaSegurancaSocial</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_funcionario.html">Funcionario</a>&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>salarioBruto</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>impostoSegurancaSocialEmpresa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calcula o valor a pagar pelo funcionário e pela entidade empregadora à Segurança Social </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tabelaSegurancaSocial</td><td>tabela com as taxas que podem ser aplicadas </td></tr>
+    <tr><td class="paramname">func</td><td>dados do funcionário na qual está a identificação da taxa que será aplicada </td></tr>
+    <tr><td class="paramname">salarioBruto</td><td>valor do salário na qual será aplicada a taxa </td></tr>
+    <tr><td class="paramname">impostoSegurancaSocialEmpresa</td><td>apontador irá armazenar o valor correspondente à entidade empregadora </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>valor resultante do produto do salário bruto com a taxa aplicada </dd></dl>
+
+</div>
+</div>
+<a id="abcfe7c90ee4978eb01a45bfc0f6c5502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcfe7c90ee4978eb01a45bfc0f6c5502">&#9670;&nbsp;</a></span>imprimirVencimentosProcessados()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void imprimirVencimentosProcessados </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_lista_vencimentos_processados_mes.html">ListaVencimentosProcessadosMes</a>&#160;</td>
+          <td class="paramname"><em>listaVencimentosProcessados</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Imprime na consola o relatório com os vencimentos processados </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listaVencimentosProcessados</td><td>lista com os vencimentos processados </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab97add7ee3028b70d2f184e9692b7c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab97add7ee3028b70d2f184e9692b7c8b">&#9670;&nbsp;</a></span>ProcessamentoSalario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProcessamentoSalario </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_lista_processamentos.html">ListaProcessamentos</a>&#160;</td>
+          <td class="paramname"><em>listaDados</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_funcionarios.html">ListaFuncionarios</a>&#160;</td>
+          <td class="paramname"><em>listaFuncionarios</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_tabela_irs.html">TabelaIrs</a>&#160;</td>
+          <td class="paramname"><em>tabelaIrs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a>&#160;</td>
+          <td class="paramname"><em>tabelaSegurancaSocial</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_vencimentos_processados_mes.html">ListaVencimentosProcessadosMes</a> *&#160;</td>
+          <td class="paramname"><em>listaVencimentosProcessados</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executa o processamento de salários, caso o código do funcionário exista </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listaDados</td><td>lista de dados para processamento </td></tr>
+    <tr><td class="paramname">listaFuncionarios</td><td>lista de funcionários </td></tr>
+    <tr><td class="paramname">tabelaIrs</td><td>tabela de IRS </td></tr>
+    <tr><td class="paramname">tabelaSegurancaSocial</td><td>tabela da Segurança Social </td></tr>
+    <tr><td class="paramname">listaVencimentosProcessados</td><td>apontador que irá armazenar os valores dos salários processados </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7f2b763430407d5e985906a78d7f3ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f2b763430407d5e985906a78d7f3ae6">&#9670;&nbsp;</a></span>subsidioAlimentacao()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float subsidioAlimentacao </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numeroDiasTrabalhadosSemana</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numeroDiasTrabalhadosFimdesemana</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>subsidio</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calcula o valor do subsídio de alimentação de um funcionário </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numeroDiasTrabalhadosSemana</td><td>número de dias trabalhou na semana </td></tr>
+    <tr><td class="paramname">numeroDiasTrabalhadosFimdesemana</td><td>número de dias que trabalhou no fim de semana </td></tr>
+    <tr><td class="paramname">subsidio</td><td>valor do subsídio do funcionário por dia </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>retorna o valor resultante do produto do número de dias trabalhados com o valor do subsídio que o funcionário recebe por dia </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

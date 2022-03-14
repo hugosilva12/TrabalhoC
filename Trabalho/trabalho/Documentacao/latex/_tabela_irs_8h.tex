@@ -1,0 +1,213 @@
+\hypertarget{_tabela_irs_8h}{}\doxysection{Tabela\+Irs.\+h File Reference}
+\label{_tabela_irs_8h}\index{TabelaIrs.h@{TabelaIrs.h}}
+
+
+Biblioteca criada para gestão da tabela de I\+RS.  
+
+
+{\ttfamily \#include \char`\"{}Funcionario.\+h\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_irs}{Irs}}
+\begin{DoxyCompactList}\small\item\em Armazena uma linha da tabela de I\+RS. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}
+\begin{DoxyCompactList}\small\item\em Armazena as três tabelas de I\+RS. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_tabela_irs_8h_a54f6edef93e3f2a55b7bcaaaba76db55}\label{_tabela_irs_8h_a54f6edef93e3f2a55b7bcaaaba76db55}} 
+\#define {\bfseries F\+I\+L\+E\+I\+RS}~\char`\"{}Tabelairs.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_tabela_irs_8h_ae9f2a1350497d2a7f788c4fd8c061f37}\label{_tabela_irs_8h_ae9f2a1350497d2a7f788c4fd8c061f37}} 
+\#define {\bfseries S\+I\+Z\+E\+\_\+\+T\+I\+P\+O\+\_\+\+F\+U\+N\+C\+I\+O\+N\+A\+R\+IO}~200
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a7de7eb1d0b2ad0363c4224e3043a7d79}{ler\+Ficheiro\+Irs}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$tabela, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_aee48da4cce524e30bbb23d694265788e}{imprimir\+Todas\+Tabelas\+Irs}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} tabela)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a69853b295d689cd1df41575a60349e7c}{editar\+Tabela\+I\+RS}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$lista\+Tabelas)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a752367ea3e2dca12d16e3c5f308e6c7c}{escrever\+Tabela\+Ficheiro\+I\+RS}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} lista\+Tabelas, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a8e80b934f701881f2d640451b4beba21}{imprimir\+Tabela\+Nao\+Casado}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} lista\+Tabelas)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a8ce761151d5a5447819a683e14628706}{imprimir\+Tabela\+Unico\+Titular}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} lista\+Tabelas)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a92f656429f204457230040461f4af4fa}{imprimir\+Tabela\+Dois\+Titular}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} lista\+Tabelas)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_af1f7764414dc48e33110b729da0d5bc0}{adicionar\+Novos\+Criterios}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$lista\+Tabelas)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a190db152652e2e248bbf1b4786d8e206}{obter\+Novo\+Criterio\+I\+RS}} (\mbox{\hyperlink{struct_irs}{Irs}} $\ast$irs)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a1f9e43545cadf83192c680318b60f947}{expande\+Memoria\+Tabela\+Irs}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$tabela)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a2bd1b734a4330d39beb44abd257f465d}{remover\+Linha\+Tabela\+Irs}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$lista\+Tabelas)
+\item 
+void \mbox{\hyperlink{_tabela_irs_8h_a1428d3a68354ea0b76fb064e700e6cf9}{libertar\+Memoria\+Tabela\+I\+RS}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$tabela)
+\item 
+int \mbox{\hyperlink{_tabela_irs_8h_a3a9aa8ca2aaa61cea5692d16511e8ae0}{obter\+Tabela}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Biblioteca criada para gestão da tabela de I\+RS. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+22 Novembro 2020
+\end{DoxyDate}
+Biblioteca com função de importação da tabela de I\+RS, escrita da tabela em ficheiro, e operações de gestão (adição, edição e remoção de linhas) 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_tabela_irs_8h_af1f7764414dc48e33110b729da0d5bc0}\label{_tabela_irs_8h_af1f7764414dc48e33110b729da0d5bc0}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!adicionarNovosCriterios@{adicionarNovosCriterios}}
+\index{adicionarNovosCriterios@{adicionarNovosCriterios}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{adicionarNovosCriterios()}{adicionarNovosCriterios()}}
+{\footnotesize\ttfamily void adicionar\+Novos\+Criterios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela\+Irs }\end{DoxyParamCaption})}
+
+Adiciona nova linha a uma tabela de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Irs} & apontador para a estrutura que contém as tabelas de I\+RS \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a69853b295d689cd1df41575a60349e7c}\label{_tabela_irs_8h_a69853b295d689cd1df41575a60349e7c}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!editarTabelaIRS@{editarTabelaIRS}}
+\index{editarTabelaIRS@{editarTabelaIRS}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{editarTabelaIRS()}{editarTabelaIRS()}}
+{\footnotesize\ttfamily void editar\+Tabela\+I\+RS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela }\end{DoxyParamCaption})}
+
+Função que edita uma linha da tabela de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em tabela} & apontador para as tabelas de I\+RS \\
+\hline
+\end{DoxyParams}
+obtem intervalo de valores para nivel salario\mbox{\Hypertarget{_tabela_irs_8h_a752367ea3e2dca12d16e3c5f308e6c7c}\label{_tabela_irs_8h_a752367ea3e2dca12d16e3c5f308e6c7c}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!escreverTabelaFicheiroIRS@{escreverTabelaFicheiroIRS}}
+\index{escreverTabelaFicheiroIRS@{escreverTabelaFicheiroIRS}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{escreverTabelaFicheiroIRS()}{escreverTabelaFicheiroIRS()}}
+{\footnotesize\ttfamily void escrever\+Tabela\+Ficheiro\+I\+RS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabelas,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve as três tabelas de I\+RS num ficheiro, caso seja possível 
+\begin{DoxyParams}{Parameters}
+{\em tabelas} & tabelas de I\+RS \\
+\hline
+{\em filename} & nome do ficheiro no qual os tabelas serão escritas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a1f9e43545cadf83192c680318b60f947}\label{_tabela_irs_8h_a1f9e43545cadf83192c680318b60f947}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!expandeMemoriaTabelaIrs@{expandeMemoriaTabelaIrs}}
+\index{expandeMemoriaTabelaIrs@{expandeMemoriaTabelaIrs}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{expandeMemoriaTabelaIrs()}{expandeMemoriaTabelaIrs()}}
+{\footnotesize\ttfamily void expande\+Memoria\+Tabela\+Irs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela }\end{DoxyParamCaption})}
+
+Faz realocação da memória alocada para os critérios de I\+RS, duplicando o tamanho atual 
+\begin{DoxyParams}{Parameters}
+{\em tabela} & apontador para a tabela de I\+RS \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a92f656429f204457230040461f4af4fa}\label{_tabela_irs_8h_a92f656429f204457230040461f4af4fa}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!imprimirTabelaDoisTitular@{imprimirTabelaDoisTitular}}
+\index{imprimirTabelaDoisTitular@{imprimirTabelaDoisTitular}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{imprimirTabelaDoisTitular()}{imprimirTabelaDoisTitular()}}
+{\footnotesize\ttfamily void imprimir\+Tabela\+Dois\+Titular (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{lista\+Tabelas }\end{DoxyParamCaption})}
+
+Lista os critérios correspondentes à tabela Caso Dois Titulares 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Tabelas} & estrutura que contém os critérios da tabela de I\+RS \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a8e80b934f701881f2d640451b4beba21}\label{_tabela_irs_8h_a8e80b934f701881f2d640451b4beba21}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!imprimirTabelaNaoCasado@{imprimirTabelaNaoCasado}}
+\index{imprimirTabelaNaoCasado@{imprimirTabelaNaoCasado}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{imprimirTabelaNaoCasado()}{imprimirTabelaNaoCasado()}}
+{\footnotesize\ttfamily void imprimir\+Tabela\+Nao\+Casado (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{lista\+Tabelas }\end{DoxyParamCaption})}
+
+Lista os critérios correspondentes à tabela Não Casados 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Tabelas} & estrutura que contém os critérios da tabela de irs \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a8ce761151d5a5447819a683e14628706}\label{_tabela_irs_8h_a8ce761151d5a5447819a683e14628706}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!imprimirTabelaUnicoTitular@{imprimirTabelaUnicoTitular}}
+\index{imprimirTabelaUnicoTitular@{imprimirTabelaUnicoTitular}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{imprimirTabelaUnicoTitular()}{imprimirTabelaUnicoTitular()}}
+{\footnotesize\ttfamily void imprimir\+Tabela\+Unico\+Titular (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{lista\+Tabelas }\end{DoxyParamCaption})}
+
+Lista os critérios correspondentes à tabela Caso Único Titular 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Tabelas} & estrutura que contém os critérios da tabela de irs \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_aee48da4cce524e30bbb23d694265788e}\label{_tabela_irs_8h_aee48da4cce524e30bbb23d694265788e}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!imprimirTodasTabelasIrs@{imprimirTodasTabelasIrs}}
+\index{imprimirTodasTabelasIrs@{imprimirTodasTabelasIrs}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{imprimirTodasTabelasIrs()}{imprimirTodasTabelasIrs()}}
+{\footnotesize\ttfamily void imprimir\+Todas\+Tabelas\+Irs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabelas }\end{DoxyParamCaption})}
+
+Imprime as três tabelas de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em tabelas} & lista que contém as três tabelas de I\+RS ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a7de7eb1d0b2ad0363c4224e3043a7d79}\label{_tabela_irs_8h_a7de7eb1d0b2ad0363c4224e3043a7d79}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!lerFicheiroIrs@{lerFicheiroIrs}}
+\index{lerFicheiroIrs@{lerFicheiroIrs}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{lerFicheiroIrs()}{lerFicheiroIrs()}}
+{\footnotesize\ttfamily void ler\+Ficheiro\+Irs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela\+Irs,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Lê dados de um ficheiro (caso exista) e preenche as tabelas de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Irs} & apontador para a estrutura que irá armazenar as tabelas, caso a leitura seja realizada \\
+\hline
+{\em filename} & nome do ficheiro que contém as tabelas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a1428d3a68354ea0b76fb064e700e6cf9}\label{_tabela_irs_8h_a1428d3a68354ea0b76fb064e700e6cf9}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!libertarMemoriaTabelaIRS@{libertarMemoriaTabelaIRS}}
+\index{libertarMemoriaTabelaIRS@{libertarMemoriaTabelaIRS}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaTabelaIRS()}{libertarMemoriaTabelaIRS()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Tabela\+I\+RS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela }\end{DoxyParamCaption})}
+
+Liberta a memória alocada para a tabela de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em tabela} & apontador para a tabela de I\+RS \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a190db152652e2e248bbf1b4786d8e206}\label{_tabela_irs_8h_a190db152652e2e248bbf1b4786d8e206}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!obterNovoCriterioIRS@{obterNovoCriterioIRS}}
+\index{obterNovoCriterioIRS@{obterNovoCriterioIRS}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{obterNovoCriterioIRS()}{obterNovoCriterioIRS()}}
+{\footnotesize\ttfamily void obter\+Novo\+Criterio\+I\+RS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_irs}{Irs}} $\ast$}]{irs }\end{DoxyParamCaption})}
+
+Lê da consola dados para criação de uma nova linha para a tabela de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em irs} & apontador para um critério I\+RS, que corresponde a uma linha da tabela \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_irs_8h_a3a9aa8ca2aaa61cea5692d16511e8ae0}\label{_tabela_irs_8h_a3a9aa8ca2aaa61cea5692d16511e8ae0}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!obterTabela@{obterTabela}}
+\index{obterTabela@{obterTabela}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{obterTabela()}{obterTabela()}}
+{\footnotesize\ttfamily int obter\+Tabela (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Lê da consola a tabela que o utilizador pretende editar \begin{DoxyReturn}{Returns}
+1 caso o utilizador escolha a tabela \char`\"{}\+N\+A\+O\+C\+A\+S\+A\+D\+O\char`\"{}, 2 caso escolha \char`\"{}\+U\+N\+I\+C\+O T\+I\+T\+U\+L\+A\+R\char`\"{} e 3 caso escolha \char`\"{}\+D\+O\+I\+S\+T\+I\+T\+U\+L\+A\+R\+E\+S\char`\"{} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_tabela_irs_8h_a2bd1b734a4330d39beb44abd257f465d}\label{_tabela_irs_8h_a2bd1b734a4330d39beb44abd257f465d}} 
+\index{TabelaIrs.h@{TabelaIrs.h}!removerLinhaTabelaIrs@{removerLinhaTabelaIrs}}
+\index{removerLinhaTabelaIrs@{removerLinhaTabelaIrs}!TabelaIrs.h@{TabelaIrs.h}}
+\doxysubsubsection{\texorpdfstring{removerLinhaTabelaIrs()}{removerLinhaTabelaIrs()}}
+{\footnotesize\ttfamily void remover\+Linha\+Tabela\+Irs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela\+Irs }\end{DoxyParamCaption})}
+
+Remove uma linha (selecionada pelo utilizador) de uma tabela de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Irs} & apontador para a estrutura que contém as tabelas de I\+RS \\
+\hline
+\end{DoxyParams}

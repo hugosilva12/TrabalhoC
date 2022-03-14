@@ -1,0 +1,9 @@
+Número_de_Funcionarios_analisados: 2 
+Número_de_Funcionarios_com_Direito_a_Bónus_por_idade: 0 
+Número_de_Funcionarios_sem_Bónus_por_idade: 2 
+Mais_de_60anos: 0.00
+Entre_51_e_60anos: 0.00
+Entre_41_e_50anos: 0.00
+Entre_26_e_30anos: 0.00
+Entre_31_e_40anos: 0.00
+Menos_de_26_anos: 100.00

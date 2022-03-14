@@ -1,0 +1,178 @@
+\hypertarget{_gestao_funcionarios_8c}{}\doxysection{Gestao\+Funcionarios.\+c File Reference}
+\label{_gestao_funcionarios_8c}\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+
+
+Implementação das funções da biblioteca \mbox{\hyperlink{_gestao_funcionarios_8h}{Gestao\+Funcionarios.\+h}} (Parte privada)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Gestao\+Funcionarios.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Funcionario.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Menus.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_gestao_funcionarios_8c_a6df40ccb2beb2a74524f6d3504d2a64a}{expandir\+Memoria}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios)
+\item 
+void \mbox{\hyperlink{_gestao_funcionarios_8c_a555d2b4799791432ecf116622dbeed7e}{libertar\+Memoria\+Funcionarios}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios)
+\item 
+void \mbox{\hyperlink{_gestao_funcionarios_8c_aafc92b04af509729efdc6f111def0c48}{funcao\+Alocar\+Memoria}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$lista)
+\item 
+void \mbox{\hyperlink{_gestao_funcionarios_8c_a49f61c469777d14b1b6465c2a8166b84}{listar\+Todos\+Funcionarios}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios)
+\item 
+int \mbox{\hyperlink{_gestao_funcionarios_8c_aac2bafab620783df4e088452a908047a}{adicionar\+Funcionario}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios)
+\item 
+int \mbox{\hyperlink{_gestao_funcionarios_8c_ac3a49a49035bb7e262f6a91e5bafea2f}{obter\+Indice\+Funcionario}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios, int id\+Func)
+\item 
+void \mbox{\hyperlink{_gestao_funcionarios_8c_a27eaeff189333394dd75c43059ac6426}{atualiza\+Funcionario}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios, int id\+Func)
+\item 
+void \mbox{\hyperlink{_gestao_funcionarios_8c_ae40f979ca03fd6159cbb574dcf4537b0}{mostra\+Funcionario}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios, int id\+Func)
+\item 
+\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$ \mbox{\hyperlink{_gestao_funcionarios_8c_a4841c15f611039f5daa258c4006d3351}{obter\+Funcionario}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios, int id\+Func)
+\item 
+void \mbox{\hyperlink{_gestao_funcionarios_8c_a8143504a5003efc8c1e90bd322d9ebb8}{apagar\+Funcionario}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$listafuncionarios, int id\+Func)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementação das funções da biblioteca \mbox{\hyperlink{_gestao_funcionarios_8h}{Gestao\+Funcionarios.\+h}} (Parte privada) 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+25 Novembro 2020
+\end{DoxyDate}
+Ficheiro c que contém a implementação das funções de gestão da lista de funcionários, adição, remoção e edição 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_aac2bafab620783df4e088452a908047a}\label{_gestao_funcionarios_8c_aac2bafab620783df4e088452a908047a}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!adicionarFuncionario@{adicionarFuncionario}}
+\index{adicionarFuncionario@{adicionarFuncionario}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{adicionarFuncionario()}{adicionarFuncionario()}}
+{\footnotesize\ttfamily int adicionar\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios }\end{DoxyParamCaption})}
+
+Adiciona um funcionário à lista de funcionários, se possivel 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador para uma lista de funcionários \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 se o funcionário foi adicionado com sucesso / 0 funcionário não inserido (Código do funcionário já existe na lista) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_a8143504a5003efc8c1e90bd322d9ebb8}\label{_gestao_funcionarios_8c_a8143504a5003efc8c1e90bd322d9ebb8}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!apagarFuncionario@{apagarFuncionario}}
+\index{apagarFuncionario@{apagarFuncionario}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{apagarFuncionario()}{apagarFuncionario()}}
+{\footnotesize\ttfamily void apagar\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios,  }\item[{int}]{id\+Func }\end{DoxyParamCaption})}
+
+Função que remove funcionário, se existir 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador lista de funcionarios \\
+\hline
+{\em id\+Func} & código do funcionário a remover Nesta função o funcionário não é removido da lista, apenas o atributo estado\+Empregado passa a \char`\"{}\+Removido\char`\"{}. Caso o código não exista, informa \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_a27eaeff189333394dd75c43059ac6426}\label{_gestao_funcionarios_8c_a27eaeff189333394dd75c43059ac6426}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!atualizaFuncionario@{atualizaFuncionario}}
+\index{atualizaFuncionario@{atualizaFuncionario}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{atualizaFuncionario()}{atualizaFuncionario()}}
+{\footnotesize\ttfamily void atualiza\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios,  }\item[{int}]{id\+Func }\end{DoxyParamCaption})}
+
+Atualiza um funcionário, se existir 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador para lista de funcionários \\
+\hline
+{\em id\+Func} & identificador do funcionário a editar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_a6df40ccb2beb2a74524f6d3504d2a64a}\label{_gestao_funcionarios_8c_a6df40ccb2beb2a74524f6d3504d2a64a}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!expandirMemoria@{expandirMemoria}}
+\index{expandirMemoria@{expandirMemoria}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{expandirMemoria()}{expandirMemoria()}}
+{\footnotesize\ttfamily void expandir\+Memoria (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios }\end{DoxyParamCaption})}
+
+Faz realocação da memória, duplicando o tamanho atual 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador para lista de funcionários \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_aafc92b04af509729efdc6f111def0c48}\label{_gestao_funcionarios_8c_aafc92b04af509729efdc6f111def0c48}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!funcaoAlocarMemoria@{funcaoAlocarMemoria}}
+\index{funcaoAlocarMemoria@{funcaoAlocarMemoria}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{funcaoAlocarMemoria()}{funcaoAlocarMemoria()}}
+{\footnotesize\ttfamily void funcao\+Alocar\+Memoria (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+Faz uma alocação de memória incial de acordo com T\+A\+M\+A\+N\+H\+O\+\_\+\+M\+AX 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a lista de funcionários \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_a555d2b4799791432ecf116622dbeed7e}\label{_gestao_funcionarios_8c_a555d2b4799791432ecf116622dbeed7e}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!libertarMemoriaFuncionarios@{libertarMemoriaFuncionarios}}
+\index{libertarMemoriaFuncionarios@{libertarMemoriaFuncionarios}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaFuncionarios()}{libertarMemoriaFuncionarios()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Funcionarios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios }\end{DoxyParamCaption})}
+
+Liberta a memória alocada para a lista de funcionários 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador para lista de funcionários \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_a49f61c469777d14b1b6465c2a8166b84}\label{_gestao_funcionarios_8c_a49f61c469777d14b1b6465c2a8166b84}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!listarTodosFuncionarios@{listarTodosFuncionarios}}
+\index{listarTodosFuncionarios@{listarTodosFuncionarios}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{listarTodosFuncionarios()}{listarTodosFuncionarios()}}
+{\footnotesize\ttfamily void listar\+Todos\+Funcionarios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios }\end{DoxyParamCaption})}
+
+Imprime a lista de funcionários 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & lista de funcionários Caso a lista esteja vazia informa o utilizador \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_ae40f979ca03fd6159cbb574dcf4537b0}\label{_gestao_funcionarios_8c_ae40f979ca03fd6159cbb574dcf4537b0}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!mostraFuncionario@{mostraFuncionario}}
+\index{mostraFuncionario@{mostraFuncionario}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{mostraFuncionario()}{mostraFuncionario()}}
+{\footnotesize\ttfamily void mostra\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios,  }\item[{int}]{id\+Func }\end{DoxyParamCaption})}
+
+Mostra dados de um funcionário, se existir 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & lista de funcionários \\
+\hline
+{\em id\+Func} & código do funcionário a mostrar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_a4841c15f611039f5daa258c4006d3351}\label{_gestao_funcionarios_8c_a4841c15f611039f5daa258c4006d3351}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!obterFuncionario@{obterFuncionario}}
+\index{obterFuncionario@{obterFuncionario}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{obterFuncionario()}{obterFuncionario()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_funcionario}{Funcionario}}$\ast$ obter\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios,  }\item[{int}]{id\+Func }\end{DoxyParamCaption})}
+
+Devolve um apontador para um funcionário, se existir 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & lista de funcionários \\
+\hline
+{\em id\+Func} & código do funcionário a obter \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+apontador para o funcionário, se existir, -\/1 caso o contrário 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_gestao_funcionarios_8c_ac3a49a49035bb7e262f6a91e5bafea2f}\label{_gestao_funcionarios_8c_ac3a49a49035bb7e262f6a91e5bafea2f}} 
+\index{GestaoFuncionarios.c@{GestaoFuncionarios.c}!obterIndiceFuncionario@{obterIndiceFuncionario}}
+\index{obterIndiceFuncionario@{obterIndiceFuncionario}!GestaoFuncionarios.c@{GestaoFuncionarios.c}}
+\doxysubsubsection{\texorpdfstring{obterIndiceFuncionario()}{obterIndiceFuncionario()}}
+{\footnotesize\ttfamily int obter\+Indice\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{listafuncionarios,  }\item[{int}]{id\+Func }\end{DoxyParamCaption})}
+
+Devolve a posição em que ocorre um funcionário com um determinado código 
+\begin{DoxyParams}{Parameters}
+{\em listafuncionarios} & apontador para lista de funcionários \\
+\hline
+{\em id\+Func} & identificador do funcionários a pesquisar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Índice do funcionário se existir, -\/1 caso contrário 
+\end{DoxyReturn}

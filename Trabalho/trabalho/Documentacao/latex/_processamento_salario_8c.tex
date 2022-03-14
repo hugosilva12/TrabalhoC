@@ -1,0 +1,205 @@
+\hypertarget{_processamento_salario_8c}{}\doxysection{Processamento\+Salario.\+c File Reference}
+\label{_processamento_salario_8c}\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+
+
+Ficheiro c que implementa as funções da biblioteca \mbox{\hyperlink{_processamento_salario_8h}{Processamento\+Salario.\+h}}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Processamento\+Salario.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Tabela\+Irs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Tabela\+Seguranca\+Social.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Utils.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Gestao\+Funcionarios.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8c_a126264e82634e5f4e365503100727a90}\label{_processamento_salario_8c_a126264e82634e5f4e365503100727a90}} 
+\#define {\bfseries N\+U\+M\+E\+R\+O\+\_\+\+H\+O\+R\+A\+S\+\_\+\+D\+IA}~8
+\item 
+\mbox{\Hypertarget{_processamento_salario_8c_a0ab6c33d92d0a1c8e02cedcb9a06bd40}\label{_processamento_salario_8c_a0ab6c33d92d0a1c8e02cedcb9a06bd40}} 
+\#define {\bfseries N\+U\+M\+E\+R\+O\+\_\+\+H\+O\+R\+A\+S\+\_\+\+M\+E\+I\+O\+\_\+\+D\+IA}~4
+\item 
+\mbox{\Hypertarget{_processamento_salario_8c_a428244df8a021a2eb03b530012822025}\label{_processamento_salario_8c_a428244df8a021a2eb03b530012822025}} 
+\#define {\bfseries V\+A\+L\+O\+R\+\_\+\+P\+ER}~0.\+01
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{_processamento_salario_8c_a7f2b763430407d5e985906a78d7f3ae6}{subsidio\+Alimentacao}} (int numero\+Dias\+Trabalhados\+Semana, int numero\+Dias\+Trabalhados\+Fimdesemana, float subsidio)
+\item 
+float \mbox{\hyperlink{_processamento_salario_8c_a0e925df59edbb91bf77739d20dd15e1b}{calculo\+Salario\+Bruto}} (int numero\+Dias\+Trabalhados\+Semana, int numero\+Dias\+Trabalhados\+Fimdesemana, int numero\+Meio\+Dias\+Trabalhados, float valor\+Hora)
+\item 
+float \mbox{\hyperlink{_processamento_salario_8c_a05a04abf73e3dfd28d51cc79e501cd62}{calculo\+Bonus}} (\mbox{\hyperlink{struct_data}{Data}} data\+Nascimento, \mbox{\hyperlink{struct_data}{Data}} data\+Entrada, int numero\+Faltas, float salario\+Bruto)
+\item 
+float \mbox{\hyperlink{_processamento_salario_8c_a8f8649a3d983a0370b92587eca0c3519}{calculo\+Retencao\+Irs}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} tabela\+Irs, \mbox{\hyperlink{struct_funcionario}{Funcionario}} func, float salario\+Bruto)
+\item 
+float \mbox{\hyperlink{_processamento_salario_8c_a59dbcdcb7cac561a2356acf55aa32bc4}{calculo\+Seguranca\+Social}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} tabela\+Seguranca\+Social, \mbox{\hyperlink{struct_funcionario}{Funcionario}} func, float salario\+Bruto, float $\ast$imposto\+Seguranca\+Social\+Empresa)
+\item 
+void \mbox{\hyperlink{_processamento_salario_8c_a453647eed481afe17f674f669ed580ff}{calculo\+Salario}} (\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$func, \mbox{\hyperlink{struct_dados_processamento_salario}{Dados\+Processamento\+Salario}} dados, \mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} tabela\+Irs, \mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} tabela\+SS, \mbox{\hyperlink{struct_vencimento_processado}{Vencimento\+Processado}} $\ast$vencimento)
+\item 
+void \mbox{\hyperlink{_processamento_salario_8c_ab97add7ee3028b70d2f184e9692b7c8b}{Processamento\+Salario}} (\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} lista\+Dados, \mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista\+Funcionarios, \mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} tabela\+Irs, \mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} tabela\+Seguranca\+Social, \mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$lista\+Vencimentos\+Processados)
+\item 
+void \mbox{\hyperlink{_processamento_salario_8c_abcfe7c90ee4978eb01a45bfc0f6c5502}{imprimir\+Vencimentos\+Processados}} (\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} lista\+Vencimentos\+Processados)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro c que implementa as funções da biblioteca \mbox{\hyperlink{_processamento_salario_8h}{Processamento\+Salario.\+h}}. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+25 Novembro 2020
+\end{DoxyDate}
+Ficheiro c que implementa as funções da bibloteca Processamento\+Salario, responsável pelos cálculos de salário de um conjunto de funcionários 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_processamento_salario_8c_a05a04abf73e3dfd28d51cc79e501cd62}\label{_processamento_salario_8c_a05a04abf73e3dfd28d51cc79e501cd62}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!calculoBonus@{calculoBonus}}
+\index{calculoBonus@{calculoBonus}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{calculoBonus()}{calculoBonus()}}
+{\footnotesize\ttfamily float calculo\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_data}{Data}}}]{data\+Nascimento,  }\item[{\mbox{\hyperlink{struct_data}{Data}}}]{data\+Entrada,  }\item[{int}]{numero\+Faltas,  }\item[{float}]{salario\+Bruto }\end{DoxyParamCaption})}
+
+Calcula o bónus a receber pelo funcionário face à sua idade, tempo na empresa e número de faltas 
+\begin{DoxyParams}{Parameters}
+{\em data\+Nascimento} & data de nascimento utilizada para obter a sua idade \\
+\hline
+{\em data\+Entrada} & data de entrada na empresa para obter anos de experiência \\
+\hline
+{\em numero\+Faltas} & número de faltas \\
+\hline
+{\em salario\+Bruto} & valor utilizado para cáculo do bónus \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+um valor positivo caso a percentagem de bónus seja positiva, retorna um valor negativo caso o funcionário contenha um numéro excessivo de faltas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_processamento_salario_8c_a8f8649a3d983a0370b92587eca0c3519}\label{_processamento_salario_8c_a8f8649a3d983a0370b92587eca0c3519}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!calculoRetencaoIrs@{calculoRetencaoIrs}}
+\index{calculoRetencaoIrs@{calculoRetencaoIrs}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{calculoRetencaoIrs()}{calculoRetencaoIrs()}}
+{\footnotesize\ttfamily float calculo\+Retencao\+Irs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabela\+Irs,  }\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}}}]{func,  }\item[{float}]{salario\+Bruto }\end{DoxyParamCaption})}
+
+Efetua o cálculo de retenção de I\+RS mediante o estado civil, número de dependentes e nível salarial 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Irs} & tabelas de I\+RS \\
+\hline
+{\em func} & informação relativa a um funcionário \\
+\hline
+{\em salario\+Bruto} & salário bruto no qual será aplicada a taxa de retenção \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+valor da retenção de I\+RS resultante do produto do salário bruto com a taxa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_processamento_salario_8c_a453647eed481afe17f674f669ed580ff}\label{_processamento_salario_8c_a453647eed481afe17f674f669ed580ff}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!calculoSalario@{calculoSalario}}
+\index{calculoSalario@{calculoSalario}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{calculoSalario()}{calculoSalario()}}
+{\footnotesize\ttfamily void calculo\+Salario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$}]{func,  }\item[{\mbox{\hyperlink{struct_dados_processamento_salario}{Dados\+Processamento\+Salario}}}]{dados,  }\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabela\+Irs,  }\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}}}]{tabela\+SS,  }\item[{\mbox{\hyperlink{struct_vencimento_processado}{Vencimento\+Processado}} $\ast$}]{vencimento }\end{DoxyParamCaption})}
+
+Executa o processamento de um salário. Nesta função é calculado o salário bruto, líquido, subsídio de alimentação, retenção de I\+RS, taxa para a Segurança Social e despesas totais da empresa ~\newline
+ 
+\begin{DoxyParams}{Parameters}
+{\em func} & apontador para os dados de um funcionário \\
+\hline
+{\em dados} & dados para efetuar cálculos (Número de dias trabalhados, faltas, etc) \\
+\hline
+{\em tabela\+Irs} & tabela de I\+RS \\
+\hline
+{\em tabela\+SS} & tabela da Segurança Social \\
+\hline
+{\em vencimento} & apontador que irá guardar os dados resultantes do processamento de salário \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_8c_a0e925df59edbb91bf77739d20dd15e1b}\label{_processamento_salario_8c_a0e925df59edbb91bf77739d20dd15e1b}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!calculoSalarioBruto@{calculoSalarioBruto}}
+\index{calculoSalarioBruto@{calculoSalarioBruto}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{calculoSalarioBruto()}{calculoSalarioBruto()}}
+{\footnotesize\ttfamily float calculo\+Salario\+Bruto (\begin{DoxyParamCaption}\item[{int}]{numero\+Dias\+Trabalhados\+Semana,  }\item[{int}]{numero\+Dias\+Trabalhados\+Fimdesemana,  }\item[{int}]{numero\+Meio\+Dias\+Trabalhados,  }\item[{float}]{valor\+Hora }\end{DoxyParamCaption})}
+
+Calcula o salário bruto fruto do número de dias trabalhados 
+\begin{DoxyParams}{Parameters}
+{\em numero\+Dias\+Trabalhados\+Semana} & número de dias que o funcionário trabalhou na semana \\
+\hline
+{\em numero\+Dias\+Trabalhados\+Fimdesemana} & número de dias que trabalhou no fim de semana \\
+\hline
+{\em numero\+Meio\+Dias\+Trabalhados} & número de meios dias trabalhou \\
+\hline
+{\em valor\+Hora} & valor que o funcionário ganha por hora \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o valor correspondente ao salário bruto do funcionário 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_processamento_salario_8c_a59dbcdcb7cac561a2356acf55aa32bc4}\label{_processamento_salario_8c_a59dbcdcb7cac561a2356acf55aa32bc4}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!calculoSegurancaSocial@{calculoSegurancaSocial}}
+\index{calculoSegurancaSocial@{calculoSegurancaSocial}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{calculoSegurancaSocial()}{calculoSegurancaSocial()}}
+{\footnotesize\ttfamily float calculo\+Seguranca\+Social (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}}}]{tabela\+Seguranca\+Social,  }\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}}}]{func,  }\item[{float}]{salario\+Bruto,  }\item[{float $\ast$}]{imposto\+Seguranca\+Social\+Empresa }\end{DoxyParamCaption})}
+
+Calcula o valor a pagar pelo funcionário e pela entidade empregadora à Segurança Social 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Seguranca\+Social} & tabela com as taxas que podem ser aplicadas \\
+\hline
+{\em func} & dados do funcionário na qual está a identificação da taxa que será aplicada \\
+\hline
+{\em salario\+Bruto} & valor do salário na qual será aplicada a taxa \\
+\hline
+{\em imposto\+Seguranca\+Social\+Empresa} & apontador irá armazenar o valor correspondente à entidade empregadora \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+valor resultante do produto do salário bruto com a taxa aplicada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_processamento_salario_8c_abcfe7c90ee4978eb01a45bfc0f6c5502}\label{_processamento_salario_8c_abcfe7c90ee4978eb01a45bfc0f6c5502}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!imprimirVencimentosProcessados@{imprimirVencimentosProcessados}}
+\index{imprimirVencimentosProcessados@{imprimirVencimentosProcessados}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{imprimirVencimentosProcessados()}{imprimirVencimentosProcessados()}}
+{\footnotesize\ttfamily void imprimir\+Vencimentos\+Processados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}}}]{lista\+Vencimentos\+Processados }\end{DoxyParamCaption})}
+
+Imprime na consola o relatório sobre os vencimentos processados 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Vencimentos\+Processados} & lista com os vencimentos processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_8c_ab97add7ee3028b70d2f184e9692b7c8b}\label{_processamento_salario_8c_ab97add7ee3028b70d2f184e9692b7c8b}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!ProcessamentoSalario@{ProcessamentoSalario}}
+\index{ProcessamentoSalario@{ProcessamentoSalario}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{ProcessamentoSalario()}{ProcessamentoSalario()}}
+{\footnotesize\ttfamily void Processamento\+Salario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}}}]{lista\+Dados,  }\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista\+Funcionarios,  }\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabela\+Irs,  }\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}}}]{tabela\+Seguranca\+Social,  }\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$}]{lista\+Vencimentos\+Processados }\end{DoxyParamCaption})}
+
+Executa o processamento de salários, caso o código do funcionário exista 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Dados} & lista de dados para processamento \\
+\hline
+{\em lista\+Funcionarios} & lista de funcionários \\
+\hline
+{\em tabela\+Irs} & tabela de I\+RS \\
+\hline
+{\em tabela\+Seguranca\+Social} & tabela da Segurança Social \\
+\hline
+{\em lista\+Vencimentos\+Processados} & apontador que irá armazenar os valores dos salários processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_8c_a7f2b763430407d5e985906a78d7f3ae6}\label{_processamento_salario_8c_a7f2b763430407d5e985906a78d7f3ae6}} 
+\index{ProcessamentoSalario.c@{ProcessamentoSalario.c}!subsidioAlimentacao@{subsidioAlimentacao}}
+\index{subsidioAlimentacao@{subsidioAlimentacao}!ProcessamentoSalario.c@{ProcessamentoSalario.c}}
+\doxysubsubsection{\texorpdfstring{subsidioAlimentacao()}{subsidioAlimentacao()}}
+{\footnotesize\ttfamily float subsidio\+Alimentacao (\begin{DoxyParamCaption}\item[{int}]{numero\+Dias\+Trabalhados\+Semana,  }\item[{int}]{numero\+Dias\+Trabalhados\+Fimdesemana,  }\item[{float}]{subsidio }\end{DoxyParamCaption})}
+
+Calcula o valor do subsídio de alimentação de um funcionário 
+\begin{DoxyParams}{Parameters}
+{\em numero\+Dias\+Trabalhados\+Semana} & número de dias trabalhou na semana \\
+\hline
+{\em numero\+Dias\+Trabalhados\+Fimdesemana} & número de dias que trabalhou no fim de semana \\
+\hline
+{\em subsidio} & valor do subsídio do funcionário por dia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o valor resultante do produto do número de dias trabalhados com o valor do subsídio que o funcionário recebe por dia 
+\end{DoxyReturn}

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['max_5fdescricao_5ftabela_467',['MAX_DESCRICAO_TABELA',['../_tabela_seguranca_social_8h.html#aeae4edaa75f5eea8d4b2df3d0b2c691e',1,'TabelaSegurancaSocial.h']]],
+  ['max_5ftamanho_468',['MAX_TAMANHO',['../_tabela_seguranca_social_8h.html#a01b8f790b62676bdbbe0e09ce769daff',1,'TabelaSegurancaSocial.h']]],
+  ['msg_5fadd_5ferro_469',['MSG_ADD_ERRO',['../menu_gestao_funcionarios_8c.html#a6bc86386db923e694e6fc8ff1e75c531',1,'menuGestaoFuncionarios.c']]],
+  ['msg_5fadd_5fsucesso_470',['MSG_ADD_SUCESSO',['../menu_gestao_funcionarios_8c.html#a544d4297ab2077a13c2140b39fd9ccc9',1,'menuGestaoFuncionarios.c']]],
+  ['msg_5fcancela_5fprocessamento_471',['MSG_CANCELA_PROCESSAMENTO',['../_menus_8c.html#a9f93f49a37b9bffea6feba3f9f4ddc06',1,'Menus.c']]],
+  ['msg_5fdados_5fest_472',['MSG_DADOS_EST',['../_menus_8c.html#a29c0c8f6f6291c7a84380e40cd777ec2',1,'Menus.c']]],
+  ['msg_5fdata_5fentrada_5fempresa_473',['MSG_DATA_ENTRADA_EMPRESA',['../_funcionario_8c.html#ab737bd43f684a3c3dfabfb79da60c541',1,'Funcionario.c']]],
+  ['msg_5fdata_5fsaida_5fempresa_474',['MSG_DATA_SAIDA_EMPRESA',['../_funcionario_8c.html#a1163fc3b4aade99c572fdd07791f7aa2',1,'Funcionario.c']]],
+  ['msg_5fdatanascimento_475',['MSG_DATANASCIMENTO',['../_funcionario_8c.html#a9dd9754c23c483de33334bb11bf81508',1,'Funcionario.c']]],
+  ['msg_5ferro_5ffile_476',['MSG_ERRO_FILE',['../_funcionarios_fx_8c.html#a76392eafb084a6bc6254040f7799ad77',1,'FuncionariosFx.c']]],
+  ['msg_5ferro_5fread_5ffile_477',['MSG_ERRO_READ_FILE',['../_tabela_irs_8c.html#adce5f8636e0451ca637f77d4025e0e1d',1,'MSG_ERRO_READ_FILE():&#160;TabelaIrs.c'],['../_tabela_seguranca_social_8c.html#adce5f8636e0451ca637f77d4025e0e1d',1,'MSG_ERRO_READ_FILE():&#160;TabelaSegurancaSocial.c']]],
+  ['msg_5fnao_5fencontrado_478',['MSG_NAO_ENCONTRADO',['../_funcionario_8h.html#af1acc69e5091f0c32f78146c8e45d937',1,'Funcionario.h']]],
+  ['msg_5fnao_5fexiste_5fficheiro_5fimp_479',['MSG_NAO_EXISTE_FICHEIRO_IMP',['../_menus_8c.html#a675fabea7067a48f5e4ffe37a9ef9efb',1,'Menus.c']]],
+  ['msg_5fnome_480',['MSG_NOME',['../_funcionario_8c.html#a845047688a207ea23b1744c5f2a3b3f0',1,'Funcionario.c']]],
+  ['msg_5fremovido_5fsucess_481',['MSG_REMOVIDO_SUCESS',['../_funcionario_8h.html#a2b8dba76b36e69e11b5f427ca9d0db59',1,'Funcionario.h']]],
+  ['msg_5ftabela_5fvazia_482',['MSG_TABELA_VAZIA',['../_menus_8c.html#aec59ce7625cc4a91d238c790b6926a6c',1,'Menus.c']]]
+];

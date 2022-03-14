@@ -1,0 +1,4 @@
+Percentagem_por_Estado_Civil
+NãoCasados 0.00
+CasadoÚnicoTitular 66.67
+CasadoDoisTitulares 33.33

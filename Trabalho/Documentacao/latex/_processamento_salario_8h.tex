@@ -1,0 +1,239 @@
+\hypertarget{_processamento_salario_8h}{}\doxysection{Processamento\+Salario.\+h File Reference}
+\label{_processamento_salario_8h}\index{ProcessamentoSalario.h@{ProcessamentoSalario.h}}
+
+
+Biblioteca criada para a funcionalidade de processamento de salário.  
+
+
+{\ttfamily \#include \char`\"{}Tabela\+Seguranca\+Social.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Tabela\+Irs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Gestao\+Funcionarios.\+h\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_dados_processamento_salario}{Dados\+Processamento\+Salario}}
+\begin{DoxyCompactList}\small\item\em Armazena dados de um funcionário para processamento de salário. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}}
+\begin{DoxyCompactList}\small\item\em Armazena uma lista de dados para processamento de salários. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_vencimento_processado}{Vencimento\+Processado}}
+\begin{DoxyCompactList}\small\item\em Armazena dados resultantes do processamento de um salário. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}}
+\begin{DoxyCompactList}\small\item\em Armazena uma lista de salários processados num mês. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}}
+\begin{DoxyCompactList}\small\item\em Armazena um conjuntos de meses com salários processados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a48a347eafae8dea1ead9152a98b759a2}\label{_processamento_salario_8h_a48a347eafae8dea1ead9152a98b759a2}} 
+\#define {\bfseries T\+A\+M\+A\+N\+H\+O\+D\+E\+SC}~30
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a2e7ac57eea4fce6938e19c1123448658}\label{_processamento_salario_8h_a2e7ac57eea4fce6938e19c1123448658}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+J\+AN}~\char`\"{}i\+\_\+janeiro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a3b7810b76e04f88ea61dfb1eb0d42854}\label{_processamento_salario_8h_a3b7810b76e04f88ea61dfb1eb0d42854}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+F\+EV}~\char`\"{}i\+\_\+fevereiro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a26edea7f1a2781f900d920024d45e5ff}\label{_processamento_salario_8h_a26edea7f1a2781f900d920024d45e5ff}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+M\+AR}~\char`\"{}i\+\_\+março.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a04e88c0c34832c15b5f25a2031fdbed0}\label{_processamento_salario_8h_a04e88c0c34832c15b5f25a2031fdbed0}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+A\+BR}~\char`\"{}i\+\_\+abril.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_aa8144542a7169a27ac7f8d74f326b68e}\label{_processamento_salario_8h_aa8144542a7169a27ac7f8d74f326b68e}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+M\+AI}~\char`\"{}i\+\_\+maio.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_ac2c5aaa2bf19cc53fad58413379e497c}\label{_processamento_salario_8h_ac2c5aaa2bf19cc53fad58413379e497c}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+J\+UN}~\char`\"{}i\+\_\+junho.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_ab518b7c43d2537200313825391d326d7}\label{_processamento_salario_8h_ab518b7c43d2537200313825391d326d7}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+J\+UL}~\char`\"{}i\+\_\+julho.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_ad5a9aff51f7ee27fe9f793aae41f5393}\label{_processamento_salario_8h_ad5a9aff51f7ee27fe9f793aae41f5393}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+A\+GO}~\char`\"{}i\+\_\+agosto.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_ac7c4a28abf2003c5dfd9c629d38f85c3}\label{_processamento_salario_8h_ac7c4a28abf2003c5dfd9c629d38f85c3}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+S\+ET}~\char`\"{}i\+\_\+setembro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a73033f9caba9d3372875d9375b0a6e72}\label{_processamento_salario_8h_a73033f9caba9d3372875d9375b0a6e72}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+O\+UT}~\char`\"{}i\+\_\+outubro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a0229b6e158612453f8d1290bd7657d5e}\label{_processamento_salario_8h_a0229b6e158612453f8d1290bd7657d5e}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+N\+OV}~\char`\"{}i\+\_\+novembro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a5996862db248a66ff12eec3ce9d79837}\label{_processamento_salario_8h_a5996862db248a66ff12eec3ce9d79837}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+F\+I\+C\+H\+E\+I\+R\+O\+I\+M\+P\+\_\+\+D\+EZ}~\char`\"{}i\+\_\+dezembro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a35dc1fcf6e73f0d01f4efa48ba3c57d6}\label{_processamento_salario_8h_a35dc1fcf6e73f0d01f4efa48ba3c57d6}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+J\+AN}~\char`\"{}relatorio\+\_\+janeiro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a4b00e0c1bfa0c641bb3919450a74bc7a}\label{_processamento_salario_8h_a4b00e0c1bfa0c641bb3919450a74bc7a}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+F\+EV}~\char`\"{}relatorio\+\_\+fevereiro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_aaf94bed4913abd96829669deb5c22cef}\label{_processamento_salario_8h_aaf94bed4913abd96829669deb5c22cef}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+M\+AR}~\char`\"{}relatorio\+\_\+março.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a15ba5633f30c1932cd219ebc2e532341}\label{_processamento_salario_8h_a15ba5633f30c1932cd219ebc2e532341}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+A\+BR}~\char`\"{}relatorio\+\_\+abril.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_aa38c6931a7d052888e4793df4921344f}\label{_processamento_salario_8h_aa38c6931a7d052888e4793df4921344f}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+M\+AI}~\char`\"{}relatorio\+\_\+maio.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_ac4937ba6791f7d5d5ee840de2adf8be2}\label{_processamento_salario_8h_ac4937ba6791f7d5d5ee840de2adf8be2}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+J\+UN}~\char`\"{}relatorio\+\_\+junho.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a43b4e154cecd10138c8ad908d7402232}\label{_processamento_salario_8h_a43b4e154cecd10138c8ad908d7402232}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+J\+UL}~\char`\"{}relatorio\+\_\+julho.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a6339ebecda7f1ad149e367afe3d9d9ef}\label{_processamento_salario_8h_a6339ebecda7f1ad149e367afe3d9d9ef}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+A\+GO}~\char`\"{}relatorio\+\_\+agosto.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a3b4ddb6d1fdd0bf55da55a0b0be36f35}\label{_processamento_salario_8h_a3b4ddb6d1fdd0bf55da55a0b0be36f35}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+S\+ET}~\char`\"{}relatorio\+\_\+setembro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a99b626a6231ddce63331856acddd6a0a}\label{_processamento_salario_8h_a99b626a6231ddce63331856acddd6a0a}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+O\+UT}~\char`\"{}relatorio\+\_\+outubro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a2747a7ddf4c2dd9d0bf4e938391f573f}\label{_processamento_salario_8h_a2747a7ddf4c2dd9d0bf4e938391f573f}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+N\+OV}~\char`\"{}relatorio\+\_\+novembro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a7200d92a4edeacd594ece9c39de40e70}\label{_processamento_salario_8h_a7200d92a4edeacd594ece9c39de40e70}} 
+\#define {\bfseries N\+O\+M\+E\+\_\+\+R\+E\+L\+A\+T\+O\+R\+I\+O\+\_\+\+D\+EZ}~\char`\"{}relatorio\+\_\+dezembro.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_processamento_salario_8h_a2793c218ce4c0fbc27ce6205fbb78a99}\label{_processamento_salario_8h_a2793c218ce4c0fbc27ce6205fbb78a99}} 
+\#define {\bfseries T\+A\+M\+A\+N\+H\+O\+\_\+\+M\+I\+N\+\_\+\+P\+R\+O\+C\+E\+S\+S\+A\+M\+E\+N\+T\+OS}~2
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{_processamento_salario_8h_a62f1a36e1e901779381faac01df0740c}{subsidio\+Alimentacao}} (int desc\+Nr\+Dias\+Semana, int desc\+Nr\+Dias\+Fim\+Semana, float subsidio)
+\item 
+float \mbox{\hyperlink{_processamento_salario_8h_a9c190137bc5f35e5907e9f5ae53da36e}{calculo\+Salario\+Bruto}} (int desc\+Nr\+Dias\+Semana, int desc\+Nr\+Dias\+Fim\+Semana, int nr\+Meios\+Dias, float valor\+Hora)
+\item 
+float \mbox{\hyperlink{_processamento_salario_8h_a05a04abf73e3dfd28d51cc79e501cd62}{calculo\+Bonus}} (\mbox{\hyperlink{struct_data}{Data}} data\+Nascimento, \mbox{\hyperlink{struct_data}{Data}} data\+Entrada, int numero\+Faltas, float salario\+Bruto)
+\item 
+float \mbox{\hyperlink{_processamento_salario_8h_a8f8649a3d983a0370b92587eca0c3519}{calculo\+Retencao\+Irs}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} tabela\+Irs, \mbox{\hyperlink{struct_funcionario}{Funcionario}} func, float salario\+Bruto)
+\item 
+void \mbox{\hyperlink{_processamento_salario_8h_ab97add7ee3028b70d2f184e9692b7c8b}{Processamento\+Salario}} (\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} lista\+Dados, \mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista\+Funcionarios, \mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} tabela\+Irs, \mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} tabela\+Seguranca\+Social, \mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$lista\+Vencimentos\+Processados)
+\item 
+void \mbox{\hyperlink{_processamento_salario_8h_abcfe7c90ee4978eb01a45bfc0f6c5502}{imprimir\+Vencimentos\+Processados}} (\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} lista\+Vencimentos\+Processados)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Biblioteca criada para a funcionalidade de processamento de salário. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+27 Novembro 2020
+\end{DoxyDate}
+Biblioteca com a função de Log do projeto 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_processamento_salario_8h_a05a04abf73e3dfd28d51cc79e501cd62}\label{_processamento_salario_8h_a05a04abf73e3dfd28d51cc79e501cd62}} 
+\index{ProcessamentoSalario.h@{ProcessamentoSalario.h}!calculoBonus@{calculoBonus}}
+\index{calculoBonus@{calculoBonus}!ProcessamentoSalario.h@{ProcessamentoSalario.h}}
+\doxysubsubsection{\texorpdfstring{calculoBonus()}{calculoBonus()}}
+{\footnotesize\ttfamily float calculo\+Bonus (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_data}{Data}}}]{data\+Nascimento,  }\item[{\mbox{\hyperlink{struct_data}{Data}}}]{data\+Entrada,  }\item[{int}]{numero\+Faltas,  }\item[{float}]{salario\+Bruto }\end{DoxyParamCaption})}
+
+Calcula o bónus a receber pelo funcionário face à sua idade, tempo na empresa e número de faltas 
+\begin{DoxyParams}{Parameters}
+{\em data\+Nascimento} & data de nascimento utilizada para obter a sua idade \\
+\hline
+{\em data\+Entrada} & data de entrada na empresa para obter anos de experiência \\
+\hline
+{\em numero\+Faltas} & número de faltas \\
+\hline
+{\em salario\+Bruto} & valor utilizado para cáculo do bónus \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+um valor positivo caso a percentagem de bónus seja positiva, retorna um valor negativo caso o funcionário contenha um numéro excessivo de faltas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_processamento_salario_8h_a8f8649a3d983a0370b92587eca0c3519}\label{_processamento_salario_8h_a8f8649a3d983a0370b92587eca0c3519}} 
+\index{ProcessamentoSalario.h@{ProcessamentoSalario.h}!calculoRetencaoIrs@{calculoRetencaoIrs}}
+\index{calculoRetencaoIrs@{calculoRetencaoIrs}!ProcessamentoSalario.h@{ProcessamentoSalario.h}}
+\doxysubsubsection{\texorpdfstring{calculoRetencaoIrs()}{calculoRetencaoIrs()}}
+{\footnotesize\ttfamily float calculo\+Retencao\+Irs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabela\+Irs,  }\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}}}]{func,  }\item[{float}]{salario\+Bruto }\end{DoxyParamCaption})}
+
+Efetua o cálculo de retenção de I\+RS mediante o estado civil, número de dependentes e nível salarial 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Irs} & tabelas de I\+RS \\
+\hline
+{\em func} & informação relativa a um funcionário \\
+\hline
+{\em salario\+Bruto} & salário bruto no qual será aplicada a taxa de retenção \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+valor da retenção de I\+RS resultante do produto do salário bruto com a taxa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_processamento_salario_8h_a9c190137bc5f35e5907e9f5ae53da36e}\label{_processamento_salario_8h_a9c190137bc5f35e5907e9f5ae53da36e}} 
+\index{ProcessamentoSalario.h@{ProcessamentoSalario.h}!calculoSalarioBruto@{calculoSalarioBruto}}
+\index{calculoSalarioBruto@{calculoSalarioBruto}!ProcessamentoSalario.h@{ProcessamentoSalario.h}}
+\doxysubsubsection{\texorpdfstring{calculoSalarioBruto()}{calculoSalarioBruto()}}
+{\footnotesize\ttfamily float calculo\+Salario\+Bruto (\begin{DoxyParamCaption}\item[{int}]{numero\+Dias\+Trabalhados\+Semana,  }\item[{int}]{numero\+Dias\+Trabalhados\+Fimdesemana,  }\item[{int}]{numero\+Meio\+Dias\+Trabalhados,  }\item[{float}]{valor\+Hora }\end{DoxyParamCaption})}
+
+Calcula o salário bruto fruto do número de dias trabalhados 
+\begin{DoxyParams}{Parameters}
+{\em numero\+Dias\+Trabalhados\+Semana} & número de dias que o funcionário trabalhou na semana \\
+\hline
+{\em numero\+Dias\+Trabalhados\+Fimdesemana} & número de dias que trabalhou no fim de semana \\
+\hline
+{\em numero\+Meio\+Dias\+Trabalhados} & número de meios dias trabalhou \\
+\hline
+{\em valor\+Hora} & valor que o funcionário ganha por hora \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o valor correspondente ao salário bruto do funcionário 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_processamento_salario_8h_abcfe7c90ee4978eb01a45bfc0f6c5502}\label{_processamento_salario_8h_abcfe7c90ee4978eb01a45bfc0f6c5502}} 
+\index{ProcessamentoSalario.h@{ProcessamentoSalario.h}!imprimirVencimentosProcessados@{imprimirVencimentosProcessados}}
+\index{imprimirVencimentosProcessados@{imprimirVencimentosProcessados}!ProcessamentoSalario.h@{ProcessamentoSalario.h}}
+\doxysubsubsection{\texorpdfstring{imprimirVencimentosProcessados()}{imprimirVencimentosProcessados()}}
+{\footnotesize\ttfamily void imprimir\+Vencimentos\+Processados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}}}]{lista\+Vencimentos\+Processados }\end{DoxyParamCaption})}
+
+Imprime na consola o relatório sobre os vencimentos processados 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Vencimentos\+Processados} & lista com os vencimentos processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_8h_ab97add7ee3028b70d2f184e9692b7c8b}\label{_processamento_salario_8h_ab97add7ee3028b70d2f184e9692b7c8b}} 
+\index{ProcessamentoSalario.h@{ProcessamentoSalario.h}!ProcessamentoSalario@{ProcessamentoSalario}}
+\index{ProcessamentoSalario@{ProcessamentoSalario}!ProcessamentoSalario.h@{ProcessamentoSalario.h}}
+\doxysubsubsection{\texorpdfstring{ProcessamentoSalario()}{ProcessamentoSalario()}}
+{\footnotesize\ttfamily void Processamento\+Salario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}}}]{lista\+Dados,  }\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista\+Funcionarios,  }\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabela\+Irs,  }\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}}}]{tabela\+Seguranca\+Social,  }\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$}]{lista\+Vencimentos\+Processados }\end{DoxyParamCaption})}
+
+Executa o processamento de salários, caso o código do funcionário exista 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Dados} & lista de dados para processamento \\
+\hline
+{\em lista\+Funcionarios} & lista de funcionários \\
+\hline
+{\em tabela\+Irs} & tabela de I\+RS \\
+\hline
+{\em tabela\+Seguranca\+Social} & tabela da Segurança Social \\
+\hline
+{\em lista\+Vencimentos\+Processados} & apontador que irá armazenar os valores dos salários processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_8h_a62f1a36e1e901779381faac01df0740c}\label{_processamento_salario_8h_a62f1a36e1e901779381faac01df0740c}} 
+\index{ProcessamentoSalario.h@{ProcessamentoSalario.h}!subsidioAlimentacao@{subsidioAlimentacao}}
+\index{subsidioAlimentacao@{subsidioAlimentacao}!ProcessamentoSalario.h@{ProcessamentoSalario.h}}
+\doxysubsubsection{\texorpdfstring{subsidioAlimentacao()}{subsidioAlimentacao()}}
+{\footnotesize\ttfamily float subsidio\+Alimentacao (\begin{DoxyParamCaption}\item[{int}]{numero\+Dias\+Trabalhados\+Semana,  }\item[{int}]{numero\+Dias\+Trabalhados\+Fimdesemana,  }\item[{float}]{subsidio }\end{DoxyParamCaption})}
+
+Calcula o valor do subsídio de alimentação de um funcionário 
+\begin{DoxyParams}{Parameters}
+{\em numero\+Dias\+Trabalhados\+Semana} & número de dias trabalhou na semana \\
+\hline
+{\em numero\+Dias\+Trabalhados\+Fimdesemana} & número de dias que trabalhou no fim de semana \\
+\hline
+{\em subsidio} & valor do subsídio do funcionário por dia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o valor resultante do produto do número de dias trabalhados com o valor do subsídio que o funcionário recebe por dia 
+\end{DoxyReturn}

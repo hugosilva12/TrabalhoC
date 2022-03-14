@@ -1,0 +1,5 @@
+NrProcessamentos: 6 
+NrProcessamentos_Bem_sucedidos: 2 
+Nrprocessamentos_Mal_Sucedidos: 4 
+CodFuncionario: 123,SalárioBruto: 1355.48,SalárioLiquído: 614.44,RetençãoIrs: 148.02,Bónus: 39.48,SubsidioAlimentação: 100.00,EncargosTotaisEmpresa: 1777.41,SegurancaSocial: 593.02,SegurancaSocialEmpresa: 321.93
+CodFuncionario: 33,SalárioBruto: 1724.80,SalárioLiquído: 1034.54,RetençãoIrs: 231.47,Bónus: -35.20,SubsidioAlimentação: 120.00,EncargosTotaisEmpresa: 2250.13,SegurancaSocial: 458.80,SegurancaSocialEmpresa: 405.33

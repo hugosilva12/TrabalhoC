@@ -1,0 +1,420 @@
+\hypertarget{_listagens_8c}{}\doxysection{Listagens.\+c File Reference}
+\label{_listagens_8c}\index{Listagens.c@{Listagens.c}}
+
+
+Implementação das funções da biblioteca \mbox{\hyperlink{_listagens_8h}{Listagens.\+h}}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Utils.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Processamento\+Salario.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Listagens.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Processamento\+Salario\+F\+X.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_listagens_8c_ad816b005e4402cbf5ebb1e99a70e71d3}{libertar\+Memoria\+Gestao\+Faltas}} (\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$gestaofaltas)
+\item 
+void \mbox{\hyperlink{_listagens_8c_af3d68283be07fe4d55a9bd185195bd95}{expandir\+Memoria\+Faltas}} (int $\ast$gestao, int $\ast$tamanho)
+\item 
+void \mbox{\hyperlink{_listagens_8c_af3b9c72f2edb818c154203cde8abe327}{percentagem\+Idades\+Funcionarios}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista, \mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$relatorio)
+\item 
+void \mbox{\hyperlink{_listagens_8c_ac10530d2a830d4e1dee2f0f0c688fd35}{percentagem\+Tempo\+Empresa}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista, \mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$relatorio)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a7ea353997e147d90f347f140ecd33e5e}{despesa\+Total\+Empresa\+Por\+Mes}} (\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} lista, float $\ast$valor\+Total, int $\ast$salarios\+Processados)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a9d49e38c4ecd37956dd583cf2cf5fc2d}{Despesas\+Totais}} (\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$despesas)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a20986723f62c1e2c5a737e45cd32a4b3}{listagem\+Funcionarios\+Por\+Faltas}} (\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$gestaofaltas)
+\item 
+void \mbox{\hyperlink{_listagens_8c_abc82faa6b716f26be8eb6792d6f2c640}{relatorio\+Valor\+Hora}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista, \mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$relatorio)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a21c17571c6be51d915206db1ef532a43}{relatorio\+Percentagem\+Estado\+Civil}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista, \mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$relatorio)
+\item 
+void \mbox{\hyperlink{_listagens_8c_ac22b7d40892437d44c3952b2eae7a621}{gerar\+Relatorio\+Faltas}} (\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$gestaofaltas, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_ad1c3fde239dc9c706e75714f0b077fa3}{obter\+Relatorio\+Faltas}} (\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$gestaofaltas, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a99c91179e27e950e7c71ab332310a4fd}{gerar\+Relatoriopercentagem\+Idades\+Funcionarios}} (\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$percentagens, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a784acf6b7dba2905b1050f0278c5b519}{obter\+Relatoriopercentagem\+Idades\+Funcionarios}} (\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$percentagens, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_af384ea5b8dc554460b62437a247bf2dd}{gerar\+Relatorio\+Percentagem\+Tempo\+Empresa}} (\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$relatorio, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_aea65562d06dbd77d56ef3b9892d64401}{obter\+Relatorio\+Percentagem\+Tempo\+Empresa}} (\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$relatorio, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_aee31e4cc011fe35171f4bc3c48fb6492}{gerar\+Relatorio\+Valor\+Hora}} (\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$relatorio, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a6c1bcd22dbe61074507dbbd3e81f0da1}{obter\+Relatorio\+Valor\+Hora}} (\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$relatorio, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_af59f4dcd7fc395bad12006cf5508ff89}{gerar\+Relatorio\+Percentagem\+Estado\+Civil}} (\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$relatorio, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a7c4f6696e7fc5c4d6efabc31a6192304}{obter\+Relatorio\+Percentagem\+Estado\+Civil}} (\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$relatorio, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a7aa81ebf3138a452408370eb784addb5}{gerar\+Relatorio\+Despesas\+Totais}} (\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$despesas, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_afd41f9bd96171d9f0578a5ea4ab2b6fb}{obter\+Relatorio\+Despesas\+Totais}} (\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$relatorio, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_listagens_8c_ac840ebb7b760b6246019496691b9ffb2}{imprimir\+Percentagem\+Idades\+Funcionarios}} (\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$relatorio)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a0086c442a80db2d950181363b5a97676}{imprimir\+Relatorio\+Valor\+Hora}} (\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$relatorio)
+\item 
+void \mbox{\hyperlink{_listagens_8c_af3ec3b0c4dc4662312751a5df1a53b50}{imprimir\+Relatorio\+Percentagem\+Estado\+Civil}} (\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$relatorio)
+\item 
+void \mbox{\hyperlink{_listagens_8c_a95fcfc03d6e45865eaf3bcc87291236a}{imprimir\+Gestaofaltas}} (\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$gestaofaltas)
+\item 
+void \mbox{\hyperlink{_listagens_8c_affaa8baf537410272b4ee71215806025}{imprimir\+Despesas\+Totais}} (\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$despesas)
+\item 
+void \mbox{\hyperlink{_listagens_8c_ab94f165355adda941c6a7e9cf8914a38}{imprimir\+Percentagem\+Tempo\+Empresa}} (\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$relatorio)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementação das funções da biblioteca \mbox{\hyperlink{_listagens_8h}{Listagens.\+h}}. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3 Janeiro 2020
+\end{DoxyDate}
+Implementação das funções que realizam as 6 listagens propostas pelo grupo 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_listagens_8c_a9d49e38c4ecd37956dd583cf2cf5fc2d}\label{_listagens_8c_a9d49e38c4ecd37956dd583cf2cf5fc2d}} 
+\index{Listagens.c@{Listagens.c}!DespesasTotais@{DespesasTotais}}
+\index{DespesasTotais@{DespesasTotais}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{DespesasTotais()}{DespesasTotais()}}
+{\footnotesize\ttfamily void Despesas\+Totais (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$}]{despesas }\end{DoxyParamCaption})}
+
+Calcula as despesas totais que a empresa teve anualmente mediante os relatórios processados 
+\begin{DoxyParams}{Parameters}
+{\em despesas} & apontador para a estrutura que irá armazenar as depesas de todos os meses \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a7ea353997e147d90f347f140ecd33e5e}\label{_listagens_8c_a7ea353997e147d90f347f140ecd33e5e}} 
+\index{Listagens.c@{Listagens.c}!despesaTotalEmpresaPorMes@{despesaTotalEmpresaPorMes}}
+\index{despesaTotalEmpresaPorMes@{despesaTotalEmpresaPorMes}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{despesaTotalEmpresaPorMes()}{despesaTotalEmpresaPorMes()}}
+{\footnotesize\ttfamily void despesa\+Total\+Empresa\+Por\+Mes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}}}]{lista,  }\item[{float $\ast$}]{valor\+Total,  }\item[{int $\ast$}]{salarios\+Processados }\end{DoxyParamCaption})}
+
+Calcula as despesas totais que a empresa teve num mês 
+\begin{DoxyParams}{Parameters}
+{\em lista} & vencimentos que foram processados nesse mês \\
+\hline
+{\em valor\+Total} & apontador para o valor no qual a despesa total será guardada \\
+\hline
+{\em salarios\+Processados} & apontador que armazena o número de salários processados num mês \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_af3d68283be07fe4d55a9bd185195bd95}\label{_listagens_8c_af3d68283be07fe4d55a9bd185195bd95}} 
+\index{Listagens.c@{Listagens.c}!expandirMemoriaFaltas@{expandirMemoriaFaltas}}
+\index{expandirMemoriaFaltas@{expandirMemoriaFaltas}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{expandirMemoriaFaltas()}{expandirMemoriaFaltas()}}
+{\footnotesize\ttfamily void expandir\+Memoria\+Faltas (\begin{DoxyParamCaption}\item[{int $\ast$}]{gestao,  }\item[{int $\ast$}]{tamanho }\end{DoxyParamCaption})}
+
+Função que realoca memória 
+\begin{DoxyParams}{Parameters}
+{\em gestao} & apontador no qual será feita a realocação de memória \\
+\hline
+{\em tamanho} & tamanho da lista que será duplicada \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a7aa81ebf3138a452408370eb784addb5}\label{_listagens_8c_a7aa81ebf3138a452408370eb784addb5}} 
+\index{Listagens.c@{Listagens.c}!gerarRelatorioDespesasTotais@{gerarRelatorioDespesasTotais}}
+\index{gerarRelatorioDespesasTotais@{gerarRelatorioDespesasTotais}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{gerarRelatorioDespesasTotais()}{gerarRelatorioDespesasTotais()}}
+{\footnotesize\ttfamily void gerar\+Relatorio\+Despesas\+Totais (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$}]{despesas,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve o relatório das depesas anuais em ficheiro, se possível 
+\begin{DoxyParams}{Parameters}
+{\em despesas} & apontador para a o relatório \\
+\hline
+{\em filename} & nome do ficheiro no qual o relatório será escrito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_ac22b7d40892437d44c3952b2eae7a621}\label{_listagens_8c_ac22b7d40892437d44c3952b2eae7a621}} 
+\index{Listagens.c@{Listagens.c}!gerarRelatorioFaltas@{gerarRelatorioFaltas}}
+\index{gerarRelatorioFaltas@{gerarRelatorioFaltas}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{gerarRelatorioFaltas()}{gerarRelatorioFaltas()}}
+{\footnotesize\ttfamily void gerar\+Relatorio\+Faltas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$}]{gestaofaltas,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve o relatório de faltas em ficheiro, se possível 
+\begin{DoxyParams}{Parameters}
+{\em gestaofaltas} & apontador para os dados do relatório de faltas \\
+\hline
+{\em filename} & nome do ficheiro no qual o relatório será escrito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_af59f4dcd7fc395bad12006cf5508ff89}\label{_listagens_8c_af59f4dcd7fc395bad12006cf5508ff89}} 
+\index{Listagens.c@{Listagens.c}!gerarRelatorioPercentagemEstadoCivil@{gerarRelatorioPercentagemEstadoCivil}}
+\index{gerarRelatorioPercentagemEstadoCivil@{gerarRelatorioPercentagemEstadoCivil}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{gerarRelatorioPercentagemEstadoCivil()}{gerarRelatorioPercentagemEstadoCivil()}}
+{\footnotesize\ttfamily void gerar\+Relatorio\+Percentagem\+Estado\+Civil (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$}]{relatorio,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve o relatório da percentagem por estado civil em ficheiro, se possível 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+{\em filename} & nome do ficheiro no qual o relatório será escrito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a99c91179e27e950e7c71ab332310a4fd}\label{_listagens_8c_a99c91179e27e950e7c71ab332310a4fd}} 
+\index{Listagens.c@{Listagens.c}!gerarRelatoriopercentagemIdadesFuncionarios@{gerarRelatoriopercentagemIdadesFuncionarios}}
+\index{gerarRelatoriopercentagemIdadesFuncionarios@{gerarRelatoriopercentagemIdadesFuncionarios}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{gerarRelatoriopercentagemIdadesFuncionarios()}{gerarRelatoriopercentagemIdadesFuncionarios()}}
+{\footnotesize\ttfamily void gerar\+Relatoriopercentagem\+Idades\+Funcionarios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$}]{percentagens,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve o relatório da percentagem de funcionários pelo intervalo de idades em ficheiro, se possível 
+\begin{DoxyParams}{Parameters}
+{\em percentagens} & apontador para o relatório \\
+\hline
+{\em filename} & nome do ficheiro no qual o relatório será escrito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_af384ea5b8dc554460b62437a247bf2dd}\label{_listagens_8c_af384ea5b8dc554460b62437a247bf2dd}} 
+\index{Listagens.c@{Listagens.c}!gerarRelatorioPercentagemTempoEmpresa@{gerarRelatorioPercentagemTempoEmpresa}}
+\index{gerarRelatorioPercentagemTempoEmpresa@{gerarRelatorioPercentagemTempoEmpresa}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{gerarRelatorioPercentagemTempoEmpresa()}{gerarRelatorioPercentagemTempoEmpresa()}}
+{\footnotesize\ttfamily void gerar\+Relatorio\+Percentagem\+Tempo\+Empresa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$}]{relatorio,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve o relatório da percentagem de funcionários por anos na empresa em ficheiro, se possível 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+{\em filename} & nome do ficheiro no qual o relatório será escrito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_aee31e4cc011fe35171f4bc3c48fb6492}\label{_listagens_8c_aee31e4cc011fe35171f4bc3c48fb6492}} 
+\index{Listagens.c@{Listagens.c}!gerarRelatorioValorHora@{gerarRelatorioValorHora}}
+\index{gerarRelatorioValorHora@{gerarRelatorioValorHora}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{gerarRelatorioValorHora()}{gerarRelatorioValorHora()}}
+{\footnotesize\ttfamily void gerar\+Relatorio\+Valor\+Hora (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$}]{relatorio,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve o relatório sobre o valor hora em ficheiro, se possível 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+{\em filename} & nome do ficheiro no qual o relatório será escrito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_affaa8baf537410272b4ee71215806025}\label{_listagens_8c_affaa8baf537410272b4ee71215806025}} 
+\index{Listagens.c@{Listagens.c}!imprimirDespesasTotais@{imprimirDespesasTotais}}
+\index{imprimirDespesasTotais@{imprimirDespesasTotais}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{imprimirDespesasTotais()}{imprimirDespesasTotais()}}
+{\footnotesize\ttfamily void imprimir\+Despesas\+Totais (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$}]{despesas }\end{DoxyParamCaption})}
+
+Imprime na consola o relatório sobre as despesas totais 
+\begin{DoxyParams}{Parameters}
+{\em despesas} & apontador para o relatório que contêm as despesas totais \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a95fcfc03d6e45865eaf3bcc87291236a}\label{_listagens_8c_a95fcfc03d6e45865eaf3bcc87291236a}} 
+\index{Listagens.c@{Listagens.c}!imprimirGestaofaltas@{imprimirGestaofaltas}}
+\index{imprimirGestaofaltas@{imprimirGestaofaltas}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{imprimirGestaofaltas()}{imprimirGestaofaltas()}}
+{\footnotesize\ttfamily void imprimir\+Gestaofaltas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$}]{gestaofaltas }\end{DoxyParamCaption})}
+
+Imprime na consola a listagem de funcionários por faltas 
+\begin{DoxyParams}{Parameters}
+{\em gestaofaltas} & apontador para a listagem \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_ac840ebb7b760b6246019496691b9ffb2}\label{_listagens_8c_ac840ebb7b760b6246019496691b9ffb2}} 
+\index{Listagens.c@{Listagens.c}!imprimirPercentagemIdadesFuncionarios@{imprimirPercentagemIdadesFuncionarios}}
+\index{imprimirPercentagemIdadesFuncionarios@{imprimirPercentagemIdadesFuncionarios}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{imprimirPercentagemIdadesFuncionarios()}{imprimirPercentagemIdadesFuncionarios()}}
+{\footnotesize\ttfamily void imprimir\+Percentagem\+Idades\+Funcionarios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Imprime na consola o relatório da percentagem de funcionários pelo intervalo de idades 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_ab94f165355adda941c6a7e9cf8914a38}\label{_listagens_8c_ab94f165355adda941c6a7e9cf8914a38}} 
+\index{Listagens.c@{Listagens.c}!imprimirPercentagemTempoEmpresa@{imprimirPercentagemTempoEmpresa}}
+\index{imprimirPercentagemTempoEmpresa@{imprimirPercentagemTempoEmpresa}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{imprimirPercentagemTempoEmpresa()}{imprimirPercentagemTempoEmpresa()}}
+{\footnotesize\ttfamily void imprimir\+Percentagem\+Tempo\+Empresa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Imprime na consola o relatório da percentagem de funcionários pelo seu tempo na empresa 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_af3ec3b0c4dc4662312751a5df1a53b50}\label{_listagens_8c_af3ec3b0c4dc4662312751a5df1a53b50}} 
+\index{Listagens.c@{Listagens.c}!imprimirRelatorioPercentagemEstadoCivil@{imprimirRelatorioPercentagemEstadoCivil}}
+\index{imprimirRelatorioPercentagemEstadoCivil@{imprimirRelatorioPercentagemEstadoCivil}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{imprimirRelatorioPercentagemEstadoCivil()}{imprimirRelatorioPercentagemEstadoCivil()}}
+{\footnotesize\ttfamily void imprimir\+Relatorio\+Percentagem\+Estado\+Civil (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Imprime na consola o relatório da percentagem de funcionários por estado civil 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a0086c442a80db2d950181363b5a97676}\label{_listagens_8c_a0086c442a80db2d950181363b5a97676}} 
+\index{Listagens.c@{Listagens.c}!imprimirRelatorioValorHora@{imprimirRelatorioValorHora}}
+\index{imprimirRelatorioValorHora@{imprimirRelatorioValorHora}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{imprimirRelatorioValorHora()}{imprimirRelatorioValorHora()}}
+{\footnotesize\ttfamily void imprimir\+Relatorio\+Valor\+Hora (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Imprime na consola o relatório sobre o valor hora 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_ad816b005e4402cbf5ebb1e99a70e71d3}\label{_listagens_8c_ad816b005e4402cbf5ebb1e99a70e71d3}} 
+\index{Listagens.c@{Listagens.c}!libertarMemoriaGestaoFaltas@{libertarMemoriaGestaoFaltas}}
+\index{libertarMemoriaGestaoFaltas@{libertarMemoriaGestaoFaltas}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaGestaoFaltas()}{libertarMemoriaGestaoFaltas()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Gestao\+Faltas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$}]{gestaofaltas }\end{DoxyParamCaption})}
+
+Liberta a memória do relatório de faltas, caso tenha sido alocada 
+\begin{DoxyParams}{Parameters}
+{\em gestaofaltas} & apontador para uma estrutura que guarda o relatório sobre faltas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a20986723f62c1e2c5a737e45cd32a4b3}\label{_listagens_8c_a20986723f62c1e2c5a737e45cd32a4b3}} 
+\index{Listagens.c@{Listagens.c}!listagemFuncionariosPorFaltas@{listagemFuncionariosPorFaltas}}
+\index{listagemFuncionariosPorFaltas@{listagemFuncionariosPorFaltas}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{listagemFuncionariosPorFaltas()}{listagemFuncionariosPorFaltas()}}
+{\footnotesize\ttfamily void listagem\+Funcionarios\+Por\+Faltas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$}]{gestaofaltas }\end{DoxyParamCaption})}
+
+Obtêm uma listagem dos funcionários pelo seu número de faltas num mês 
+\begin{DoxyParams}{Parameters}
+{\em gestaofaltas} & apontador para estrutura que irá armazenar a listagem \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_afd41f9bd96171d9f0578a5ea4ab2b6fb}\label{_listagens_8c_afd41f9bd96171d9f0578a5ea4ab2b6fb}} 
+\index{Listagens.c@{Listagens.c}!obterRelatorioDespesasTotais@{obterRelatorioDespesasTotais}}
+\index{obterRelatorioDespesasTotais@{obterRelatorioDespesasTotais}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{obterRelatorioDespesasTotais()}{obterRelatorioDespesasTotais()}}
+{\footnotesize\ttfamily void obter\+Relatorio\+Despesas\+Totais (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$}]{relatorio,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Importa o relatório das despesas totais, caso exista 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para a estrutura do relatório que irá armazenar os dados lidos do ficheiro \\
+\hline
+{\em filename} & nome do ficheiro do qual será importado o relatório \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_ad1c3fde239dc9c706e75714f0b077fa3}\label{_listagens_8c_ad1c3fde239dc9c706e75714f0b077fa3}} 
+\index{Listagens.c@{Listagens.c}!obterRelatorioFaltas@{obterRelatorioFaltas}}
+\index{obterRelatorioFaltas@{obterRelatorioFaltas}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{obterRelatorioFaltas()}{obterRelatorioFaltas()}}
+{\footnotesize\ttfamily void obter\+Relatorio\+Faltas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$}]{gestaofaltas,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Importa o relatório de faltas do ficheiro, se possível 
+\begin{DoxyParams}{Parameters}
+{\em gestaofaltas} & apontador para os dados do relatório de faltas \\
+\hline
+{\em filename} & nome do ficheiro no qual o relatório será lido \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a7c4f6696e7fc5c4d6efabc31a6192304}\label{_listagens_8c_a7c4f6696e7fc5c4d6efabc31a6192304}} 
+\index{Listagens.c@{Listagens.c}!obterRelatorioPercentagemEstadoCivil@{obterRelatorioPercentagemEstadoCivil}}
+\index{obterRelatorioPercentagemEstadoCivil@{obterRelatorioPercentagemEstadoCivil}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{obterRelatorioPercentagemEstadoCivil()}{obterRelatorioPercentagemEstadoCivil()}}
+{\footnotesize\ttfamily void obter\+Relatorio\+Percentagem\+Estado\+Civil (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$}]{relatorio,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Importa o relatório de percentagem por estado civil , caso exista 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+{\em filename} & nome do ficheiro do qual o relatório será lido \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a784acf6b7dba2905b1050f0278c5b519}\label{_listagens_8c_a784acf6b7dba2905b1050f0278c5b519}} 
+\index{Listagens.c@{Listagens.c}!obterRelatoriopercentagemIdadesFuncionarios@{obterRelatoriopercentagemIdadesFuncionarios}}
+\index{obterRelatoriopercentagemIdadesFuncionarios@{obterRelatoriopercentagemIdadesFuncionarios}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{obterRelatoriopercentagemIdadesFuncionarios()}{obterRelatoriopercentagemIdadesFuncionarios()}}
+{\footnotesize\ttfamily void obter\+Relatoriopercentagem\+Idades\+Funcionarios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$}]{percentagens,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Importa de ficheiro relatório da percentagens de funcionários por idade, caso exista 
+\begin{DoxyParams}{Parameters}
+{\em percentagens} & apontador para o relatório que irá armazenar as informações do ficheiro \\
+\hline
+{\em filename} & nome do ficheiro do qual o relatório será lido \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_aea65562d06dbd77d56ef3b9892d64401}\label{_listagens_8c_aea65562d06dbd77d56ef3b9892d64401}} 
+\index{Listagens.c@{Listagens.c}!obterRelatorioPercentagemTempoEmpresa@{obterRelatorioPercentagemTempoEmpresa}}
+\index{obterRelatorioPercentagemTempoEmpresa@{obterRelatorioPercentagemTempoEmpresa}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{obterRelatorioPercentagemTempoEmpresa()}{obterRelatorioPercentagemTempoEmpresa()}}
+{\footnotesize\ttfamily void obter\+Relatorio\+Percentagem\+Tempo\+Empresa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$}]{relatorio,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Importa de um ficheiro o relatório sobre a percentagem de funcionários por anos na empresa, caso exista 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+{\em filename} & nome do ficheiro do qual o relatório será lido \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a6c1bcd22dbe61074507dbbd3e81f0da1}\label{_listagens_8c_a6c1bcd22dbe61074507dbbd3e81f0da1}} 
+\index{Listagens.c@{Listagens.c}!obterRelatorioValorHora@{obterRelatorioValorHora}}
+\index{obterRelatorioValorHora@{obterRelatorioValorHora}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{obterRelatorioValorHora()}{obterRelatorioValorHora()}}
+{\footnotesize\ttfamily void obter\+Relatorio\+Valor\+Hora (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$}]{relatorio,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Lê relatório sobre valores hora, caso exista 
+\begin{DoxyParams}{Parameters}
+{\em relatorio} & apontador para o relatório \\
+\hline
+{\em filename} & nome do ficheiro do qual o relatório será lido \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_af3b9c72f2edb818c154203cde8abe327}\label{_listagens_8c_af3b9c72f2edb818c154203cde8abe327}} 
+\index{Listagens.c@{Listagens.c}!percentagemIdadesFuncionarios@{percentagemIdadesFuncionarios}}
+\index{percentagemIdadesFuncionarios@{percentagemIdadesFuncionarios}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{percentagemIdadesFuncionarios()}{percentagemIdadesFuncionarios()}}
+{\footnotesize\ttfamily void percentagem\+Idades\+Funcionarios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista,  }\item[{\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Obtêm a percentagens de funcionários por intervalos de idade 
+\begin{DoxyParams}{Parameters}
+{\em lista} & lista dos funcionários \\
+\hline
+{\em relatorio} & apontador para a estrutura que guarda os resultados obtidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_ac10530d2a830d4e1dee2f0f0c688fd35}\label{_listagens_8c_ac10530d2a830d4e1dee2f0f0c688fd35}} 
+\index{Listagens.c@{Listagens.c}!percentagemTempoEmpresa@{percentagemTempoEmpresa}}
+\index{percentagemTempoEmpresa@{percentagemTempoEmpresa}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{percentagemTempoEmpresa()}{percentagemTempoEmpresa()}}
+{\footnotesize\ttfamily void percentagem\+Tempo\+Empresa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista,  }\item[{\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Obtêm a percentagem de funcionários por intervalos de anos na empresa 
+\begin{DoxyParams}{Parameters}
+{\em lista} & lista dos funcionários \\
+\hline
+{\em relatorio} & apontador para a estrutura que guarda os resultados obtidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_a21c17571c6be51d915206db1ef532a43}\label{_listagens_8c_a21c17571c6be51d915206db1ef532a43}} 
+\index{Listagens.c@{Listagens.c}!relatorioPercentagemEstadoCivil@{relatorioPercentagemEstadoCivil}}
+\index{relatorioPercentagemEstadoCivil@{relatorioPercentagemEstadoCivil}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{relatorioPercentagemEstadoCivil()}{relatorioPercentagemEstadoCivil()}}
+{\footnotesize\ttfamily void relatorio\+Percentagem\+Estado\+Civil (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista,  }\item[{\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Obtêm a percentagem de funcionários por estado civil 
+\begin{DoxyParams}{Parameters}
+{\em lista} & lista dos funcionários \\
+\hline
+{\em relatorio} & apontador para a estrutura que guarda os resultados obtidos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_listagens_8c_abc82faa6b716f26be8eb6792d6f2c640}\label{_listagens_8c_abc82faa6b716f26be8eb6792d6f2c640}} 
+\index{Listagens.c@{Listagens.c}!relatorioValorHora@{relatorioValorHora}}
+\index{relatorioValorHora@{relatorioValorHora}!Listagens.c@{Listagens.c}}
+\doxysubsubsection{\texorpdfstring{relatorioValorHora()}{relatorioValorHora()}}
+{\footnotesize\ttfamily void relatorio\+Valor\+Hora (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista,  }\item[{\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$}]{relatorio }\end{DoxyParamCaption})}
+
+Obtêm o valor mínimo, máximo e médio pago por hora 
+\begin{DoxyParams}{Parameters}
+{\em lista} & lista dos funcionários \\
+\hline
+{\em relatorio} & apontador para a estrutura que armazena os resultados obtido \\
+\hline
+\end{DoxyParams}

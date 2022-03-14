@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trabalho Prático: Código-Fonte de Menus.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Trabalho Prático
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Menus.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_menus_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef MENUPRINCIPAL_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define MENUPRINCIPAL_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_gestao_funcionarios_8h.html">GestaoFuncionarios.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_tabela_irs_8h.html">TabelaIrs.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_tabela_seguranca_social_8h.html">TabelaSegurancaSocial.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_processamento_salario_8h.html">ProcessamentoSalario.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_listagens_8h.html">Listagens.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#a0d94e83f3988b622a53317d627746940">menuPrincipal</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listaFuncionarios, <a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> *tabelaSegurancaSocial, <a class="code" href="struct_tabela_irs.html">TabelaIrs</a> *tabelaIrs,<a class="code" href="struct_lista_todos_vencimentos_processados.html">ListaTodosVencimentosProcessados</a> *relatoriosGerados);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#aa7583c457f3f3c8431fc458a0a7009a0">menuEditarFuncionario</a>(<a class="code" href="struct_funcionario.html">Funcionario</a> *func);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#af5eaae5f3bf2fbf46d291902c48bf4f8">menuPrincipalFuncionarios</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listaFuncionarios);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#a4dbd8799f00d6259f7440181b100552a">menuListagens</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> listaFuncionarios, <a class="code" href="struct_percentagem_idades.html">PercentagemIdades</a> *relatorioIdades, <a class="code" href="struct_percentagem_tempo_empresa.html">PercentagemTempoEmpresa</a> *relatorioTempoEmpresa, <a class="code" href="struct_despesas_anuais.html">DespesasAnuais</a> *despesas, <a class="code" href="struct_relatorio_faltas.html">RelatorioFaltas</a> *gestaoFaltas,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="struct_relatorio_valor_hora.html">RelatorioValorHora</a> *relatorioVhora, <a class="code" href="struct_percentagem_estado_civil.html">PercentagemEstadoCivil</a> *relatorioEstadoCivil);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#a22dc6c3b8055ff07ba06dc16ed9fb6a8">imprimirMeses</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#a9acff3903cb23a2808afdaf6e2cd9f06">menuTabelasIrs</a>(<a class="code" href="struct_tabela_irs.html">TabelaIrs</a> * tabela);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#a38a6d5b415c7e5f6b90edd1fe21559b4">menuProcessamentoSalario</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> listaFuncionarios,<a class="code" href="struct_tabela_irs.html">TabelaIrs</a> tabelaIrs, <a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> tabelaSegurancaSocial, <a class="code" href="struct_lista_todos_vencimentos_processados.html">ListaTodosVencimentosProcessados</a> *relatoriosGuardados);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_menus_8h.html#af07c9f2fcf3819c9b9d99da8edef45d4">menuTabelaSegurancaSocial</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> *tabelaSegurancaSocial);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MENUPRINCIPAL_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="a_menus_8h_html_a4dbd8799f00d6259f7440181b100552a"><div class="ttname"><a href="_menus_8h.html#a4dbd8799f00d6259f7440181b100552a">menuListagens</a></div><div class="ttdeci">void menuListagens(ListaFuncionarios listaFuncionarios, PercentagemIdades *relatorioIdades, PercentagemTempoEmpresa *relatorioTempoEmpresa, DespesasAnuais *despesas, RelatorioFaltas *gestaoFaltas, RelatorioValorHora *relatorioVhora, PercentagemEstadoCivil *relatorioEstadoCivil)</div><div class="ttdef"><b>Definition:</b> Menus.c:267</div></div>
+<div class="ttc" id="astruct_lista_todos_vencimentos_processados_html"><div class="ttname"><a href="struct_lista_todos_vencimentos_processados.html">ListaTodosVencimentosProcessados</a></div><div class="ttdoc">Armazena um conjuntos de meses com salários processados.</div><div class="ttdef"><b>Definition:</b> ProcessamentoSalario.h:154</div></div>
+<div class="ttc" id="a_menus_8h_html_a0d94e83f3988b622a53317d627746940"><div class="ttname"><a href="_menus_8h.html#a0d94e83f3988b622a53317d627746940">menuPrincipal</a></div><div class="ttdeci">void menuPrincipal(ListaFuncionarios *listaFuncionarios, TabelaSegurancaSocial *tabelaSegurancaSocial, TabelaIrs *tabelaIrs, ListaTodosVencimentosProcessados *relatoriosGerados)</div><div class="ttdef"><b>Definition:</b> Menus.c:674</div></div>
+<div class="ttc" id="astruct_tabela_irs_html"><div class="ttname"><a href="struct_tabela_irs.html">TabelaIrs</a></div><div class="ttdoc">Armazena as três tabelas de IRS.</div><div class="ttdef"><b>Definition:</b> TabelaIrs.h:66</div></div>
+<div class="ttc" id="a_listagens_8h_html"><div class="ttname"><a href="_listagens_8h.html">Listagens.h</a></div><div class="ttdoc">Biblioteca com as estruturas de dados e funções utilizadas para listagens propostas pelo grupo.</div></div>
+<div class="ttc" id="a_processamento_salario_8h_html"><div class="ttname"><a href="_processamento_salario_8h.html">ProcessamentoSalario.h</a></div><div class="ttdoc">Biblioteca criada para a funcionalidade de processamento de salário.</div></div>
+<div class="ttc" id="a_menus_8h_html_af5eaae5f3bf2fbf46d291902c48bf4f8"><div class="ttname"><a href="_menus_8h.html#af5eaae5f3bf2fbf46d291902c48bf4f8">menuPrincipalFuncionarios</a></div><div class="ttdeci">void menuPrincipalFuncionarios(ListaFuncionarios *listaFuncionarios)</div><div class="ttdef"><b>Definition:</b> Menus.c:129</div></div>
+<div class="ttc" id="astruct_percentagem_tempo_empresa_html"><div class="ttname"><a href="struct_percentagem_tempo_empresa.html">PercentagemTempoEmpresa</a></div><div class="ttdoc">Armazena a percentagem de funcionários por anos na empresa.</div><div class="ttdef"><b>Definition:</b> Listagens.h:69</div></div>
+<div class="ttc" id="astruct_percentagem_estado_civil_html"><div class="ttname"><a href="struct_percentagem_estado_civil.html">PercentagemEstadoCivil</a></div><div class="ttdoc">Armazena a percentagem de funcionários por estado civil.</div><div class="ttdef"><b>Definition:</b> Listagens.h:183</div></div>
+<div class="ttc" id="a_menus_8h_html_aa7583c457f3f3c8431fc458a0a7009a0"><div class="ttname"><a href="_menus_8h.html#aa7583c457f3f3c8431fc458a0a7009a0">menuEditarFuncionario</a></div><div class="ttdeci">void menuEditarFuncionario(Funcionario *func)</div><div class="ttdef"><b>Definition:</b> Menus.c:56</div></div>
+<div class="ttc" id="a_menus_8h_html_af07c9f2fcf3819c9b9d99da8edef45d4"><div class="ttname"><a href="_menus_8h.html#af07c9f2fcf3819c9b9d99da8edef45d4">menuTabelaSegurancaSocial</a></div><div class="ttdeci">void menuTabelaSegurancaSocial(TabelaSegurancaSocial *tabelaSegurancaSocial)</div><div class="ttdef"><b>Definition:</b> Menus.c:197</div></div>
+<div class="ttc" id="astruct_tabela_seguranca_social_html"><div class="ttname"><a href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a></div><div class="ttdoc">Armazena a tabela de Segurança Social.</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:51</div></div>
+<div class="ttc" id="a_tabela_seguranca_social_8h_html"><div class="ttname"><a href="_tabela_seguranca_social_8h.html">TabelaSegurancaSocial.h</a></div><div class="ttdoc">Biblioteca criada para gestão da tabela de Segurança Social.</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html"><div class="ttname"><a href="_gestao_funcionarios_8h.html">GestaoFuncionarios.h</a></div><div class="ttdoc">Biblioteca da lista de funcionários.</div></div>
+<div class="ttc" id="astruct_lista_funcionarios_html"><div class="ttname"><a href="struct_lista_funcionarios.html">ListaFuncionarios</a></div><div class="ttdoc">Armazena uma lista de funcionários.</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.h:22</div></div>
+<div class="ttc" id="astruct_relatorio_faltas_html"><div class="ttname"><a href="struct_relatorio_faltas.html">RelatorioFaltas</a></div><div class="ttdoc">Armazena a listagem de funcionários por faltas (Todos os meses)</div><div class="ttdef"><b>Definition:</b> Listagens.h:148</div></div>
+<div class="ttc" id="a_menus_8h_html_a22dc6c3b8055ff07ba06dc16ed9fb6a8"><div class="ttname"><a href="_menus_8h.html#a22dc6c3b8055ff07ba06dc16ed9fb6a8">imprimirMeses</a></div><div class="ttdeci">void imprimirMeses()</div><div class="ttdef"><b>Definition:</b> Menus.c:241</div></div>
+<div class="ttc" id="astruct_funcionario_html"><div class="ttname"><a href="struct_funcionario.html">Funcionario</a></div><div class="ttdoc">Armazena todas as informações relativas a um funcionário.</div><div class="ttdef"><b>Definition:</b> Funcionario.h:68</div></div>
+<div class="ttc" id="a_tabela_irs_8h_html"><div class="ttname"><a href="_tabela_irs_8h.html">TabelaIrs.h</a></div><div class="ttdoc">Biblioteca criada para gestão da tabela de IRS.</div></div>
+<div class="ttc" id="astruct_despesas_anuais_html"><div class="ttname"><a href="struct_despesas_anuais.html">DespesasAnuais</a></div><div class="ttdoc">Armazena a despesa de todos os meses processados.</div><div class="ttdef"><b>Definition:</b> Listagens.h:92</div></div>
+<div class="ttc" id="astruct_percentagem_idades_html"><div class="ttname"><a href="struct_percentagem_idades.html">PercentagemIdades</a></div><div class="ttdoc">Armazena a percentagem de funcionários por intervalos de idade.</div><div class="ttdef"><b>Definition:</b> Listagens.h:43</div></div>
+<div class="ttc" id="astruct_relatorio_valor_hora_html"><div class="ttname"><a href="struct_relatorio_valor_hora.html">RelatorioValorHora</a></div><div class="ttdoc">Armazena o valor minímo, máximo e médio pago por hora.</div><div class="ttdef"><b>Definition:</b> Listagens.h:165</div></div>
+<div class="ttc" id="a_menus_8h_html_a38a6d5b415c7e5f6b90edd1fe21559b4"><div class="ttname"><a href="_menus_8h.html#a38a6d5b415c7e5f6b90edd1fe21559b4">menuProcessamentoSalario</a></div><div class="ttdeci">void menuProcessamentoSalario(ListaFuncionarios listaFuncionarios, TabelaIrs tabelaIrs, TabelaSegurancaSocial tabelaSegurancaSocial, ListaTodosVencimentosProcessados *relatoriosGuardados)</div><div class="ttdef"><b>Definition:</b> Menus.c:421</div></div>
+<div class="ttc" id="a_menus_8h_html_a9acff3903cb23a2808afdaf6e2cd9f06"><div class="ttname"><a href="_menus_8h.html#a9acff3903cb23a2808afdaf6e2cd9f06">menuTabelasIrs</a></div><div class="ttdeci">void menuTabelasIrs(TabelaIrs *tabela)</div><div class="ttdef"><b>Definition:</b> Menus.c:369</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

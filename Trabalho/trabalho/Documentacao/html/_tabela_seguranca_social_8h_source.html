@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trabalho Prático: Código-Fonte de TabelaSegurancaSocial.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Trabalho Prático
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">TabelaSegurancaSocial.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_tabela_seguranca_social_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef SEGURANCASOCIAFX_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define SEGURANCASOCIAFX_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define FILE_SEGURANCA_SOCIAL &quot;Tabelaseguranca_social.txt&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define MAX_DESCRICAO_TABELA 150</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define MAX_TAMANHO 3</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="struct_taxas_seguranca_social.html">   27</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct  </span>{</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="struct_taxas_seguranca_social.html#a7c4eea3707bd1e5cd613d5a67db01f7b">   28</a></span>&#160;    <span class="keywordtype">char</span>  descTaxa[MAX_DESCRICAO_TABELA];</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="struct_taxas_seguranca_social.html#ae99f32635174173fc9da740b75cec4cc">   29</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="struct_taxas_seguranca_social.html#ae99f32635174173fc9da740b75cec4cc">EntidadeEmpregadadora</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="struct_taxas_seguranca_social.html#a566974b1538e963aa78492df1d0926cb">   30</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="struct_taxas_seguranca_social.html#a566974b1538e963aa78492df1d0926cb">Trabalhador</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="struct_taxas_seguranca_social.html#af1a96148268a1d9d1e57af4332f19855">   31</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="struct_taxas_seguranca_social.html#af1a96148268a1d9d1e57af4332f19855">Global</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="struct_taxas_seguranca_social.html#a65521050d8a85260680007f6c2e70225">   32</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_taxas_seguranca_social.html#a65521050d8a85260680007f6c2e70225">idTaxa</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;} <a class="code" href="struct_taxas_seguranca_social.html">TaxasSegurancaSocial</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html">   51</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct  </span>{</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html#a07f742ef3b9449c75d4386de898a4df8">   52</a></span>&#160;    <span class="keywordtype">char</span>  idTaxa[MAX_DESCRICAO_TABELA];</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html#acc9950b2aa7c69997fab6aa45b9dafe4">   53</a></span>&#160;    <span class="keywordtype">char</span>  descricaoTaxa[MAX_DESCRICAO_TABELA];</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html#a525bdb174e28ec478898092c958152e6">   54</a></span>&#160;    <span class="keywordtype">char</span>  descricaoEntidadeEmpregadora[MAX_DESCRICAO_TABELA];</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html#ab2728f6aa57f52c01dce609a676703dd">   55</a></span>&#160;    <span class="keywordtype">char</span>  descricaoTrabalhador[MAX_DESCRICAO_TABELA];</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html#a78a829e6968643de7de2e954a5301192">   56</a></span>&#160;    <span class="keywordtype">char</span>  descricaoGlobal[MAX_DESCRICAO_TABELA];</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html#a2ba746bb65fdf17c41eef6e2c442c3f4">   57</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_tabela_seguranca_social.html#a2ba746bb65fdf17c41eef6e2c442c3f4">numeroLinhas</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="struct_tabela_seguranca_social.html#adb7c9de4ce591210f9be807eeac88943">   58</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_tabela_seguranca_social.html#adb7c9de4ce591210f9be807eeac88943">tamanho</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="struct_taxas_seguranca_social.html">TaxasSegurancaSocial</a> *taxas;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;} <a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_tabela_seguranca_social_8h.html#ae6943858490e667f59a7a95ffe487d9f">adicionarNovaTaxa</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> *lista);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_tabela_seguranca_social_8h.html#a71adc19712acdcc17360c27bd703e142">lerFicheiroSegurancaSocial</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> *lista,<span class="keywordtype">char</span>*filename);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_tabela_seguranca_social_8h.html#a64a74cda5f5e586a981bab2d5c878ed9">escreverTabelaFicheiro</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> lista, <span class="keywordtype">char</span> *filename) ;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_tabela_seguranca_social_8h.html#a860fbf41a0d91275d8c3d5dd5575714e">imprimirTabela</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> lista);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_tabela_seguranca_social_8h.html#ae5a20abab8062b1f73b81fd11c27c2c1">editarTaxa</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> *lista); </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_tabela_seguranca_social_8h.html#a7e682f65fb4424e5e962e69d5532f448">libertarMemoriaTabelaSS</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> *tabela);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_tabela_seguranca_social_8h.html#a5e0af7266c9ee161cce5c367a377d86d">removerLinha</a>(<a class="code" href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a> *lista);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* SEGURANCA_SOCIAFX_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="a_tabela_seguranca_social_8h_html_a7e682f65fb4424e5e962e69d5532f448"><div class="ttname"><a href="_tabela_seguranca_social_8h.html#a7e682f65fb4424e5e962e69d5532f448">libertarMemoriaTabelaSS</a></div><div class="ttdeci">void libertarMemoriaTabelaSS(TabelaSegurancaSocial *tabela)</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.c:19</div></div>
+<div class="ttc" id="astruct_tabela_seguranca_social_html_a2ba746bb65fdf17c41eef6e2c442c3f4"><div class="ttname"><a href="struct_tabela_seguranca_social.html#a2ba746bb65fdf17c41eef6e2c442c3f4">TabelaSegurancaSocial::numeroLinhas</a></div><div class="ttdeci">int numeroLinhas</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:57</div></div>
+<div class="ttc" id="a_tabela_seguranca_social_8h_html_ae6943858490e667f59a7a95ffe487d9f"><div class="ttname"><a href="_tabela_seguranca_social_8h.html#ae6943858490e667f59a7a95ffe487d9f">adicionarNovaTaxa</a></div><div class="ttdeci">void adicionarNovaTaxa(TabelaSegurancaSocial *lista)</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.c:120</div></div>
+<div class="ttc" id="a_tabela_seguranca_social_8h_html_a71adc19712acdcc17360c27bd703e142"><div class="ttname"><a href="_tabela_seguranca_social_8h.html#a71adc19712acdcc17360c27bd703e142">lerFicheiroSegurancaSocial</a></div><div class="ttdeci">void lerFicheiroSegurancaSocial(TabelaSegurancaSocial *lista, char *filename)</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.c:28</div></div>
+<div class="ttc" id="astruct_taxas_seguranca_social_html_a65521050d8a85260680007f6c2e70225"><div class="ttname"><a href="struct_taxas_seguranca_social.html#a65521050d8a85260680007f6c2e70225">TaxasSegurancaSocial::idTaxa</a></div><div class="ttdeci">int idTaxa</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:32</div></div>
+<div class="ttc" id="astruct_taxas_seguranca_social_html_af1a96148268a1d9d1e57af4332f19855"><div class="ttname"><a href="struct_taxas_seguranca_social.html#af1a96148268a1d9d1e57af4332f19855">TaxasSegurancaSocial::Global</a></div><div class="ttdeci">float Global</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:31</div></div>
+<div class="ttc" id="astruct_tabela_seguranca_social_html"><div class="ttname"><a href="struct_tabela_seguranca_social.html">TabelaSegurancaSocial</a></div><div class="ttdoc">Armazena a tabela de Segurança Social.</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:51</div></div>
+<div class="ttc" id="a_tabela_seguranca_social_8h_html_ae5a20abab8062b1f73b81fd11c27c2c1"><div class="ttname"><a href="_tabela_seguranca_social_8h.html#ae5a20abab8062b1f73b81fd11c27c2c1">editarTaxa</a></div><div class="ttdeci">void editarTaxa(TabelaSegurancaSocial *lista)</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.c:178</div></div>
+<div class="ttc" id="a_tabela_seguranca_social_8h_html_a860fbf41a0d91275d8c3d5dd5575714e"><div class="ttname"><a href="_tabela_seguranca_social_8h.html#a860fbf41a0d91275d8c3d5dd5575714e">imprimirTabela</a></div><div class="ttdeci">void imprimirTabela(TabelaSegurancaSocial lista)</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.c:106</div></div>
+<div class="ttc" id="astruct_taxas_seguranca_social_html_ae99f32635174173fc9da740b75cec4cc"><div class="ttname"><a href="struct_taxas_seguranca_social.html#ae99f32635174173fc9da740b75cec4cc">TaxasSegurancaSocial::EntidadeEmpregadadora</a></div><div class="ttdeci">float EntidadeEmpregadadora</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:29</div></div>
+<div class="ttc" id="astruct_taxas_seguranca_social_html_a566974b1538e963aa78492df1d0926cb"><div class="ttname"><a href="struct_taxas_seguranca_social.html#a566974b1538e963aa78492df1d0926cb">TaxasSegurancaSocial::Trabalhador</a></div><div class="ttdeci">float Trabalhador</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:30</div></div>
+<div class="ttc" id="astruct_taxas_seguranca_social_html"><div class="ttname"><a href="struct_taxas_seguranca_social.html">TaxasSegurancaSocial</a></div><div class="ttdoc">Armazena uma linha da tabela de Segurança Social.</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:27</div></div>
+<div class="ttc" id="a_tabela_seguranca_social_8h_html_a64a74cda5f5e586a981bab2d5c878ed9"><div class="ttname"><a href="_tabela_seguranca_social_8h.html#a64a74cda5f5e586a981bab2d5c878ed9">escreverTabelaFicheiro</a></div><div class="ttdeci">void escreverTabelaFicheiro(TabelaSegurancaSocial lista, char *filename)</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.c:150</div></div>
+<div class="ttc" id="a_tabela_seguranca_social_8h_html_a5e0af7266c9ee161cce5c367a377d86d"><div class="ttname"><a href="_tabela_seguranca_social_8h.html#a5e0af7266c9ee161cce5c367a377d86d">removerLinha</a></div><div class="ttdeci">void removerLinha(TabelaSegurancaSocial *lista)</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.c:71</div></div>
+<div class="ttc" id="astruct_tabela_seguranca_social_html_adb7c9de4ce591210f9be807eeac88943"><div class="ttname"><a href="struct_tabela_seguranca_social.html#adb7c9de4ce591210f9be807eeac88943">TabelaSegurancaSocial::tamanho</a></div><div class="ttdeci">int tamanho</div><div class="ttdef"><b>Definition:</b> TabelaSegurancaSocial.h:58</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

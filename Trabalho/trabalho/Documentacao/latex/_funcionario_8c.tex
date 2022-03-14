@@ -1,0 +1,177 @@
+\hypertarget{_funcionario_8c}{}\doxysection{Funcionario.\+c File Reference}
+\label{_funcionario_8c}\index{Funcionario.c@{Funcionario.c}}
+
+
+Ficheiro c que contém a parte privada da biblioteca \mbox{\hyperlink{_funcionario_8h}{Funcionario.\+h}}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Funcionario.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Utils.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_funcionario_8c_a9dd9754c23c483de33334bb11bf81508}\label{_funcionario_8c_a9dd9754c23c483de33334bb11bf81508}} 
+\#define {\bfseries M\+S\+G\+\_\+\+D\+A\+T\+A\+N\+A\+S\+C\+I\+M\+E\+N\+TO}~\char`\"{}-\/-\/-\/-\/-\/-\/-\/Data Nascimento-\/-\/-\/-\/-\/-\/\char`\"{}
+\item 
+\mbox{\Hypertarget{_funcionario_8c_ab737bd43f684a3c3dfabfb79da60c541}\label{_funcionario_8c_ab737bd43f684a3c3dfabfb79da60c541}} 
+\#define {\bfseries M\+S\+G\+\_\+\+D\+A\+T\+A\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+\+E\+M\+P\+R\+E\+SA}~\char`\"{}-\/-\/-\/-\/-\/-\/-\/Data Entrada na Empresa-\/-\/-\/-\/-\/-\/\char`\"{}
+\item 
+\mbox{\Hypertarget{_funcionario_8c_a1163fc3b4aade99c572fdd07791f7aa2}\label{_funcionario_8c_a1163fc3b4aade99c572fdd07791f7aa2}} 
+\#define {\bfseries M\+S\+G\+\_\+\+D\+A\+T\+A\+\_\+\+S\+A\+I\+D\+A\+\_\+\+E\+M\+P\+R\+E\+SA}~\char`\"{}-\/-\/-\/-\/-\/-\/-\/Data Saida da Empresa-\/-\/-\/-\/-\/-\/\char`\"{}
+\item 
+\mbox{\Hypertarget{_funcionario_8c_a845047688a207ea23b1744c5f2a3b3f0}\label{_funcionario_8c_a845047688a207ea23b1744c5f2a3b3f0}} 
+\#define {\bfseries M\+S\+G\+\_\+\+N\+O\+ME}~\char`\"{}Nome do Funcionário\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \mbox{\hyperlink{_funcionario_8c_a6667c85812cc4c38de345207634f49d6}{estado\+Civil\+To\+String}} (\mbox{\hyperlink{_funcionario_8h_a20454225008553cef4e5cb14a37d4c1d}{Estado\+Civil}} comb)
+\item 
+char $\ast$ \mbox{\hyperlink{_funcionario_8c_a8f44b67218bb631323361b6f4a339909}{cargo\+Funcionario\+To\+String}} (\mbox{\hyperlink{_funcionario_8h_ad202395025143887571b4a5f857b1ac1}{Cargo}} comb)
+\item 
+char $\ast$ \mbox{\hyperlink{_funcionario_8c_a28e85646bbc6eb79f25eab80f7ecc323}{empregado\+Ativo\+To\+String}} (\mbox{\hyperlink{_funcionario_8h_a1724b87bde34617a247fd743e32a8077}{Estado\+Funcionario}} comb)
+\item 
+void \mbox{\hyperlink{_funcionario_8c_a1a694848d7b6fb3ebee2b0812163fe91}{mostrar\+Dados\+Funcionario}} (\mbox{\hyperlink{struct_funcionario}{Funcionario}} func)
+\item 
+void \mbox{\hyperlink{_funcionario_8c_a78a4fa08efb6677c511616e7b62ac26f}{ler\+Data}} (\mbox{\hyperlink{struct_data}{Data}} $\ast$data, int Ano\+Max)
+\item 
+int \mbox{\hyperlink{_funcionario_8c_a3dcb9bed535359958891ef4706dcfeae}{funcionario\+Ativo}} ()
+\item 
+int \mbox{\hyperlink{_funcionario_8c_a4f9f7a2d914e6885ef725250b93caf55}{estado\+Civil}} ()
+\item 
+int \mbox{\hyperlink{_funcionario_8c_ab307caf9e5826fbc901ab7a4bd78fbe0}{cargo\+Funcionario}} ()
+\item 
+void \mbox{\hyperlink{_funcionario_8c_a550522255993300ff246c800f9d7fc2d}{numero\+Telemovel}} (\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$funcionario)
+\item 
+void \mbox{\hyperlink{_funcionario_8c_a6d175daea5fb2274328ad7ae100bfc2c}{criar\+Funcionario}} (\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$funcionario)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro c que contém a parte privada da biblioteca \mbox{\hyperlink{_funcionario_8h}{Funcionario.\+h}}. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+11 Novembro 2020
+\end{DoxyDate}
+Ficheiro c que contém as funções para criar um funcionário e mostrar os seus dados.\+Possui também funções de input para obter dados da consola 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_funcionario_8c_ab307caf9e5826fbc901ab7a4bd78fbe0}\label{_funcionario_8c_ab307caf9e5826fbc901ab7a4bd78fbe0}} 
+\index{Funcionario.c@{Funcionario.c}!cargoFuncionario@{cargoFuncionario}}
+\index{cargoFuncionario@{cargoFuncionario}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{cargoFuncionario()}{cargoFuncionario()}}
+{\footnotesize\ttfamily int cargo\+Funcionario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função que lê da consola o cargo do funcionário \begin{DoxyReturn}{Returns}
+retorna 1 caso seja Chefe, 2 caso seja Administrador e 3 caso seja Empregado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcionario_8c_a8f44b67218bb631323361b6f4a339909}\label{_funcionario_8c_a8f44b67218bb631323361b6f4a339909}} 
+\index{Funcionario.c@{Funcionario.c}!cargoFuncionarioToString@{cargoFuncionarioToString}}
+\index{cargoFuncionarioToString@{cargoFuncionarioToString}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{cargoFuncionarioToString()}{cargoFuncionarioToString()}}
+{\footnotesize\ttfamily char$\ast$ cargo\+Funcionario\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_funcionario_8h_ad202395025143887571b4a5f857b1ac1}{Cargo}}}]{comb }\end{DoxyParamCaption})}
+
+Recebe um valor de uma enumeração e retorna-\/o em String 
+\begin{DoxyParams}{Parameters}
+{\em comb} & parâmetro que representa um valor da enumeração do Cargo 1-\/A\+D\+M\+I\+N\+I\+S\+T\+R\+A\+D\+OR 2-\/E\+M\+P\+R\+E\+G\+A\+DO 3-\/C\+H\+E\+FE \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna em string o valor que recebeu como parâmetro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcionario_8c_a6d175daea5fb2274328ad7ae100bfc2c}\label{_funcionario_8c_a6d175daea5fb2274328ad7ae100bfc2c}} 
+\index{Funcionario.c@{Funcionario.c}!criarFuncionario@{criarFuncionario}}
+\index{criarFuncionario@{criarFuncionario}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{criarFuncionario()}{criarFuncionario()}}
+{\footnotesize\ttfamily void criar\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$}]{funcionario }\end{DoxyParamCaption})}
+
+Lê um funcionário da consola 
+\begin{DoxyParams}{Parameters}
+{\em funcionário} & apontador para a estrutura \mbox{\hyperlink{struct_funcionario}{Funcionario}} que permite armazenar todos os dados de um funcionário \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcionario_8c_a28e85646bbc6eb79f25eab80f7ecc323}\label{_funcionario_8c_a28e85646bbc6eb79f25eab80f7ecc323}} 
+\index{Funcionario.c@{Funcionario.c}!empregadoAtivoToString@{empregadoAtivoToString}}
+\index{empregadoAtivoToString@{empregadoAtivoToString}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{empregadoAtivoToString()}{empregadoAtivoToString()}}
+{\footnotesize\ttfamily char$\ast$ empregado\+Ativo\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_funcionario_8h_a1724b87bde34617a247fd743e32a8077}{Estado\+Funcionario}}}]{comb }\end{DoxyParamCaption})}
+
+Recebe um valor de uma enumeração e retorna-\/o em String 
+\begin{DoxyParams}{Parameters}
+{\em comb} & parâmetro que representa um valor da enumeração do estado do funcionário, 0-\/Removido, 1-\/Ativo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna em string o valor que recebeu como parâmetro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcionario_8c_a4f9f7a2d914e6885ef725250b93caf55}\label{_funcionario_8c_a4f9f7a2d914e6885ef725250b93caf55}} 
+\index{Funcionario.c@{Funcionario.c}!estadoCivil@{estadoCivil}}
+\index{estadoCivil@{estadoCivil}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{estadoCivil()}{estadoCivil()}}
+{\footnotesize\ttfamily int estado\+Civil (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função que lê da consola estado civil do funcionário \begin{DoxyReturn}{Returns}
+retorna 1 caso seja N\+AO C\+A\+S\+A\+DO, retorna 2 caso seja C\+A\+S\+A\+DO U\+N\+I\+CO T\+I\+T\+U\+L\+AR e retorna 3 caso seja C\+A\+S\+A\+DO D\+O\+IS T\+I\+T\+U\+L\+A\+R\+ES. Esta função garante que o estado civil inserido pelo utilizador é válido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcionario_8c_a6667c85812cc4c38de345207634f49d6}\label{_funcionario_8c_a6667c85812cc4c38de345207634f49d6}} 
+\index{Funcionario.c@{Funcionario.c}!estadoCivilToString@{estadoCivilToString}}
+\index{estadoCivilToString@{estadoCivilToString}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{estadoCivilToString()}{estadoCivilToString()}}
+{\footnotesize\ttfamily char$\ast$ estado\+Civil\+To\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_funcionario_8h_a20454225008553cef4e5cb14a37d4c1d}{Estado\+Civil}}}]{comb }\end{DoxyParamCaption})}
+
+Função que recebe um valor de uma enumeração e retorna-\/o em String 
+\begin{DoxyParams}{Parameters}
+{\em comb} & parâmetro que representa um valor da enumeração do Estado Civil 1-\/N\+A\+O\+C\+A\+S\+A\+DO 2-\/C\+A\+S\+A\+D\+O\+U\+N\+I\+C\+O\+T\+I\+T\+U\+L\+AR 3-\/C\+A\+S\+A\+D\+O\+D\+O\+I\+S\+T\+I\+T\+U\+L\+A\+R\+ES \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna em string o valor que recebeu como parametro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcionario_8c_a3dcb9bed535359958891ef4706dcfeae}\label{_funcionario_8c_a3dcb9bed535359958891ef4706dcfeae}} 
+\index{Funcionario.c@{Funcionario.c}!funcionarioAtivo@{funcionarioAtivo}}
+\index{funcionarioAtivo@{funcionarioAtivo}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{funcionarioAtivo()}{funcionarioAtivo()}}
+{\footnotesize\ttfamily int funcionario\+Ativo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Lê da consola se o estado do funcionário na empresa é ativo ou removido \begin{DoxyReturn}{Returns}
+retorna 1 caso o funcionário esteja ainda na empresa, 0 caso o mesmo não se verifique 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_funcionario_8c_a78a4fa08efb6677c511616e7b62ac26f}\label{_funcionario_8c_a78a4fa08efb6677c511616e7b62ac26f}} 
+\index{Funcionario.c@{Funcionario.c}!lerData@{lerData}}
+\index{lerData@{lerData}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{lerData()}{lerData()}}
+{\footnotesize\ttfamily void ler\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_data}{Data}} $\ast$}]{data,  }\item[{int}]{Ano\+Max }\end{DoxyParamCaption})}
+
+Lê da consola uma data 
+\begin{DoxyParams}{Parameters}
+{\em data} & apontador para uma estrutura data que contém três valores inteiros, um é referido ao dia, outro ao mês e outro ao ano. Esta função verifica os dados inseridos pelo utilizador de modo a que os correspondam à realidade.\+Por exemplo é impossível ao utilizador registar uma data de entrada com o ano 2030, sendo que o ano atual é 2021. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcionario_8c_a1a694848d7b6fb3ebee2b0812163fe91}\label{_funcionario_8c_a1a694848d7b6fb3ebee2b0812163fe91}} 
+\index{Funcionario.c@{Funcionario.c}!mostrarDadosFuncionario@{mostrarDadosFuncionario}}
+\index{mostrarDadosFuncionario@{mostrarDadosFuncionario}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{mostrarDadosFuncionario()}{mostrarDadosFuncionario()}}
+{\footnotesize\ttfamily void mostrar\+Dados\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}}}]{func }\end{DoxyParamCaption})}
+
+Imprime na consola as informações de um funcionário 
+\begin{DoxyParams}{Parameters}
+{\em func} & parâmetro que contém todos os dados referentes a um funcionário. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_funcionario_8c_a550522255993300ff246c800f9d7fc2d}\label{_funcionario_8c_a550522255993300ff246c800f9d7fc2d}} 
+\index{Funcionario.c@{Funcionario.c}!numeroTelemovel@{numeroTelemovel}}
+\index{numeroTelemovel@{numeroTelemovel}!Funcionario.c@{Funcionario.c}}
+\doxysubsubsection{\texorpdfstring{numeroTelemovel()}{numeroTelemovel()}}
+{\footnotesize\ttfamily void numero\+Telemovel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$}]{funcionario }\end{DoxyParamCaption})}
+
+Função que lê da consola um número de telemóvel válido 
+\begin{DoxyParams}{Parameters}
+{\em funcionario} & apontador para uma estrutura funcionário que irá armazenar o número lido da consola \\
+\hline
+\end{DoxyParams}

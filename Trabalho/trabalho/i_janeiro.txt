@@ -1,0 +1,7 @@
+CodFun,NrDiasSemana,NrDiasFimsemana,Nr1/2Dias,Faltas
+123,15,5,2,0
+32,10,4,4,0
+33,9,1,1,1
+333,9,1,1,2
+331,9,1,1,3
+322,9,1,3,5

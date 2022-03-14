@@ -1,0 +1,4 @@
+ValorMaisAlto: 20.00
+ValorMaisBaixo: 7.00
+Medio: 13.50
+DiferençaEntre[max-min]: 13.00

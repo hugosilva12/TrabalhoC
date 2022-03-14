@@ -1,0 +1,38 @@
+-------Janeiro-----------------
+NrSaláriosProcessados: 2
+DespesaTotal: 4027.54
+-------Fevereiro-----------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Março-----------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Abril-----------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Maio-----------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Junho-----------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Julho-----------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Agosto---------------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Setembro--------------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Outubro--------------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Novembro-------------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Dezembro-------------------
+NrSaláriosProcessados: 0
+DespesaTotal: 0.00
+-------Total-------------------
+TOTAL: 4027.54€

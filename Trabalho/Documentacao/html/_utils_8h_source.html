@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trabalho Prático: Código-Fonte de Utils.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Trabalho Prático
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Utils.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_utils_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef UTILS_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define UTILS_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_funcionario_8h.html">Funcionario.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_utils_8h.html#a11ac4d3ec555747d95fee8ae7aa18b5d">cleanInputBuffer</a>();</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">float</span> <a class="code" href="_utils_8h.html#ad117d9390f78559910d84ec715828476">obterPercentagem</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_utils_8h.html#add6ddc863ae1a21748764a218bac9d70">numeroLinhas</a>(<span class="keywordtype">char</span>*filename); </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_utils_8h.html#a593e20ecb6e58d8978a585114c9f1aa2">verificaExistenciaFicheiro</a>(<span class="keywordtype">char</span>*filename);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_utils_8h.html#a1bbcef20229533e1a10cb3ccc169f0b2">calcularIdade</a>(<a class="code" href="struct_data.html">Data</a> data);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_utils_8h.html#adf46e57c769c6767fcb908014ce5841f">visualizarRelatorioemMemoria</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* UTILS_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="a_utils_8h_html_a593e20ecb6e58d8978a585114c9f1aa2"><div class="ttname"><a href="_utils_8h.html#a593e20ecb6e58d8978a585114c9f1aa2">verificaExistenciaFicheiro</a></div><div class="ttdeci">int verificaExistenciaFicheiro(char *filename)</div><div class="ttdef"><b>Definition:</b> Utils.c:38</div></div>
+<div class="ttc" id="astruct_data_html"><div class="ttname"><a href="struct_data.html">Data</a></div><div class="ttdoc">Armazena uma data.</div><div class="ttdef"><b>Definition:</b> Funcionario.h:27</div></div>
+<div class="ttc" id="a_utils_8h_html_adf46e57c769c6767fcb908014ce5841f"><div class="ttname"><a href="_utils_8h.html#adf46e57c769c6767fcb908014ce5841f">visualizarRelatorioemMemoria</a></div><div class="ttdeci">int visualizarRelatorioemMemoria()</div><div class="ttdef"><b>Definition:</b> Utils.c:96</div></div>
+<div class="ttc" id="a_funcionario_8h_html"><div class="ttname"><a href="_funcionario_8h.html">Funcionario.h</a></div><div class="ttdoc">Biblioteca com a estrutura para armazenar informações do funcionário (parte pública)</div></div>
+<div class="ttc" id="a_utils_8h_html_a1bbcef20229533e1a10cb3ccc169f0b2"><div class="ttname"><a href="_utils_8h.html#a1bbcef20229533e1a10cb3ccc169f0b2">calcularIdade</a></div><div class="ttdeci">int calcularIdade(Data data)</div><div class="ttdef"><b>Definition:</b> Utils.c:54</div></div>
+<div class="ttc" id="a_utils_8h_html_ad117d9390f78559910d84ec715828476"><div class="ttname"><a href="_utils_8h.html#ad117d9390f78559910d84ec715828476">obterPercentagem</a></div><div class="ttdeci">float obterPercentagem()</div><div class="ttdef"><b>Definition:</b> Utils.c:24</div></div>
+<div class="ttc" id="a_utils_8h_html_add6ddc863ae1a21748764a218bac9d70"><div class="ttname"><a href="_utils_8h.html#add6ddc863ae1a21748764a218bac9d70">numeroLinhas</a></div><div class="ttdeci">int numeroLinhas(char *filename)</div><div class="ttdef"><b>Definition:</b> Utils.c:79</div></div>
+<div class="ttc" id="a_utils_8h_html_a11ac4d3ec555747d95fee8ae7aa18b5d"><div class="ttname"><a href="_utils_8h.html#a11ac4d3ec555747d95fee8ae7aa18b5d">cleanInputBuffer</a></div><div class="ttdeci">void cleanInputBuffer()</div><div class="ttdef"><b>Definition:</b> Utils.c:15</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

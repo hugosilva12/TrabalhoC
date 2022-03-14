@@ -1,0 +1,142 @@
+\hypertarget{_tabela_seguranca_social_8c}{}\doxysection{Tabela\+Seguranca\+Social.\+c File Reference}
+\label{_tabela_seguranca_social_8c}\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+
+
+Ficheiro c que implementa as funções da bibloteca Tabela\+Seguraranca\+Social.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Tabela\+Seguranca\+Social.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Utils.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_adce5f8636e0451ca637f77d4025e0e1d}\label{_tabela_seguranca_social_8c_adce5f8636e0451ca637f77d4025e0e1d}} 
+\#define {\bfseries M\+S\+G\+\_\+\+E\+R\+R\+O\+\_\+\+R\+E\+A\+D\+\_\+\+F\+I\+LE}~\char`\"{}Impossivel abrir o ficheiro!\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_a7e682f65fb4424e5e962e69d5532f448}{libertar\+Memoria\+Tabela\+SS}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$tabela)
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_a71adc19712acdcc17360c27bd703e142}{ler\+Ficheiro\+Seguranca\+Social}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$lista, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_a5e0af7266c9ee161cce5c367a377d86d}{remover\+Linha}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$lista)
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_ae9c05788dd052acad3566c31c7309ec7}{expandir\+Memoria\+Tabela\+SS}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$lista)
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_a860fbf41a0d91275d8c3d5dd5575714e}{imprimir\+Tabela}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} lista)
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_ae6943858490e667f59a7a95ffe487d9f}{adicionar\+Nova\+Taxa}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$lista)
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_a1be63ead2ac55c458383b76381bf66f8}{escrever\+Tabela\+Ficheiro}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} tabela, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_tabela_seguranca_social_8c_a7e99c7d42cf7a4fbe9f62921588a2be7}{editar\+Taxa}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$tabela)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro c que implementa as funções da bibloteca Tabela\+Seguraranca\+Social. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+23 Novembro 2020
+\end{DoxyDate}
+Ficheiro c onde são implementadas as funções de importação, edição e escrita da tabela em ficheiro 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_ae6943858490e667f59a7a95ffe487d9f}\label{_tabela_seguranca_social_8c_ae6943858490e667f59a7a95ffe487d9f}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!adicionarNovaTaxa@{adicionarNovaTaxa}}
+\index{adicionarNovaTaxa@{adicionarNovaTaxa}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{adicionarNovaTaxa()}{adicionarNovaTaxa()}}
+{\footnotesize\ttfamily void adicionar\+Nova\+Taxa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+Adiciona uma nova taxa à tabela de Segurança Social 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a tabela onde irá ser adicionada a nova taxa \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_a7e99c7d42cf7a4fbe9f62921588a2be7}\label{_tabela_seguranca_social_8c_a7e99c7d42cf7a4fbe9f62921588a2be7}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!editarTaxa@{editarTaxa}}
+\index{editarTaxa@{editarTaxa}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{editarTaxa()}{editarTaxa()}}
+{\footnotesize\ttfamily void editar\+Taxa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{tabela }\end{DoxyParamCaption})}
+
+Edita uma taxa da Segurança Social 
+\begin{DoxyParams}{Parameters}
+{\em tabela} & apontador para tabela \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_a1be63ead2ac55c458383b76381bf66f8}\label{_tabela_seguranca_social_8c_a1be63ead2ac55c458383b76381bf66f8}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!escreverTabelaFicheiro@{escreverTabelaFicheiro}}
+\index{escreverTabelaFicheiro@{escreverTabelaFicheiro}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{escreverTabelaFicheiro()}{escreverTabelaFicheiro()}}
+{\footnotesize\ttfamily void escrever\+Tabela\+Ficheiro (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}}}]{tabela,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Escreve a tabela num ficheiro, caso seja possível 
+\begin{DoxyParams}{Parameters}
+{\em tabela} & tabela que será escrita \\
+\hline
+{\em filename} & nome do ficheiro na qual a tabela será escrita \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_ae9c05788dd052acad3566c31c7309ec7}\label{_tabela_seguranca_social_8c_ae9c05788dd052acad3566c31c7309ec7}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!expandirMemoriaTabelaSS@{expandirMemoriaTabelaSS}}
+\index{expandirMemoriaTabelaSS@{expandirMemoriaTabelaSS}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{expandirMemoriaTabelaSS()}{expandirMemoriaTabelaSS()}}
+{\footnotesize\ttfamily void expandir\+Memoria\+Tabela\+SS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+Expande a memória alocada para a tabela, duplicando o seu tamanho atual 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a tabela de Segurança Social \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_a860fbf41a0d91275d8c3d5dd5575714e}\label{_tabela_seguranca_social_8c_a860fbf41a0d91275d8c3d5dd5575714e}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!imprimirTabela@{imprimirTabela}}
+\index{imprimirTabela@{imprimirTabela}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{imprimirTabela()}{imprimirTabela()}}
+{\footnotesize\ttfamily void imprimir\+Tabela (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}}}]{lista }\end{DoxyParamCaption})}
+
+Imprime a tabela de Segurança Social 
+\begin{DoxyParams}{Parameters}
+{\em lista} & estrutura que contém a tabela \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_a71adc19712acdcc17360c27bd703e142}\label{_tabela_seguranca_social_8c_a71adc19712acdcc17360c27bd703e142}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!lerFicheiroSegurancaSocial@{lerFicheiroSegurancaSocial}}
+\index{lerFicheiroSegurancaSocial@{lerFicheiroSegurancaSocial}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{lerFicheiroSegurancaSocial()}{lerFicheiroSegurancaSocial()}}
+{\footnotesize\ttfamily void ler\+Ficheiro\+Seguranca\+Social (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{lista,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Lê dados de um ficheiro,caso exista, e preenche a tabela de Segurança Social 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a estrutura que irá armazenar a tabela de Seguraça Social, caso a leitura de ficheiro seja realizada \\
+\hline
+{\em filename} & nome do ficheiro que contêm a tabela de Segurança Social \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_a7e682f65fb4424e5e962e69d5532f448}\label{_tabela_seguranca_social_8c_a7e682f65fb4424e5e962e69d5532f448}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!libertarMemoriaTabelaSS@{libertarMemoriaTabelaSS}}
+\index{libertarMemoriaTabelaSS@{libertarMemoriaTabelaSS}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaTabelaSS()}{libertarMemoriaTabelaSS()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Tabela\+SS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{tabela }\end{DoxyParamCaption})}
+
+Liberta a memória alocada para a tabela 
+\begin{DoxyParams}{Parameters}
+{\em tabela} & apontador para a tabela da Segurança Social \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tabela_seguranca_social_8c_a5e0af7266c9ee161cce5c367a377d86d}\label{_tabela_seguranca_social_8c_a5e0af7266c9ee161cce5c367a377d86d}} 
+\index{TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}!removerLinha@{removerLinha}}
+\index{removerLinha@{removerLinha}!TabelaSegurancaSocial.c@{TabelaSegurancaSocial.c}}
+\doxysubsubsection{\texorpdfstring{removerLinha()}{removerLinha()}}
+{\footnotesize\ttfamily void remover\+Linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+Remove uma taxa da tabela 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Irs} & apontador para a tabela da Segurança Social \\
+\hline
+\end{DoxyParams}

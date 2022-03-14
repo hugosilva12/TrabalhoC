@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['relatoriopercentagemestadocivil_398',['relatorioPercentagemEstadoCivil',['../_listagens_8c.html#a21c17571c6be51d915206db1ef532a43',1,'relatorioPercentagemEstadoCivil(ListaFuncionarios lista, PercentagemEstadoCivil *relatorio):&#160;Listagens.c'],['../_listagens_8h.html#a21c17571c6be51d915206db1ef532a43',1,'relatorioPercentagemEstadoCivil(ListaFuncionarios lista, PercentagemEstadoCivil *relatorio):&#160;Listagens.c']]],
+  ['relatoriovalorhora_399',['relatorioValorHora',['../_listagens_8c.html#abc82faa6b716f26be8eb6792d6f2c640',1,'relatorioValorHora(ListaFuncionarios lista, RelatorioValorHora *relatorio):&#160;Listagens.c'],['../_listagens_8h.html#abc82faa6b716f26be8eb6792d6f2c640',1,'relatorioValorHora(ListaFuncionarios lista, RelatorioValorHora *relatorio):&#160;Listagens.c']]],
+  ['removerlinha_400',['removerLinha',['../_tabela_seguranca_social_8c.html#a5e0af7266c9ee161cce5c367a377d86d',1,'removerLinha(TabelaSegurancaSocial *lista):&#160;TabelaSegurancaSocial.c'],['../_tabela_seguranca_social_8h.html#a5e0af7266c9ee161cce5c367a377d86d',1,'removerLinha(TabelaSegurancaSocial *lista):&#160;TabelaSegurancaSocial.c']]],
+  ['removerlinhatabelairs_401',['removerLinhaTabelaIrs',['../_tabela_irs_8c.html#a497361192cea3d52feaf8d8998ddf3de',1,'removerLinhaTabelaIrs(TabelaIrs *tabelaIrs):&#160;TabelaIrs.c'],['../_tabela_irs_8h.html#a2bd1b734a4330d39beb44abd257f465d',1,'removerLinhaTabelaIrs(TabelaIrs *listaTabelas):&#160;TabelaIrs.c']]]
+];

@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trabalho Prático: Código-Fonte de GestaoFuncionarios.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Trabalho Prático
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">GestaoFuncionarios.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_gestao_funcionarios_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef LISTA_FUNCIONARIOS_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define LISTA_FUNCIONARIOS_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_funcionario_8h.html">Funcionario.h</a>&quot;</span> </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define TAMANHO_MAX 5</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="struct_lista_funcionarios.html">   22</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="struct_lista_funcionarios.html#ad177b603ab89dc33b29abfcfd361feed">   23</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_lista_funcionarios.html#ad177b603ab89dc33b29abfcfd361feed">nrFuncionarios</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="struct_lista_funcionarios.html#adb7c9de4ce591210f9be807eeac88943">   24</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_lista_funcionarios.html#adb7c9de4ce591210f9be807eeac88943">tamanho</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="struct_lista_funcionarios.html#a9310c67d3062cfe12712430ae287472c">   25</a></span>&#160;    <a class="code" href="struct_funcionario.html">Funcionario</a> *<a class="code" href="struct_lista_funcionarios.html#a9310c67d3062cfe12712430ae287472c">listafuncionarios</a>; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;} <a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_gestao_funcionarios_8h.html#aac2bafab620783df4e088452a908047a">adicionarFuncionario</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_gestao_funcionarios_8h.html#ac3a49a49035bb7e262f6a91e5bafea2f">obterIndiceFuncionario</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios, <span class="keywordtype">int</span> idFunc );</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<a class="code" href="struct_funcionario.html">Funcionario</a>* <a class="code" href="_gestao_funcionarios_8h.html#a4841c15f611039f5daa258c4006d3351">obterFuncionario</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios, <span class="keywordtype">int</span> idFunc );</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestao_funcionarios_8h.html#a27eaeff189333394dd75c43059ac6426">atualizaFuncionario</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios,<span class="keywordtype">int</span> idFunc);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestao_funcionarios_8h.html#a8143504a5003efc8c1e90bd322d9ebb8">apagarFuncionario</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios, <span class="keywordtype">int</span> idFunc);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestao_funcionarios_8h.html#a49f61c469777d14b1b6465c2a8166b84">listarTodosFuncionarios</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestao_funcionarios_8h.html#a6df40ccb2beb2a74524f6d3504d2a64a">expandirMemoria</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestao_funcionarios_8h.html#a555d2b4799791432ecf116622dbeed7e">libertarMemoriaFuncionarios</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestao_funcionarios_8h.html#aafc92b04af509729efdc6f111def0c48">funcaoAlocarMemoria</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *lista);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_gestao_funcionarios_8h.html#ae40f979ca03fd6159cbb574dcf4537b0">mostraFuncionario</a>(<a class="code" href="struct_lista_funcionarios.html">ListaFuncionarios</a> *listafuncionarios, <span class="keywordtype">int</span> idFunc);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LISTA_FUNCIONARIOS_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astruct_lista_funcionarios_html_adb7c9de4ce591210f9be807eeac88943"><div class="ttname"><a href="struct_lista_funcionarios.html#adb7c9de4ce591210f9be807eeac88943">ListaFuncionarios::tamanho</a></div><div class="ttdeci">int tamanho</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.h:24</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_aac2bafab620783df4e088452a908047a"><div class="ttname"><a href="_gestao_funcionarios_8h.html#aac2bafab620783df4e088452a908047a">adicionarFuncionario</a></div><div class="ttdeci">int adicionarFuncionario(ListaFuncionarios *listafuncionarios)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:65</div></div>
+<div class="ttc" id="astruct_lista_funcionarios_html_a9310c67d3062cfe12712430ae287472c"><div class="ttname"><a href="struct_lista_funcionarios.html#a9310c67d3062cfe12712430ae287472c">ListaFuncionarios::listafuncionarios</a></div><div class="ttdeci">Funcionario * listafuncionarios</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.h:25</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_a555d2b4799791432ecf116622dbeed7e"><div class="ttname"><a href="_gestao_funcionarios_8h.html#a555d2b4799791432ecf116622dbeed7e">libertarMemoriaFuncionarios</a></div><div class="ttdeci">void libertarMemoriaFuncionarios(ListaFuncionarios *listafuncionarios)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:29</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_a8143504a5003efc8c1e90bd322d9ebb8"><div class="ttname"><a href="_gestao_funcionarios_8h.html#a8143504a5003efc8c1e90bd322d9ebb8">apagarFuncionario</a></div><div class="ttdeci">void apagarFuncionario(ListaFuncionarios *listafuncionarios, int idFunc)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:149</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_a49f61c469777d14b1b6465c2a8166b84"><div class="ttname"><a href="_gestao_funcionarios_8h.html#a49f61c469777d14b1b6465c2a8166b84">listarTodosFuncionarios</a></div><div class="ttdeci">void listarTodosFuncionarios(ListaFuncionarios *listafuncionarios)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:48</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_ac3a49a49035bb7e262f6a91e5bafea2f"><div class="ttname"><a href="_gestao_funcionarios_8h.html#ac3a49a49035bb7e262f6a91e5bafea2f">obterIndiceFuncionario</a></div><div class="ttdeci">int obterIndiceFuncionario(ListaFuncionarios *listafuncionarios, int idFunc)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:89</div></div>
+<div class="ttc" id="a_funcionario_8h_html"><div class="ttname"><a href="_funcionario_8h.html">Funcionario.h</a></div><div class="ttdoc">Biblioteca com a estrutura para armazenar informações do funcionário (parte pública)</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_a27eaeff189333394dd75c43059ac6426"><div class="ttname"><a href="_gestao_funcionarios_8h.html#a27eaeff189333394dd75c43059ac6426">atualizaFuncionario</a></div><div class="ttdeci">void atualizaFuncionario(ListaFuncionarios *listafuncionarios, int idFunc)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:105</div></div>
+<div class="ttc" id="astruct_lista_funcionarios_html"><div class="ttname"><a href="struct_lista_funcionarios.html">ListaFuncionarios</a></div><div class="ttdoc">Armazena uma lista de funcionários.</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.h:22</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_a6df40ccb2beb2a74524f6d3504d2a64a"><div class="ttname"><a href="_gestao_funcionarios_8h.html#a6df40ccb2beb2a74524f6d3504d2a64a">expandirMemoria</a></div><div class="ttdeci">void expandirMemoria(ListaFuncionarios *listafuncionarios)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:19</div></div>
+<div class="ttc" id="astruct_funcionario_html"><div class="ttname"><a href="struct_funcionario.html">Funcionario</a></div><div class="ttdoc">Armazena todas as informações relativas a um funcionário.</div><div class="ttdef"><b>Definition:</b> Funcionario.h:68</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_a4841c15f611039f5daa258c4006d3351"><div class="ttname"><a href="_gestao_funcionarios_8h.html#a4841c15f611039f5daa258c4006d3351">obterFuncionario</a></div><div class="ttdeci">Funcionario * obterFuncionario(ListaFuncionarios *listafuncionarios, int idFunc)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:134</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_ae40f979ca03fd6159cbb574dcf4537b0"><div class="ttname"><a href="_gestao_funcionarios_8h.html#ae40f979ca03fd6159cbb574dcf4537b0">mostraFuncionario</a></div><div class="ttdeci">void mostraFuncionario(ListaFuncionarios *listafuncionarios, int idFunc)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:119</div></div>
+<div class="ttc" id="a_gestao_funcionarios_8h_html_aafc92b04af509729efdc6f111def0c48"><div class="ttname"><a href="_gestao_funcionarios_8h.html#aafc92b04af509729efdc6f111def0c48">funcaoAlocarMemoria</a></div><div class="ttdeci">void funcaoAlocarMemoria(ListaFuncionarios *lista)</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.c:37</div></div>
+<div class="ttc" id="astruct_lista_funcionarios_html_ad177b603ab89dc33b29abfcfd361feed"><div class="ttname"><a href="struct_lista_funcionarios.html#ad177b603ab89dc33b29abfcfd361feed">ListaFuncionarios::nrFuncionarios</a></div><div class="ttdeci">int nrFuncionarios</div><div class="ttdef"><b>Definition:</b> GestaoFuncionarios.h:23</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

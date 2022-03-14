@@ -1,0 +1,4 @@
+IdTaxa TrabalhadoresPorContaOutrem EEmpregadora Trabalhador GLobal 
+1,Trabalhadores_em_geral 23.75,20.00,43.75 
+2,Membros_dos_órgãos_estatutários_das_pessoas_coletivas_em_geral 23.50,12.00,35.50 
+3,Membros_dos_órgãos_estatutários_que_exerçam_funções_de_gerência_ou_de_administração 23.75,5.00,28.75 

@@ -1,0 +1,159 @@
+\hypertarget{_menus_8h}{}\doxysection{Menus.\+h File Reference}
+\label{_menus_8h}\index{Menus.h@{Menus.h}}
+
+
+Biblioteca criada para os menus do programa.  
+
+
+{\ttfamily \#include \char`\"{}Gestao\+Funcionarios.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Tabela\+Irs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Tabela\+Seguranca\+Social.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Processamento\+Salario.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Listagens.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_menus_8h_a0d94e83f3988b622a53317d627746940}{menu\+Principal}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$lista\+Funcionarios, \mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$tabela\+Seguranca\+Social, \mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$tabela\+Irs, \mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} $\ast$relatorios\+Gerados)
+\item 
+void \mbox{\hyperlink{_menus_8h_aa7583c457f3f3c8431fc458a0a7009a0}{menu\+Editar\+Funcionario}} (\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$func)
+\item 
+void \mbox{\hyperlink{_menus_8h_af5eaae5f3bf2fbf46d291902c48bf4f8}{menu\+Principal\+Funcionarios}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$lista\+Funcionarios)
+\item 
+void \mbox{\hyperlink{_menus_8h_a4dbd8799f00d6259f7440181b100552a}{menu\+Listagens}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista\+Funcionarios, \mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$relatorio\+Idades, \mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$relatorio\+Tempo\+Empresa, \mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$despesas, \mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$gestao\+Faltas, \mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$relatorio\+Vhora, \mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$relatorio\+Estado\+Civil)
+\item 
+void \mbox{\hyperlink{_menus_8h_a22dc6c3b8055ff07ba06dc16ed9fb6a8}{imprimir\+Meses}} ()
+\item 
+void \mbox{\hyperlink{_menus_8h_a9acff3903cb23a2808afdaf6e2cd9f06}{menu\+Tabelas\+Irs}} (\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$tabela)
+\item 
+void \mbox{\hyperlink{_menus_8h_a38a6d5b415c7e5f6b90edd1fe21559b4}{menu\+Processamento\+Salario}} (\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} lista\+Funcionarios, \mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} tabela\+Irs, \mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} tabela\+Seguranca\+Social, \mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} $\ast$relatorios\+Guardados)
+\item 
+void \mbox{\hyperlink{_menus_8h_af07c9f2fcf3819c9b9d99da8edef45d4}{menu\+Tabela\+Seguranca\+Social}} (\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$tabela\+Seguranca\+Social)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Biblioteca criada para os menus do programa. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+11 Novembro 2020
+\end{DoxyDate}
+Biblioteca com as assinaturas das funções dos menus do programa 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_menus_8h_a22dc6c3b8055ff07ba06dc16ed9fb6a8}\label{_menus_8h_a22dc6c3b8055ff07ba06dc16ed9fb6a8}} 
+\index{Menus.h@{Menus.h}!imprimirMeses@{imprimirMeses}}
+\index{imprimirMeses@{imprimirMeses}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{imprimirMeses()}{imprimirMeses()}}
+{\footnotesize\ttfamily void imprimir\+Meses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Função que imprime os meses do ano \mbox{\Hypertarget{_menus_8h_aa7583c457f3f3c8431fc458a0a7009a0}\label{_menus_8h_aa7583c457f3f3c8431fc458a0a7009a0}} 
+\index{Menus.h@{Menus.h}!menuEditarFuncionario@{menuEditarFuncionario}}
+\index{menuEditarFuncionario@{menuEditarFuncionario}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{menuEditarFuncionario()}{menuEditarFuncionario()}}
+{\footnotesize\ttfamily void menu\+Editar\+Funcionario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_funcionario}{Funcionario}} $\ast$}]{func }\end{DoxyParamCaption})}
+
+Menu de alterações de dados de um funcionário ~\newline
+ 
+\begin{DoxyParams}{Parameters}
+{\em func} & apontador para o funcionário que será editado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_menus_8h_a4dbd8799f00d6259f7440181b100552a}\label{_menus_8h_a4dbd8799f00d6259f7440181b100552a}} 
+\index{Menus.h@{Menus.h}!menuListagens@{menuListagens}}
+\index{menuListagens@{menuListagens}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{menuListagens()}{menuListagens()}}
+{\footnotesize\ttfamily void menu\+Listagens (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista\+Funcionarios,  }\item[{\mbox{\hyperlink{struct_percentagem_idades}{Percentagem\+Idades}} $\ast$}]{relatorio\+Idades,  }\item[{\mbox{\hyperlink{struct_percentagem_tempo_empresa}{Percentagem\+Tempo\+Empresa}} $\ast$}]{relatorio\+Tempo\+Empresa,  }\item[{\mbox{\hyperlink{struct_despesas_anuais}{Despesas\+Anuais}} $\ast$}]{relatorio\+Despesas\+Anuais,  }\item[{\mbox{\hyperlink{struct_relatorio_faltas}{Relatorio\+Faltas}} $\ast$}]{gestao\+Faltas,  }\item[{\mbox{\hyperlink{struct_relatorio_valor_hora}{Relatorio\+Valor\+Hora}} $\ast$}]{relatorio\+Vhora,  }\item[{\mbox{\hyperlink{struct_percentagem_estado_civil}{Percentagem\+Estado\+Civil}} $\ast$}]{relatorio\+Estado\+Civil }\end{DoxyParamCaption})}
+
+Menu para as listagens propostas pelo grupo 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Funcionarios} & lista de funcionários \\
+\hline
+{\em relatorio\+Idades} & apontador para o relatório das percentagens por intervalo de idade \\
+\hline
+{\em relatorio\+Tempo\+Empresa} & apontador para o relatório das percentagens por anos na empresa \\
+\hline
+{\em relatorio\+Despesas\+Anuais} & apontador para o relatório das despesas anuais \\
+\hline
+{\em gestao\+Faltas} & apontador para a listagem de funcionários por faltas \\
+\hline
+{\em relatorio\+Vhora} & apontador para a listagem dos valores hora \\
+\hline
+{\em relatorio\+Estado\+Civil} & apontador para o relatório das percentagens por estado civil \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_menus_8h_a0d94e83f3988b622a53317d627746940}\label{_menus_8h_a0d94e83f3988b622a53317d627746940}} 
+\index{Menus.h@{Menus.h}!menuPrincipal@{menuPrincipal}}
+\index{menuPrincipal@{menuPrincipal}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{menuPrincipal()}{menuPrincipal()}}
+{\footnotesize\ttfamily void menu\+Principal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{lista\+Funcionarios,  }\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{tabela\+Seguranca\+Social,  }\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela\+Irs,  }\item[{\mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} $\ast$}]{relatorios\+Vencimentos\+Processados }\end{DoxyParamCaption})}
+
+Menu principal do programa 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Funcionarios} & apontador para a lista de funcionários \\
+\hline
+{\em tabela\+Seguranca\+Social} & apontador para a tabela de Segurança Social \\
+\hline
+{\em tabela\+Irs} & apontador para as tabelas de I\+RS \\
+\hline
+{\em lista\+Processamentos} & apontador para a lista de dados para processamento de salário \\
+\hline
+{\em lista\+Vencimentos\+Processados} & apontador para a lista de vencimentos processados \\
+\hline
+{\em relatorios\+Guardados} & apontador para a lista de relatórios guardados em ficheiro \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_menus_8h_af5eaae5f3bf2fbf46d291902c48bf4f8}\label{_menus_8h_af5eaae5f3bf2fbf46d291902c48bf4f8}} 
+\index{Menus.h@{Menus.h}!menuPrincipalFuncionarios@{menuPrincipalFuncionarios}}
+\index{menuPrincipalFuncionarios@{menuPrincipalFuncionarios}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{menuPrincipalFuncionarios()}{menuPrincipalFuncionarios()}}
+{\footnotesize\ttfamily void menu\+Principal\+Funcionarios (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}} $\ast$}]{lista\+Funcionarios }\end{DoxyParamCaption})}
+
+Menu principal da gestão de funcionários, contêm várias operações que é possível realizar (Edição, Remoção, Listagem e Criação de funcionários) 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Funcionarios} & apontador para a lista de funcionários \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_menus_8h_a38a6d5b415c7e5f6b90edd1fe21559b4}\label{_menus_8h_a38a6d5b415c7e5f6b90edd1fe21559b4}} 
+\index{Menus.h@{Menus.h}!menuProcessamentoSalario@{menuProcessamentoSalario}}
+\index{menuProcessamentoSalario@{menuProcessamentoSalario}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{menuProcessamentoSalario()}{menuProcessamentoSalario()}}
+{\footnotesize\ttfamily void menu\+Processamento\+Salario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_funcionarios}{Lista\+Funcionarios}}}]{lista\+Funcionarios,  }\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}}}]{tabela\+Irs,  }\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}}}]{tabela\+Seguranca\+Social,  }\item[{\mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} $\ast$}]{relatorios\+Guardados }\end{DoxyParamCaption})}
+
+Menu responsável pelas operações relacionadas com processamento de salário 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Processamentos} & apontador para a lista que armazena os dados para processamento \\
+\hline
+{\em lista\+Funcionarios} & lista de funcionários \\
+\hline
+{\em tabela\+Irs} & tabelas de I\+RS \\
+\hline
+{\em tabela\+Seguranca\+Social} & tabela da Segurança Social \\
+\hline
+{\em relatorios\+Guardados} & apontador para a lista de relatórios processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_menus_8h_af07c9f2fcf3819c9b9d99da8edef45d4}\label{_menus_8h_af07c9f2fcf3819c9b9d99da8edef45d4}} 
+\index{Menus.h@{Menus.h}!menuTabelaSegurancaSocial@{menuTabelaSegurancaSocial}}
+\index{menuTabelaSegurancaSocial@{menuTabelaSegurancaSocial}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{menuTabelaSegurancaSocial()}{menuTabelaSegurancaSocial()}}
+{\footnotesize\ttfamily void menu\+Tabela\+Seguranca\+Social (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_seguranca_social}{Tabela\+Seguranca\+Social}} $\ast$}]{tabela\+Seguranca\+Social }\end{DoxyParamCaption})}
+
+Menu de gestão da tabela de Segurança Social 
+\begin{DoxyParams}{Parameters}
+{\em tabela\+Seguranca\+Social} & apontador para a tabela \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_menus_8h_a9acff3903cb23a2808afdaf6e2cd9f06}\label{_menus_8h_a9acff3903cb23a2808afdaf6e2cd9f06}} 
+\index{Menus.h@{Menus.h}!menuTabelasIrs@{menuTabelasIrs}}
+\index{menuTabelasIrs@{menuTabelasIrs}!Menus.h@{Menus.h}}
+\doxysubsubsection{\texorpdfstring{menuTabelasIrs()}{menuTabelasIrs()}}
+{\footnotesize\ttfamily void menu\+Tabelas\+Irs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_tabela_irs}{Tabela\+Irs}} $\ast$}]{tabela }\end{DoxyParamCaption})}
+
+Menu de gestão da tabela de I\+RS 
+\begin{DoxyParams}{Parameters}
+{\em tabela} & apontador para a tabela de I\+RS \\
+\hline
+\end{DoxyParams}

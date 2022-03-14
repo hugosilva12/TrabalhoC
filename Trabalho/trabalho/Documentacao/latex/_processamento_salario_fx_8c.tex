@@ -1,0 +1,144 @@
+\hypertarget{_processamento_salario_fx_8c}{}\doxysection{Processamento\+Salario\+Fx.\+c File Reference}
+\label{_processamento_salario_fx_8c}\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+
+
+Ficheiro c que implementa as funções da bibloteca Processamento\+Salario\+Fx.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Processamento\+Salario\+F\+X.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Utils.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_a699349f69301c56ab896d688fb956edf}{libertar\+Memoria\+Dados\+Processamento}} (\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} $\ast$lista)
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_ab6dedb0173e90e2e4af1ac4f63c3f894}{libertar\+Lista\+Vencimentos\+Processados}} (\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$vencimentos)
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_ae866480f7702fec901c016636af57b31}{carregar\+Ficheiro\+Processamento}} (\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} $\ast$lista\+Dados\+Processamento, char $\ast$filename, char $\ast$filerelatorio, \mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$lista\+Vencimentos)
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_a2f03a3cce8a56c7f60d9d69e493015bc}{importar\+Ficheiro\+Processamento}} (\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} $\ast$lista, char $\ast$filename)
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_a149f7c3eb65d0241d08ea63cde767e2c}{gerar\+Relatorio}} (\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} lista)
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_a14efb836338440f415222bc02ac38a9c}{guardar\+Relatorios\+Processados}} (\mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} relatorios)
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_a31f5c482a72751a581aecb1279b86b53}{libertar\+Memoria\+Relatorios\+Processados}} (\mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} $\ast$relatorios)
+\item 
+void \mbox{\hyperlink{_processamento_salario_fx_8c_a363dd2ecbfbdb45d5892982c7d2d2c73}{obter\+Relatorio}} (\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$lista)
+\item 
+\mbox{\Hypertarget{_processamento_salario_fx_8c_a2b92e9c0ab81d0bdfec0b68096143f73}\label{_processamento_salario_fx_8c_a2b92e9c0ab81d0bdfec0b68096143f73}} 
+void {\bfseries obter\+Todos\+Relatorios\+Processados} (\mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} $\ast$relatorios)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro c que implementa as funções da bibloteca Processamento\+Salario\+Fx. 
+
+\begin{DoxyAuthor}{Author}
+Hugo Silva 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+25 Novembro 2020
+\end{DoxyDate}
+Neste ficheiro é implementada a funções que importa dados para processamento de salário. É também implementada a função que gera um relatório sobre os vencimentos processados 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_ae866480f7702fec901c016636af57b31}\label{_processamento_salario_fx_8c_ae866480f7702fec901c016636af57b31}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!carregarFicheiroProcessamento@{carregarFicheiroProcessamento}}
+\index{carregarFicheiroProcessamento@{carregarFicheiroProcessamento}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{carregarFicheiroProcessamento()}{carregarFicheiroProcessamento()}}
+{\footnotesize\ttfamily void carregar\+Ficheiro\+Processamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} $\ast$}]{lista\+Dados\+Processamento,  }\item[{char $\ast$}]{filename,  }\item[{char $\ast$}]{filerelatorio,  }\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$}]{lista\+Vencimentos }\end{DoxyParamCaption})}
+
+Função que importa o ficheiro com dados a processar e aloca memória para a lista de vencimentos processados 
+\begin{DoxyParams}{Parameters}
+{\em lista\+Dados\+Processamento} & lista de dados para processamento, que irá armazenar a informação lida do ficheiro \\
+\hline
+{\em filename} & nome do ficheiro de importação dos dados \\
+\hline
+{\em filerelatorio} & nome do relatório que irá ser gerado \\
+\hline
+{\em lista\+Vencimentos} & lista de vencimentos processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_a149f7c3eb65d0241d08ea63cde767e2c}\label{_processamento_salario_fx_8c_a149f7c3eb65d0241d08ea63cde767e2c}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!gerarRelatorio@{gerarRelatorio}}
+\index{gerarRelatorio@{gerarRelatorio}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{gerarRelatorio()}{gerarRelatorio()}}
+{\footnotesize\ttfamily void gerar\+Relatorio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}}}]{lista }\end{DoxyParamCaption})}
+
+Escreve a lista de vencimentos processados num mês em ficheiro, caso seja possível 
+\begin{DoxyParams}{Parameters}
+{\em lista} & lista de vencimentos processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_a14efb836338440f415222bc02ac38a9c}\label{_processamento_salario_fx_8c_a14efb836338440f415222bc02ac38a9c}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!guardarRelatoriosProcessados@{guardarRelatoriosProcessados}}
+\index{guardarRelatoriosProcessados@{guardarRelatoriosProcessados}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{guardarRelatoriosProcessados()}{guardarRelatoriosProcessados()}}
+{\footnotesize\ttfamily void guardar\+Relatorios\+Processados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}}}]{relatorios }\end{DoxyParamCaption})}
+
+Escreve todos os relatórios de vencimentos processados em ficheiro 
+\begin{DoxyParams}{Parameters}
+{\em relatorios} & lista de todos os relatórios processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_a2f03a3cce8a56c7f60d9d69e493015bc}\label{_processamento_salario_fx_8c_a2f03a3cce8a56c7f60d9d69e493015bc}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!importarFicheiroProcessamento@{importarFicheiroProcessamento}}
+\index{importarFicheiroProcessamento@{importarFicheiroProcessamento}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{importarFicheiroProcessamento()}{importarFicheiroProcessamento()}}
+{\footnotesize\ttfamily void importar\+Ficheiro\+Processamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} $\ast$}]{lista,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+Função que importa ficheiro com dados para processamento, caso exista 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a lista de processamentos que irá armazenar os dados lidos do ficheiro, no caso de ser possível \\
+\hline
+{\em filename} & nome do ficheiro que se pretende importar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_ab6dedb0173e90e2e4af1ac4f63c3f894}\label{_processamento_salario_fx_8c_ab6dedb0173e90e2e4af1ac4f63c3f894}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!libertarListaVencimentosProcessados@{libertarListaVencimentosProcessados}}
+\index{libertarListaVencimentosProcessados@{libertarListaVencimentosProcessados}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{libertarListaVencimentosProcessados()}{libertarListaVencimentosProcessados()}}
+{\footnotesize\ttfamily void libertar\+Lista\+Vencimentos\+Processados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$}]{vencimentos }\end{DoxyParamCaption})}
+
+Liberta a memória alocada da lista de vencimentos processados 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a lista de vencimentos processados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_a699349f69301c56ab896d688fb956edf}\label{_processamento_salario_fx_8c_a699349f69301c56ab896d688fb956edf}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!libertarMemoriaDadosProcessamento@{libertarMemoriaDadosProcessamento}}
+\index{libertarMemoriaDadosProcessamento@{libertarMemoriaDadosProcessamento}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaDadosProcessamento()}{libertarMemoriaDadosProcessamento()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Dados\+Processamento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_processamentos}{Lista\+Processamentos}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+Liberta a memória alocada da lista de dados para processamento 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a lista de processamentos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_a31f5c482a72751a581aecb1279b86b53}\label{_processamento_salario_fx_8c_a31f5c482a72751a581aecb1279b86b53}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!libertarMemoriaRelatoriosProcessados@{libertarMemoriaRelatoriosProcessados}}
+\index{libertarMemoriaRelatoriosProcessados@{libertarMemoriaRelatoriosProcessados}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaRelatoriosProcessados()}{libertarMemoriaRelatoriosProcessados()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Relatorios\+Processados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_todos_vencimentos_processados}{Lista\+Todos\+Vencimentos\+Processados}} $\ast$}]{relatorios }\end{DoxyParamCaption})}
+
+Liberta memória alocada para os vencimentos processados, caso exista 
+\begin{DoxyParams}{Parameters}
+{\em relatorios} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_processamento_salario_fx_8c_a363dd2ecbfbdb45d5892982c7d2d2c73}\label{_processamento_salario_fx_8c_a363dd2ecbfbdb45d5892982c7d2d2c73}} 
+\index{ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}!obterRelatorio@{obterRelatorio}}
+\index{obterRelatorio@{obterRelatorio}!ProcessamentoSalarioFx.c@{ProcessamentoSalarioFx.c}}
+\doxysubsubsection{\texorpdfstring{obterRelatorio()}{obterRelatorio()}}
+{\footnotesize\ttfamily void obter\+Relatorio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_lista_vencimentos_processados_mes}{Lista\+Vencimentos\+Processados\+Mes}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+Importa um relatório de vencimentos processados, caso exista 
+\begin{DoxyParams}{Parameters}
+{\em lista} & apontador para a lista de vencimentos processados, que irá armazenar os valores lidos do ficheiro \\
+\hline
+\end{DoxyParams}

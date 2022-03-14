@@ -1,0 +1,7 @@
+Número_de_Funcionarios_analisados: 2 
+Número_de_Funcionarios_com_Direito_a_Bónus_por_Tempo_Empresa: 1 
+Número_de_Funcionarios_sem_Bónus_por_tempo: 1 
+Mais_de_20_anos: 0.00 %
+Entre_11_e_20_anos: 0.00 %
+Entre_5_e_10_anos: 0.00 %
+Menos_de_5_anos: 0.00 %

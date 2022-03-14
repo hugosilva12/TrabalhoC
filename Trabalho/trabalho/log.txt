@@ -1,0 +1,1582 @@
+2021-01-13 15:18:37 - Leitura Ficheiro Segurança Social
+2021-01-13 15:18:37 - Leitura Ficheiro Funcionários
+2021-01-13 15:18:37 - Leitura Ficheiro IRS
+2021-01-13 15:20:35 - Leitura Ficheiro Segurança Social
+2021-01-13 15:20:35 - Leitura Ficheiro Funcionários
+2021-01-13 15:20:35 - Leitura Ficheiro IRS
+2021-01-13 15:21:59 - Leitura Ficheiro Segurança Social
+2021-01-13 15:21:59 - Leitura Ficheiro Funcionários
+2021-01-13 15:21:59 - Leitura Ficheiro IRS
+2021-01-13 15:39:18 - Leitura Ficheiro Segurança Social
+2021-01-13 15:39:18 - Leitura Ficheiro Funcionários
+2021-01-13 15:39:18 - Leitura Ficheiro IRS
+2021-01-13 15:43:41 - Leitura Ficheiro Segurança Social
+2021-01-13 15:43:41 - Leitura Ficheiro Funcionários
+2021-01-13 15:43:41 - Leitura Ficheiro IRS
+2021-01-13 15:44:13 - Escrita Ficheiro Funcionários
+2021-01-13 15:44:13 - Escrita Ficheiro Irs
+2021-01-13 15:44:13 - Escrita Ficheiro Segurança Social
+2021-01-13 15:44:13 - Escrita Relatorio Percentagem Idade
+2021-01-13 15:44:13 - Escrita Relatorio Tempo Empresa
+2021-01-13 15:44:13 - Escrita Relatorio Despesas Totais
+2021-01-13 15:44:13 - Escrita Relatorio Faltas
+2021-01-13 15:44:13 - Escrita Relatorio Valor Hora
+2021-01-13 15:44:13 - Escrita Relatorio Estado Civil
+2021-01-13 15:47:55 - Leitura Ficheiro Segurança Social
+2021-01-13 15:47:55 - Leitura Ficheiro Funcionários
+2021-01-13 15:47:55 - Leitura Ficheiro IRS
+2021-01-13 17:04:40 - Leitura Relatórios Processados
+2021-01-13 17:04:40 - Leitura Ficheiro Segurança Social
+2021-01-13 17:04:40 - Leitura Ficheiro Funcionários
+2021-01-13 17:04:40 - Leitura Ficheiro IRS
+2021-01-13 17:07:12 - Leitura Relatórios Processados
+2021-01-13 17:07:12 - Leitura Ficheiro Segurança Social
+2021-01-13 17:07:12 - Leitura Ficheiro Funcionários
+2021-01-13 17:07:12 - Leitura Ficheiro IRS
+2021-01-13 17:07:29 - Escrita Ficheiro Funcionários
+2021-01-13 17:07:29 - Escrita Ficheiro Irs
+2021-01-13 17:07:29 - Escrita Ficheiro Segurança Social
+2021-01-13 17:07:29 - Escrita Relatorio Percentagem Idade
+2021-01-13 17:07:29 - Escrita Relatorio Tempo Empresa
+2021-01-13 17:07:29 - Escrita Relatorio Despesas Totais
+2021-01-13 17:07:29 - Escrita Relatorio Faltas
+2021-01-13 17:07:29 - Escrita Relatorio Valor Hora
+2021-01-13 17:07:29 - Escrita Relatorio Estado Civil
+2021-01-13 17:07:39 - Leitura Relatórios Processados
+2021-01-13 17:07:39 - Leitura Ficheiro Segurança Social
+2021-01-13 17:07:39 - Leitura Ficheiro Funcionários
+2021-01-13 17:07:39 - Leitura Ficheiro IRS
+2021-01-13 17:10:31 - Leitura Relatórios Processados
+2021-01-13 17:10:31 - Leitura Ficheiro Segurança Social
+2021-01-13 17:10:31 - Leitura Ficheiro Funcionários
+2021-01-13 17:10:31 - Leitura Ficheiro IRS
+2021-01-13 17:12:04 - Leitura Relatórios Processados
+2021-01-13 17:12:04 - Leitura Ficheiro Segurança Social
+2021-01-13 17:12:04 - Leitura Ficheiro Funcionários
+2021-01-13 17:12:04 - Leitura Ficheiro IRS
+2021-01-13 17:12:49 - Leitura Relatórios Processados
+2021-01-13 17:12:49 - Leitura Ficheiro Segurança Social
+2021-01-13 17:12:49 - Leitura Ficheiro Funcionários
+2021-01-13 17:12:49 - Leitura Ficheiro IRS
+2021-01-13 17:22:01 - Leitura Relatórios Processados
+2021-01-13 17:22:01 - Leitura Ficheiro Segurança Social
+2021-01-13 17:22:01 - Leitura Ficheiro Funcionários
+2021-01-13 17:22:01 - Leitura Ficheiro IRS
+2021-01-13 17:22:24 - Escrita Ficheiro Funcionários
+2021-01-13 17:22:24 - Escrita Ficheiro Irs
+2021-01-13 17:22:24 - Escrita Ficheiro Segurança Social
+2021-01-13 17:22:24 - Escrita Relatorio Percentagem Idade
+2021-01-13 17:22:24 - Escrita Relatorio Tempo Empresa
+2021-01-13 17:22:24 - Escrita Relatorio Despesas Totais
+2021-01-13 17:22:24 - Escrita Relatorio Faltas
+2021-01-13 17:22:24 - Escrita Relatorio Valor Hora
+2021-01-13 17:22:24 - Escrita Relatorio Estado Civil
+2021-01-13 17:22:34 - Leitura Relatórios Processados
+2021-01-13 17:22:34 - Leitura Ficheiro Segurança Social
+2021-01-13 17:22:34 - Leitura Ficheiro Funcionários
+2021-01-13 17:22:34 - Leitura Ficheiro IRS
+2021-01-13 17:23:23 - Leitura Relatórios Processados
+2021-01-13 17:23:23 - Leitura Ficheiro Segurança Social
+2021-01-13 17:23:23 - Leitura Ficheiro Funcionários
+2021-01-13 17:23:23 - Leitura Ficheiro IRS
+2021-01-13 17:27:32 - Leitura Relatórios Processados
+2021-01-13 17:27:32 - Leitura Ficheiro Segurança Social
+2021-01-13 17:27:32 - Leitura Ficheiro Funcionários
+2021-01-13 17:27:32 - Leitura Ficheiro IRS
+2021-01-13 17:27:46 - Escrita Ficheiro Funcionários
+2021-01-13 17:27:46 - Escrita Ficheiro Irs
+2021-01-13 17:27:46 - Escrita Ficheiro Segurança Social
+2021-01-13 17:27:46 - Escrita Relatorio Percentagem Idade
+2021-01-13 17:27:46 - Escrita Relatorio Tempo Empresa
+2021-01-13 17:27:46 - Escrita Relatorio Despesas Totais
+2021-01-13 17:27:46 - Escrita Relatorio Faltas
+2021-01-13 17:27:46 - Escrita Relatorio Valor Hora
+2021-01-13 17:27:46 - Escrita Relatorio Estado Civil
+2021-01-13 17:29:10 - Leitura Relatórios Processados
+2021-01-13 17:29:10 - Leitura Ficheiro Segurança Social
+2021-01-13 17:29:10 - Leitura Ficheiro Funcionários
+2021-01-13 17:29:10 - Leitura Ficheiro IRS
+2021-01-13 17:29:49 - Leitura Relatórios Processados
+2021-01-13 17:29:49 - Leitura Ficheiro Segurança Social
+2021-01-13 17:29:49 - Leitura Ficheiro Funcionários
+2021-01-13 17:29:49 - Leitura Ficheiro IRS
+2021-01-13 18:08:48 - Leitura Relatórios Processados
+2021-01-13 18:08:48 - Leitura Ficheiro Segurança Social
+2021-01-13 18:08:48 - Leitura Ficheiro Funcionários
+2021-01-13 18:08:48 - Leitura Ficheiro IRS
+2021-01-13 18:12:26 - Leitura Relatórios Processados
+2021-01-13 18:12:26 - Leitura Ficheiro Segurança Social
+2021-01-13 18:12:26 - Leitura Ficheiro Funcionários
+2021-01-13 18:12:26 - Leitura Ficheiro IRS
+2021-01-13 18:14:54 - Leitura Relatórios Processados
+2021-01-13 18:14:54 - Leitura Ficheiro Segurança Social
+2021-01-13 18:14:54 - Leitura Ficheiro Funcionários
+2021-01-13 18:14:54 - Leitura Ficheiro IRS
+2021-01-13 18:15:21 - Leitura Relatórios Processados
+2021-01-13 18:15:21 - Leitura Ficheiro Segurança Social
+2021-01-13 18:15:21 - Leitura Ficheiro Funcionários
+2021-01-13 18:15:21 - Leitura Ficheiro IRS
+2021-01-13 18:16:46 - Leitura Relatórios Processados
+2021-01-13 18:16:46 - Leitura Ficheiro Segurança Social
+2021-01-13 18:16:46 - Leitura Ficheiro Funcionários
+2021-01-13 18:16:46 - Leitura Ficheiro IRS
+2021-01-13 18:17:44 - Leitura Relatórios Processados
+2021-01-13 18:17:44 - Leitura Ficheiro Segurança Social
+2021-01-13 18:17:44 - Leitura Ficheiro Funcionários
+2021-01-13 18:17:44 - Leitura Ficheiro IRS
+2021-01-13 18:22:00 - Leitura Relatórios Processados
+2021-01-13 18:22:00 - Leitura Ficheiro Segurança Social
+2021-01-13 18:22:00 - Leitura Ficheiro Funcionários
+2021-01-13 18:22:00 - Leitura Ficheiro IRS
+2021-01-13 18:22:34 - Leitura Relatórios Processados
+2021-01-13 18:22:34 - Leitura Ficheiro Segurança Social
+2021-01-13 18:22:34 - Leitura Ficheiro Funcionários
+2021-01-13 18:22:34 - Leitura Ficheiro IRS
+2021-01-13 18:23:33 - Leitura Relatórios Processados
+2021-01-13 18:23:33 - Leitura Ficheiro Segurança Social
+2021-01-13 18:23:33 - Leitura Ficheiro Funcionários
+2021-01-13 18:23:33 - Leitura Ficheiro IRS
+2021-01-13 18:27:05 - Leitura Relatórios Processados
+2021-01-13 18:27:05 - Leitura Ficheiro Segurança Social
+2021-01-13 18:27:05 - Leitura Ficheiro Funcionários
+2021-01-13 18:27:05 - Leitura Ficheiro IRS
+2021-01-13 18:43:31 - Leitura Relatórios Processados
+2021-01-13 18:43:31 - Leitura Ficheiro Segurança Social
+2021-01-13 18:43:31 - Leitura Ficheiro Funcionários
+2021-01-13 18:43:31 - Leitura Ficheiro IRS
+2021-01-13 18:44:55 - Leitura Relatórios Processados
+2021-01-13 18:44:55 - Leitura Ficheiro Segurança Social
+2021-01-13 18:44:55 - Leitura Ficheiro Funcionários
+2021-01-13 18:44:55 - Leitura Ficheiro IRS
+2021-01-13 18:49:50 - Leitura Relatórios Processados
+2021-01-13 18:49:50 - Leitura Ficheiro Segurança Social
+2021-01-13 18:49:50 - Leitura Ficheiro Funcionários
+2021-01-13 18:49:50 - Leitura Ficheiro IRS
+2021-01-13 19:59:46 - Leitura Relatórios Processados
+2021-01-13 19:59:46 - Leitura Ficheiro Segurança Social
+2021-01-13 19:59:46 - Leitura Ficheiro Funcionários
+2021-01-13 19:59:46 - Leitura Ficheiro IRS
+2021-01-13 20:01:15 - Leitura Relatórios Processados
+2021-01-13 20:01:15 - Leitura Ficheiro Segurança Social
+2021-01-13 20:01:15 - Leitura Ficheiro Funcionários
+2021-01-13 20:01:15 - Leitura Ficheiro IRS
+2021-01-13 20:03:06 - Leitura Relatórios Processados
+2021-01-13 20:03:06 - Leitura Ficheiro Segurança Social
+2021-01-13 20:03:06 - Leitura Ficheiro Funcionários
+2021-01-13 20:03:06 - Leitura Ficheiro IRS
+2021-01-13 20:06:06 - Leitura Relatórios Processados
+2021-01-13 20:06:06 - Leitura Ficheiro Segurança Social
+2021-01-13 20:06:06 - Leitura Ficheiro Funcionários
+2021-01-13 20:06:06 - Leitura Ficheiro IRS
+2021-01-13 20:08:45 - Leitura Relatórios Processados
+2021-01-13 20:08:45 - Leitura Ficheiro Segurança Social
+2021-01-13 20:08:45 - Leitura Ficheiro Funcionários
+2021-01-13 20:08:45 - Leitura Ficheiro IRS
+2021-01-13 20:09:01 - Leitura Relatórios Processados
+2021-01-13 20:09:01 - Leitura Ficheiro Segurança Social
+2021-01-13 20:09:01 - Leitura Ficheiro Funcionários
+2021-01-13 20:09:01 - Leitura Ficheiro IRS
+2021-01-13 20:09:53 - Leitura Relatórios Processados
+2021-01-13 20:09:53 - Leitura Ficheiro Segurança Social
+2021-01-13 20:09:53 - Leitura Ficheiro Funcionários
+2021-01-13 20:09:53 - Leitura Ficheiro IRS
+2021-01-13 20:10:39 - Leitura Relatórios Processados
+2021-01-13 20:10:39 - Leitura Ficheiro Segurança Social
+2021-01-13 20:10:39 - Leitura Ficheiro Funcionários
+2021-01-13 20:10:39 - Leitura Ficheiro IRS
+2021-01-13 20:13:24 - Leitura Relatórios Processados
+2021-01-13 20:13:24 - Leitura Ficheiro Segurança Social
+2021-01-13 20:13:24 - Leitura Ficheiro Funcionários
+2021-01-13 20:13:24 - Leitura Ficheiro IRS
+2021-01-13 20:15:01 - Leitura Relatórios Processados
+2021-01-13 20:15:01 - Leitura Ficheiro Segurança Social
+2021-01-13 20:15:01 - Leitura Ficheiro Funcionários
+2021-01-13 20:15:01 - Leitura Ficheiro IRS
+2021-01-13 20:16:11 - Leitura Relatórios Processados
+2021-01-13 20:16:11 - Leitura Ficheiro Segurança Social
+2021-01-13 20:16:11 - Leitura Ficheiro Funcionários
+2021-01-13 20:16:11 - Leitura Ficheiro IRS
+2021-01-13 20:17:21 - Leitura Relatórios Processados
+2021-01-13 20:17:21 - Leitura Ficheiro Segurança Social
+2021-01-13 20:17:21 - Leitura Ficheiro Funcionários
+2021-01-13 20:17:21 - Leitura Ficheiro IRS
+2021-01-13 20:18:41 - Leitura Relatórios Processados
+2021-01-13 20:18:41 - Leitura Ficheiro Segurança Social
+2021-01-13 20:18:41 - Leitura Ficheiro Funcionários
+2021-01-13 20:18:41 - Leitura Ficheiro IRS
+2021-01-13 20:20:19 - Leitura Relatórios Processados
+2021-01-13 20:20:19 - Leitura Ficheiro Segurança Social
+2021-01-13 20:20:19 - Leitura Ficheiro Funcionários
+2021-01-13 20:20:19 - Leitura Ficheiro IRS
+2021-01-13 20:20:40 - Leitura Relatórios Processados
+2021-01-13 20:20:40 - Leitura Ficheiro Segurança Social
+2021-01-13 20:20:40 - Leitura Ficheiro Funcionários
+2021-01-13 20:20:40 - Leitura Ficheiro IRS
+2021-01-13 20:21:16 - Leitura Relatórios Processados
+2021-01-13 20:21:16 - Leitura Ficheiro Segurança Social
+2021-01-13 20:21:16 - Leitura Ficheiro Funcionários
+2021-01-13 20:21:16 - Leitura Ficheiro IRS
+2021-01-13 20:28:07 - Leitura Relatórios Processados
+2021-01-13 20:28:07 - Leitura Ficheiro Segurança Social
+2021-01-13 20:28:07 - Leitura Ficheiro Funcionários
+2021-01-13 20:28:07 - Leitura Ficheiro IRS
+2021-01-13 20:29:13 - Leitura Relatórios Processados
+2021-01-13 20:29:13 - Leitura Ficheiro Segurança Social
+2021-01-13 20:29:13 - Leitura Ficheiro Funcionários
+2021-01-13 20:29:13 - Leitura Ficheiro IRS
+2021-01-13 20:35:53 - Leitura Relatórios Processados
+2021-01-13 20:35:53 - Leitura Ficheiro Segurança Social
+2021-01-13 20:35:53 - Leitura Ficheiro Funcionários
+2021-01-13 20:35:53 - Leitura Ficheiro IRS
+2021-01-13 20:36:36 - Leitura Relatórios Processados
+2021-01-13 20:36:36 - Leitura Ficheiro Segurança Social
+2021-01-13 20:36:36 - Leitura Ficheiro Funcionários
+2021-01-13 20:36:36 - Leitura Ficheiro IRS
+2021-01-13 20:40:21 - Leitura Relatórios Processados
+2021-01-13 20:40:21 - Leitura Ficheiro Segurança Social
+2021-01-13 20:40:21 - Leitura Ficheiro Funcionários
+2021-01-13 20:40:21 - Leitura Ficheiro IRS
+2021-01-13 20:55:37 - Leitura Relatórios Processados
+2021-01-13 20:55:37 - Leitura Ficheiro Segurança Social
+2021-01-13 20:55:37 - Leitura Ficheiro Funcionários
+2021-01-13 20:55:37 - Leitura Ficheiro IRS
+2021-01-13 20:58:31 - Leitura Relatórios Processados
+2021-01-13 20:58:31 - Leitura Ficheiro Segurança Social
+2021-01-13 20:58:31 - Leitura Ficheiro Funcionários
+2021-01-13 20:58:31 - Leitura Ficheiro IRS
+2021-01-13 20:59:06 - Leitura Relatórios Processados
+2021-01-13 20:59:06 - Leitura Ficheiro Segurança Social
+2021-01-13 20:59:06 - Leitura Ficheiro Funcionários
+2021-01-13 20:59:06 - Leitura Ficheiro IRS
+2021-01-13 21:00:03 - Leitura Relatórios Processados
+2021-01-13 21:00:03 - Leitura Ficheiro Segurança Social
+2021-01-13 21:00:03 - Leitura Ficheiro Funcionários
+2021-01-13 21:00:03 - Leitura Ficheiro IRS
+2021-01-13 21:03:19 - Leitura Relatórios Processados
+2021-01-13 21:03:19 - Leitura Ficheiro Segurança Social
+2021-01-13 21:03:19 - Leitura Ficheiro Funcionários
+2021-01-13 21:03:19 - Leitura Ficheiro IRS
+2021-01-13 21:04:09 - Leitura Relatórios Processados
+2021-01-13 21:04:09 - Leitura Ficheiro Segurança Social
+2021-01-13 21:04:09 - Leitura Ficheiro Funcionários
+2021-01-13 21:04:09 - Leitura Ficheiro IRS
+2021-01-13 21:07:13 - Leitura Relatórios Processados
+2021-01-13 21:07:13 - Leitura Ficheiro Segurança Social
+2021-01-13 21:07:13 - Leitura Ficheiro Funcionários
+2021-01-13 21:07:13 - Leitura Ficheiro IRS
+2021-01-13 21:11:17 - Leitura Relatórios Processados
+2021-01-13 21:11:17 - Leitura Ficheiro Segurança Social
+2021-01-13 21:11:17 - Leitura Ficheiro Funcionários
+2021-01-13 21:11:17 - Leitura Ficheiro IRS
+2021-01-13 21:13:05 - Leitura Relatórios Processados
+2021-01-13 21:13:05 - Leitura Ficheiro Segurança Social
+2021-01-13 21:13:05 - Leitura Ficheiro Funcionários
+2021-01-13 21:13:05 - Leitura Ficheiro IRS
+2021-01-13 21:22:00 - Leitura Relatórios Processados
+2021-01-13 21:22:00 - Leitura Ficheiro Segurança Social
+2021-01-13 21:22:00 - Leitura Ficheiro Funcionários
+2021-01-13 21:22:00 - Leitura Ficheiro IRS
+2021-01-13 21:25:41 - Leitura Relatórios Processados
+2021-01-13 21:25:41 - Leitura Ficheiro Segurança Social
+2021-01-13 21:25:41 - Leitura Ficheiro Funcionários
+2021-01-13 21:25:41 - Leitura Ficheiro IRS
+2021-01-13 21:27:19 - Leitura Relatórios Processados
+2021-01-13 21:27:19 - Leitura Ficheiro Segurança Social
+2021-01-13 21:27:19 - Leitura Ficheiro Funcionários
+2021-01-13 21:27:19 - Leitura Ficheiro IRS
+2021-01-13 21:28:16 - Leitura Relatórios Processados
+2021-01-13 21:28:16 - Leitura Ficheiro Segurança Social
+2021-01-13 21:28:16 - Leitura Ficheiro Funcionários
+2021-01-13 21:28:16 - Leitura Ficheiro IRS
+2021-01-13 21:42:57 - Leitura Relatórios Processados
+2021-01-13 21:42:57 - Leitura Ficheiro Segurança Social
+2021-01-13 21:42:57 - Leitura Ficheiro Funcionários
+2021-01-13 21:42:57 - Leitura Ficheiro IRS
+2021-01-13 21:45:08 - Leitura Relatórios Processados
+2021-01-13 21:45:08 - Leitura Ficheiro Segurança Social
+2021-01-13 21:45:08 - Leitura Ficheiro Funcionários
+2021-01-13 21:45:08 - Leitura Ficheiro IRS
+2021-01-13 21:47:47 - Leitura Relatórios Processados
+2021-01-13 21:47:47 - Leitura Ficheiro Segurança Social
+2021-01-13 21:47:47 - Leitura Ficheiro Funcionários
+2021-01-13 21:47:47 - Leitura Ficheiro IRS
+2021-01-13 21:49:45 - Leitura Relatórios Processados
+2021-01-13 21:49:45 - Leitura Ficheiro Segurança Social
+2021-01-13 21:49:45 - Leitura Ficheiro Funcionários
+2021-01-13 21:49:45 - Leitura Ficheiro IRS
+2021-01-13 21:52:32 - Leitura Relatórios Processados
+2021-01-13 21:52:32 - Leitura Ficheiro Segurança Social
+2021-01-13 21:52:32 - Leitura Ficheiro Funcionários
+2021-01-13 21:52:32 - Leitura Ficheiro IRS
+2021-01-13 21:55:50 - Leitura Relatórios Processados
+2021-01-13 21:55:50 - Leitura Ficheiro Segurança Social
+2021-01-13 21:55:50 - Leitura Ficheiro Funcionários
+2021-01-13 21:55:50 - Leitura Ficheiro IRS
+2021-01-13 21:56:08 - Escrita Ficheiro Funcionários
+2021-01-13 21:56:08 - Escrita Ficheiro Irs
+2021-01-13 21:56:08 - Escrita Ficheiro Segurança Social
+2021-01-13 21:56:08 - Escrita Relatorio Percentagem Idade
+2021-01-13 21:56:08 - Escrita Relatorio Tempo Empresa
+2021-01-13 21:56:08 - Escrita Relatorio Despesas Totais
+2021-01-13 21:56:08 - Escrita Relatorio Faltas
+2021-01-13 21:56:08 - Escrita Relatorio Valor Hora
+2021-01-13 21:56:08 - Escrita Relatorio Estado Civil
+2021-01-13 21:57:50 - Leitura Relatórios Processados
+2021-01-13 21:57:50 - Leitura Ficheiro Segurança Social
+2021-01-13 21:57:50 - Leitura Ficheiro Funcionários
+2021-01-13 21:57:50 - Leitura Ficheiro IRS
+2021-01-13 21:58:03 - Escrita Ficheiro Funcionários
+2021-01-13 21:58:03 - Escrita Ficheiro Irs
+2021-01-13 21:58:03 - Escrita Ficheiro Segurança Social
+2021-01-13 21:58:03 - Escrita Relatorio Percentagem Idade
+2021-01-13 21:58:03 - Escrita Relatorio Tempo Empresa
+2021-01-13 21:58:03 - Escrita Relatorio Despesas Totais
+2021-01-13 21:58:03 - Escrita Relatorio Faltas
+2021-01-13 21:58:03 - Escrita Relatorio Valor Hora
+2021-01-13 21:58:03 - Escrita Relatorio Estado Civil
+2021-01-13 21:58:47 - Leitura Relatórios Processados
+2021-01-13 21:58:47 - Leitura Ficheiro Segurança Social
+2021-01-13 21:58:47 - Leitura Ficheiro Funcionários
+2021-01-13 21:58:47 - Leitura Ficheiro IRS
+2021-01-13 22:01:06 - Leitura Relatórios Processados
+2021-01-13 22:01:06 - Leitura Ficheiro Segurança Social
+2021-01-13 22:01:06 - Leitura Ficheiro Funcionários
+2021-01-13 22:01:06 - Leitura Ficheiro IRS
+2021-01-13 22:01:58 - Leitura Relatórios Processados
+2021-01-13 22:01:58 - Leitura Ficheiro Segurança Social
+2021-01-13 22:01:58 - Leitura Ficheiro Funcionários
+2021-01-13 22:01:58 - Leitura Ficheiro IRS
+2021-01-13 22:04:24 - Leitura Relatórios Processados
+2021-01-13 22:04:24 - Leitura Ficheiro Segurança Social
+2021-01-13 22:04:24 - Leitura Ficheiro Funcionários
+2021-01-13 22:04:24 - Leitura Ficheiro IRS
+2021-01-13 22:06:54 - Leitura Relatórios Processados
+2021-01-13 22:06:54 - Leitura Ficheiro Segurança Social
+2021-01-13 22:06:54 - Leitura Ficheiro Funcionários
+2021-01-13 22:06:54 - Leitura Ficheiro IRS
+2021-01-13 22:07:46 - Leitura Relatórios Processados
+2021-01-13 22:07:46 - Leitura Ficheiro Segurança Social
+2021-01-13 22:07:46 - Leitura Ficheiro Funcionários
+2021-01-13 22:07:46 - Leitura Ficheiro IRS
+2021-01-13 22:08:07 - Leitura Relatórios Processados
+2021-01-13 22:08:07 - Leitura Ficheiro Segurança Social
+2021-01-13 22:08:07 - Leitura Ficheiro Funcionários
+2021-01-13 22:08:07 - Leitura Ficheiro IRS
+2021-01-13 22:08:44 - Leitura Relatórios Processados
+2021-01-13 22:08:44 - Leitura Ficheiro Segurança Social
+2021-01-13 22:08:44 - Leitura Ficheiro Funcionários
+2021-01-13 22:08:44 - Leitura Ficheiro IRS
+2021-01-13 22:08:45 - Leitura Relatórios Processados
+2021-01-13 22:08:45 - Leitura Ficheiro Segurança Social
+2021-01-13 22:08:45 - Leitura Ficheiro Funcionários
+2021-01-13 22:08:45 - Leitura Ficheiro IRS
+2021-01-13 22:08:59 - Leitura Relatórios Processados
+2021-01-13 22:08:59 - Leitura Ficheiro Segurança Social
+2021-01-13 22:08:59 - Leitura Ficheiro Funcionários
+2021-01-13 22:08:59 - Leitura Ficheiro IRS
+2021-01-13 22:09:39 - Leitura Relatórios Processados
+2021-01-13 22:09:39 - Leitura Ficheiro Segurança Social
+2021-01-13 22:09:39 - Leitura Ficheiro Funcionários
+2021-01-13 22:09:39 - Leitura Ficheiro IRS
+2021-01-13 22:09:58 - Leitura Relatórios Processados
+2021-01-13 22:09:58 - Leitura Ficheiro Segurança Social
+2021-01-13 22:09:58 - Leitura Ficheiro Funcionários
+2021-01-13 22:09:58 - Leitura Ficheiro IRS
+2021-01-13 22:19:39 - Leitura Relatórios Processados
+2021-01-13 22:19:39 - Leitura Ficheiro Segurança Social
+2021-01-13 22:19:39 - Leitura Ficheiro Funcionários
+2021-01-13 22:19:39 - Leitura Ficheiro IRS
+2021-01-13 22:19:51 - Escrita Ficheiro Funcionários
+2021-01-13 22:19:51 - Escrita Ficheiro Irs
+2021-01-13 22:19:51 - Escrita Ficheiro Segurança Social
+2021-01-13 22:19:51 - Escrita Relatorio Percentagem Idade
+2021-01-13 22:19:51 - Escrita Relatorio Tempo Empresa
+2021-01-13 22:19:51 - Escrita Relatorio Despesas Totais
+2021-01-13 22:19:51 - Escrita Relatorio Faltas
+2021-01-13 22:19:51 - Escrita Relatorio Valor Hora
+2021-01-13 22:19:51 - Escrita Relatorio Estado Civil
+2021-01-13 22:20:06 - Leitura Relatórios Processados
+2021-01-13 22:20:06 - Leitura Ficheiro Segurança Social
+2021-01-13 22:20:06 - Leitura Ficheiro Funcionários
+2021-01-13 22:20:06 - Leitura Ficheiro IRS
+2021-01-13 22:20:06 - Escrita Ficheiro Funcionários
+2021-01-13 22:20:06 - Escrita Ficheiro Irs
+2021-01-13 22:20:06 - Escrita Ficheiro Segurança Social
+2021-01-13 22:20:06 - Escrita Relatorio Percentagem Idade
+2021-01-13 22:20:06 - Escrita Relatorio Tempo Empresa
+2021-01-13 22:20:06 - Escrita Relatorio Despesas Totais
+2021-01-13 22:20:06 - Escrita Relatorio Faltas
+2021-01-13 22:20:06 - Escrita Relatorio Valor Hora
+2021-01-13 22:20:06 - Escrita Relatorio Estado Civil
+2021-01-13 22:21:07 - Leitura Relatórios Processados
+2021-01-13 22:21:07 - Leitura Ficheiro Segurança Social
+2021-01-13 22:21:07 - Leitura Ficheiro Funcionários
+2021-01-13 22:21:07 - Leitura Ficheiro IRS
+2021-01-13 22:21:17 - Leitura Relatórios Processados
+2021-01-13 22:21:17 - Leitura Ficheiro Segurança Social
+2021-01-13 22:21:17 - Leitura Ficheiro Funcionários
+2021-01-13 22:21:17 - Leitura Ficheiro IRS
+2021-01-13 22:21:45 - Escrita Ficheiro Funcionários
+2021-01-13 22:21:45 - Escrita Ficheiro Irs
+2021-01-13 22:21:45 - Escrita Ficheiro Segurança Social
+2021-01-13 22:21:45 - Escrita Relatorio Percentagem Idade
+2021-01-13 22:21:45 - Escrita Relatorio Tempo Empresa
+2021-01-13 22:21:45 - Escrita Relatorio Despesas Totais
+2021-01-13 22:21:45 - Escrita Relatorio Faltas
+2021-01-13 22:21:45 - Escrita Relatorio Valor Hora
+2021-01-13 22:21:45 - Escrita Relatorio Estado Civil
+2021-01-13 22:23:40 - Leitura Relatórios Processados
+2021-01-13 22:23:40 - Leitura Ficheiro Segurança Social
+2021-01-13 22:23:40 - Leitura Ficheiro Funcionários
+2021-01-13 22:23:40 - Leitura Ficheiro IRS
+2021-01-13 22:23:51 - Escrita Ficheiro Funcionários
+2021-01-13 22:23:51 - Escrita Ficheiro Irs
+2021-01-13 22:23:51 - Escrita Ficheiro Segurança Social
+2021-01-13 22:23:51 - Escrita Relatorio Percentagem Idade
+2021-01-13 22:23:51 - Escrita Relatorio Tempo Empresa
+2021-01-13 22:23:51 - Escrita Relatorio Despesas Totais
+2021-01-13 22:23:51 - Escrita Relatorio Faltas
+2021-01-13 22:23:51 - Escrita Relatorio Valor Hora
+2021-01-13 22:23:51 - Escrita Relatorio Estado Civil
+2021-01-13 22:24:45 - Leitura Relatórios Processados
+2021-01-13 22:24:45 - Leitura Ficheiro Segurança Social
+2021-01-13 22:24:45 - Leitura Ficheiro Funcionários
+2021-01-13 22:24:45 - Leitura Ficheiro IRS
+2021-01-13 22:24:57 - Escrita Ficheiro Funcionários
+2021-01-13 22:24:57 - Escrita Ficheiro Irs
+2021-01-13 22:24:57 - Escrita Ficheiro Segurança Social
+2021-01-13 22:24:57 - Escrita Relatorio Percentagem Idade
+2021-01-13 22:24:57 - Escrita Relatorio Tempo Empresa
+2021-01-13 22:24:57 - Escrita Relatorio Despesas Totais
+2021-01-13 22:24:57 - Escrita Relatorio Faltas
+2021-01-13 22:24:57 - Escrita Relatorio Valor Hora
+2021-01-13 22:24:57 - Escrita Relatorio Estado Civil
+2021-01-13 22:26:46 - Leitura Relatórios Processados
+2021-01-13 22:26:46 - Leitura Ficheiro Segurança Social
+2021-01-13 22:26:46 - Leitura Ficheiro Funcionários
+2021-01-13 22:26:46 - Leitura Ficheiro IRS
+2021-01-13 22:26:54 - Escrita Ficheiro Funcionários
+2021-01-13 22:26:54 - Escrita Ficheiro Irs
+2021-01-13 22:26:54 - Escrita Ficheiro Segurança Social
+2021-01-13 22:26:54 - Escrita Relatorio Percentagem Idade
+2021-01-13 22:26:54 - Escrita Relatorio Tempo Empresa
+2021-01-13 22:26:54 - Escrita Relatorio Despesas Totais
+2021-01-13 22:26:54 - Escrita Relatorio Faltas
+2021-01-13 22:26:54 - Escrita Relatorio Valor Hora
+2021-01-13 22:26:54 - Escrita Relatorio Estado Civil
+2021-01-13 22:28:13 - Leitura Relatórios Processados
+2021-01-13 22:28:13 - Leitura Ficheiro Segurança Social
+2021-01-13 22:28:13 - Leitura Ficheiro Funcionários
+2021-01-13 22:28:13 - Leitura Ficheiro IRS
+2021-01-13 22:28:33 - Leitura Relatórios Processados
+2021-01-13 22:28:33 - Leitura Ficheiro Segurança Social
+2021-01-13 22:28:33 - Leitura Ficheiro Funcionários
+2021-01-13 22:28:33 - Leitura Ficheiro IRS
+2021-01-13 22:30:06 - Leitura Relatórios Processados
+2021-01-13 22:30:06 - Leitura Ficheiro Segurança Social
+2021-01-13 22:30:06 - Leitura Ficheiro Funcionários
+2021-01-13 22:30:06 - Leitura Ficheiro IRS
+2021-01-13 22:31:06 - Leitura Relatórios Processados
+2021-01-13 22:31:06 - Leitura Ficheiro Segurança Social
+2021-01-13 22:31:06 - Leitura Ficheiro Funcionários
+2021-01-13 22:31:06 - Leitura Ficheiro IRS
+2021-01-13 22:32:07 - Leitura Relatórios Processados
+2021-01-13 22:32:07 - Leitura Ficheiro Segurança Social
+2021-01-13 22:32:07 - Leitura Ficheiro Funcionários
+2021-01-13 22:32:07 - Leitura Ficheiro IRS
+2021-01-13 22:33:58 - Leitura Relatórios Processados
+2021-01-13 22:33:58 - Leitura Ficheiro Segurança Social
+2021-01-13 22:33:58 - Leitura Ficheiro Funcionários
+2021-01-13 22:33:58 - Leitura Ficheiro IRS
+2021-01-13 22:34:18 - Escrita Ficheiro Funcionários
+2021-01-13 22:34:18 - Escrita Ficheiro Irs
+2021-01-13 22:34:18 - Escrita Ficheiro Segurança Social
+2021-01-13 22:34:18 - Escrita Relatorio Percentagem Idade
+2021-01-13 22:34:18 - Escrita Relatorio Tempo Empresa
+2021-01-13 22:34:18 - Escrita Relatorio Despesas Totais
+2021-01-13 22:34:18 - Escrita Relatorio Faltas
+2021-01-13 22:34:18 - Escrita Relatorio Valor Hora
+2021-01-13 22:34:18 - Escrita Relatorio Estado Civil
+2021-01-13 22:36:01 - Leitura Relatórios Processados
+2021-01-13 22:36:01 - Leitura Ficheiro Segurança Social
+2021-01-13 22:36:01 - Leitura Ficheiro Funcionários
+2021-01-13 22:36:01 - Leitura Ficheiro IRS
+2021-01-13 22:37:40 - Leitura Relatórios Processados
+2021-01-13 22:37:40 - Leitura Ficheiro Segurança Social
+2021-01-13 22:37:40 - Leitura Ficheiro Funcionários
+2021-01-13 22:37:40 - Leitura Ficheiro IRS
+2021-01-13 22:40:17 - Leitura Relatórios Processados
+2021-01-13 22:40:17 - Leitura Ficheiro Segurança Social
+2021-01-13 22:40:17 - Leitura Ficheiro Funcionários
+2021-01-13 22:40:17 - Leitura Ficheiro IRS
+2021-01-13 23:02:57 - Leitura Relatórios Processados
+2021-01-13 23:02:57 - Leitura Ficheiro Segurança Social
+2021-01-13 23:02:57 - Leitura Ficheiro Funcionários
+2021-01-13 23:02:57 - Leitura Ficheiro IRS
+2021-01-13 23:03:37 - Leitura Relatórios Processados
+2021-01-13 23:03:37 - Leitura Ficheiro Segurança Social
+2021-01-13 23:03:37 - Leitura Ficheiro Funcionários
+2021-01-13 23:03:37 - Leitura Ficheiro IRS
+2021-01-13 23:06:13 - Leitura Relatórios Processados
+2021-01-13 23:06:13 - Leitura Ficheiro Segurança Social
+2021-01-13 23:06:13 - Leitura Ficheiro Funcionários
+2021-01-13 23:06:13 - Leitura Ficheiro IRS
+2021-01-13 23:06:22 - Escrita Ficheiro Funcionários
+2021-01-13 23:06:22 - Escrita Ficheiro Irs
+2021-01-13 23:06:22 - Escrita Ficheiro Segurança Social
+2021-01-13 23:06:22 - Escrita Relatorio Percentagem Idade
+2021-01-13 23:06:22 - Escrita Relatorio Tempo Empresa
+2021-01-13 23:06:22 - Escrita Relatorio Despesas Totais
+2021-01-13 23:06:22 - Escrita Relatorio Faltas
+2021-01-13 23:06:22 - Escrita Relatorio Valor Hora
+2021-01-13 23:06:22 - Escrita Relatorio Estado Civil
+2021-01-13 23:06:36 - Leitura Relatórios Processados
+2021-01-13 23:06:36 - Leitura Ficheiro Segurança Social
+2021-01-13 23:06:36 - Leitura Ficheiro Funcionários
+2021-01-13 23:06:36 - Leitura Ficheiro IRS
+2021-01-13 23:07:51 - Leitura Relatórios Processados
+2021-01-13 23:07:51 - Leitura Ficheiro Segurança Social
+2021-01-13 23:07:51 - Leitura Ficheiro Funcionários
+2021-01-13 23:07:51 - Leitura Ficheiro IRS
+2021-01-13 23:25:22 - Leitura Relatórios Processados
+2021-01-13 23:25:22 - Leitura Ficheiro Segurança Social
+2021-01-13 23:25:22 - Leitura Ficheiro Funcionários
+2021-01-13 23:25:22 - Leitura Ficheiro IRS
+2021-01-13 23:25:58 - Escrita Ficheiro Funcionários
+2021-01-13 23:25:58 - Escrita Ficheiro Irs
+2021-01-13 23:25:58 - Escrita Ficheiro Segurança Social
+2021-01-13 23:25:58 - Escrita Relatorio Percentagem Idade
+2021-01-13 23:25:58 - Escrita Relatorio Tempo Empresa
+2021-01-13 23:25:58 - Escrita Relatorio Despesas Totais
+2021-01-13 23:25:58 - Escrita Relatorio Faltas
+2021-01-13 23:25:58 - Escrita Relatorio Valor Hora
+2021-01-13 23:25:58 - Escrita Relatorio Estado Civil
+2021-01-13 23:26:14 - Leitura Relatórios Processados
+2021-01-13 23:26:14 - Leitura Ficheiro Segurança Social
+2021-01-13 23:26:14 - Leitura Ficheiro Funcionários
+2021-01-13 23:26:14 - Leitura Ficheiro IRS
+2021-01-13 23:32:42 - Leitura Relatórios Processados
+2021-01-13 23:32:42 - Leitura Ficheiro Segurança Social
+2021-01-13 23:32:42 - Leitura Ficheiro Funcionários
+2021-01-13 23:32:42 - Leitura Ficheiro IRS
+2021-01-13 23:33:41 - Leitura Relatórios Processados
+2021-01-13 23:33:41 - Leitura Ficheiro Segurança Social
+2021-01-13 23:33:41 - Leitura Ficheiro Funcionários
+2021-01-13 23:33:41 - Leitura Ficheiro IRS
+2021-01-13 23:36:29 - Leitura Relatórios Processados
+2021-01-13 23:36:29 - Leitura Ficheiro Segurança Social
+2021-01-13 23:36:29 - Leitura Ficheiro Funcionários
+2021-01-13 23:36:29 - Leitura Ficheiro IRS
+2021-01-13 23:37:00 - Escrita Ficheiro Funcionários
+2021-01-13 23:37:00 - Escrita Ficheiro Irs
+2021-01-13 23:37:00 - Escrita Ficheiro Segurança Social
+2021-01-13 23:37:00 - Escrita Relatorio Percentagem Idade
+2021-01-13 23:37:00 - Escrita Relatorio Tempo Empresa
+2021-01-13 23:37:00 - Escrita Relatorio Despesas Totais
+2021-01-13 23:37:00 - Escrita Relatorio Faltas
+2021-01-13 23:37:00 - Escrita Relatorio Valor Hora
+2021-01-13 23:37:00 - Escrita Relatorio Estado Civil
+2021-01-13 23:53:29 - Leitura Relatórios Processados
+2021-01-13 23:53:29 - Leitura Ficheiro Segurança Social
+2021-01-13 23:53:29 - Leitura Ficheiro Funcionários
+2021-01-13 23:53:29 - Leitura Ficheiro IRS
+2021-01-13 23:53:55 - Leitura Relatórios Processados
+2021-01-13 23:53:55 - Leitura Ficheiro Segurança Social
+2021-01-13 23:53:55 - Leitura Ficheiro Funcionários
+2021-01-13 23:53:55 - Leitura Ficheiro IRS
+2021-01-13 23:54:05 - Leitura Relatórios Processados
+2021-01-13 23:54:05 - Leitura Ficheiro Segurança Social
+2021-01-13 23:54:05 - Leitura Ficheiro Funcionários
+2021-01-13 23:54:05 - Leitura Ficheiro IRS
+2021-01-13 23:54:18 - Leitura Relatórios Processados
+2021-01-13 23:54:18 - Leitura Ficheiro Segurança Social
+2021-01-13 23:54:18 - Leitura Ficheiro Funcionários
+2021-01-13 23:54:18 - Leitura Ficheiro IRS
+2021-01-13 23:54:27 - Leitura Relatórios Processados
+2021-01-13 23:54:27 - Leitura Ficheiro Segurança Social
+2021-01-13 23:54:27 - Leitura Ficheiro Funcionários
+2021-01-13 23:54:27 - Leitura Ficheiro IRS
+2021-01-13 23:58:47 - Escrita Ficheiro Funcionários
+2021-01-13 23:58:47 - Escrita Ficheiro Irs
+2021-01-13 23:58:47 - Escrita Ficheiro Segurança Social
+2021-01-13 23:58:47 - Escrita Relatorio Percentagem Idade
+2021-01-13 23:58:47 - Escrita Relatorio Tempo Empresa
+2021-01-13 23:58:47 - Escrita Relatorio Despesas Totais
+2021-01-13 23:58:47 - Escrita Relatorio Faltas
+2021-01-13 23:58:47 - Escrita Relatorio Valor Hora
+2021-01-13 23:58:47 - Escrita Relatorio Estado Civil
+2021-01-14 00:01:49 - Escrita Ficheiro Funcionários
+2021-01-14 00:01:49 - Escrita Ficheiro Irs
+2021-01-14 00:01:49 - Escrita Ficheiro Segurança Social
+2021-01-14 00:01:49 - Escrita Relatorio Percentagem Idade
+2021-01-14 00:01:49 - Escrita Relatorio Tempo Empresa
+2021-01-14 00:01:49 - Escrita Relatorio Despesas Totais
+2021-01-14 00:01:49 - Escrita Relatorio Faltas
+2021-01-14 00:01:49 - Escrita Relatorio Valor Hora
+2021-01-14 00:01:49 - Escrita Relatorio Estado Civil
+2021-01-14 00:08:07 - Leitura Relatórios Processados
+2021-01-14 00:08:07 - Leitura Ficheiro Segurança Social
+2021-01-14 00:08:07 - Leitura Ficheiro Funcionários
+2021-01-14 00:08:07 - Leitura Ficheiro IRS
+2021-01-14 00:08:46 - Leitura Relatórios Processados
+2021-01-14 00:08:46 - Leitura Ficheiro Segurança Social
+2021-01-14 00:08:46 - Leitura Ficheiro Funcionários
+2021-01-14 00:08:46 - Leitura Ficheiro IRS
+2021-01-14 00:09:49 - Leitura Relatórios Processados
+2021-01-14 00:09:49 - Leitura Ficheiro Segurança Social
+2021-01-14 00:09:49 - Leitura Ficheiro Funcionários
+2021-01-14 00:09:49 - Leitura Ficheiro IRS
+2021-01-14 00:11:35 - Leitura Relatórios Processados
+2021-01-14 00:11:35 - Leitura Ficheiro Segurança Social
+2021-01-14 00:11:35 - Leitura Ficheiro Funcionários
+2021-01-14 00:11:35 - Leitura Ficheiro IRS
+2021-01-14 00:13:25 - Leitura Relatórios Processados
+2021-01-14 00:13:25 - Leitura Ficheiro Segurança Social
+2021-01-14 00:13:25 - Leitura Ficheiro Funcionários
+2021-01-14 00:13:25 - Leitura Ficheiro IRS
+2021-01-14 00:14:50 - Leitura Relatórios Processados
+2021-01-14 00:14:50 - Leitura Ficheiro Segurança Social
+2021-01-14 00:14:50 - Leitura Ficheiro Funcionários
+2021-01-14 00:14:50 - Leitura Ficheiro IRS
+2021-01-14 00:15:49 - Leitura Relatórios Processados
+2021-01-14 00:15:49 - Leitura Ficheiro Segurança Social
+2021-01-14 00:15:49 - Leitura Ficheiro Funcionários
+2021-01-14 00:15:49 - Leitura Ficheiro IRS
+2021-01-14 00:16:37 - Leitura Relatórios Processados
+2021-01-14 00:16:37 - Leitura Ficheiro Segurança Social
+2021-01-14 00:16:37 - Leitura Ficheiro Funcionários
+2021-01-14 00:16:37 - Leitura Ficheiro IRS
+2021-01-14 00:17:57 - Leitura Relatórios Processados
+2021-01-14 00:17:57 - Leitura Ficheiro Segurança Social
+2021-01-14 00:17:57 - Leitura Ficheiro Funcionários
+2021-01-14 00:17:57 - Leitura Ficheiro IRS
+2021-01-14 00:19:59 - Leitura Relatórios Processados
+2021-01-14 00:19:59 - Leitura Ficheiro Segurança Social
+2021-01-14 00:19:59 - Leitura Ficheiro Funcionários
+2021-01-14 00:19:59 - Leitura Ficheiro IRS
+2021-01-14 00:21:15 - Leitura Relatórios Processados
+2021-01-14 00:21:15 - Leitura Ficheiro Segurança Social
+2021-01-14 00:21:15 - Leitura Ficheiro Funcionários
+2021-01-14 00:21:15 - Leitura Ficheiro IRS
+2021-01-14 00:22:05 - Leitura Relatórios Processados
+2021-01-14 00:22:05 - Leitura Ficheiro Segurança Social
+2021-01-14 00:22:05 - Leitura Ficheiro Funcionários
+2021-01-14 00:22:05 - Leitura Ficheiro IRS
+2021-01-14 00:29:32 - Leitura Relatórios Processados
+2021-01-14 00:29:32 - Leitura Ficheiro Segurança Social
+2021-01-14 00:29:32 - Leitura Ficheiro Funcionários
+2021-01-14 00:29:32 - Leitura Ficheiro IRS
+2021-01-14 00:43:38 - Leitura Relatórios Processados
+2021-01-14 00:43:38 - Leitura Ficheiro Segurança Social
+2021-01-14 00:43:38 - Leitura Ficheiro Funcionários
+2021-01-14 00:43:38 - Leitura Ficheiro IRS
+2021-01-14 00:43:56 - Escrita Ficheiro Funcionários
+2021-01-14 00:43:56 - Escrita Ficheiro Irs
+2021-01-14 00:43:56 - Escrita Ficheiro Segurança Social
+2021-01-14 00:43:56 - Escrita Relatorio Percentagem Idade
+2021-01-14 00:43:56 - Escrita Relatorio Tempo Empresa
+2021-01-14 00:43:56 - Escrita Relatorio Despesas Totais
+2021-01-14 00:43:56 - Escrita Relatorio Faltas
+2021-01-14 00:43:56 - Escrita Relatorio Valor Hora
+2021-01-14 00:43:56 - Escrita Relatorio Estado Civil
+2021-01-14 00:45:28 - Leitura Relatórios Processados
+2021-01-14 00:45:28 - Leitura Ficheiro Segurança Social
+2021-01-14 00:45:28 - Leitura Ficheiro Funcionários
+2021-01-14 00:45:28 - Leitura Ficheiro IRS
+2021-01-14 00:45:42 - Escrita Ficheiro Funcionários
+2021-01-14 00:45:42 - Escrita Ficheiro Irs
+2021-01-14 00:45:42 - Escrita Ficheiro Segurança Social
+2021-01-14 00:45:42 - Escrita Relatorio Percentagem Idade
+2021-01-14 00:45:42 - Escrita Relatorio Tempo Empresa
+2021-01-14 00:45:42 - Escrita Relatorio Despesas Totais
+2021-01-14 00:45:42 - Escrita Relatorio Faltas
+2021-01-14 00:45:42 - Escrita Relatorio Valor Hora
+2021-01-14 00:45:42 - Escrita Relatorio Estado Civil
+2021-01-14 00:46:01 - Leitura Relatórios Processados
+2021-01-14 00:46:01 - Leitura Ficheiro Segurança Social
+2021-01-14 00:46:01 - Leitura Ficheiro Funcionários
+2021-01-14 00:46:01 - Leitura Ficheiro IRS
+2021-01-14 00:49:51 - Leitura Relatórios Processados
+2021-01-14 00:49:51 - Leitura Ficheiro Segurança Social
+2021-01-14 00:49:51 - Leitura Ficheiro Funcionários
+2021-01-14 00:49:51 - Leitura Ficheiro IRS
+2021-01-14 00:51:13 - Leitura Relatórios Processados
+2021-01-14 00:51:13 - Leitura Ficheiro Segurança Social
+2021-01-14 00:51:13 - Leitura Ficheiro Funcionários
+2021-01-14 00:51:13 - Leitura Ficheiro IRS
+2021-01-14 00:51:56 - Leitura Relatórios Processados
+2021-01-14 00:51:56 - Leitura Ficheiro Segurança Social
+2021-01-14 00:51:56 - Leitura Ficheiro Funcionários
+2021-01-14 00:51:56 - Leitura Ficheiro IRS
+2021-01-14 00:53:57 - Leitura Relatórios Processados
+2021-01-14 00:53:57 - Leitura Ficheiro Segurança Social
+2021-01-14 00:53:57 - Leitura Ficheiro Funcionários
+2021-01-14 00:53:57 - Leitura Ficheiro IRS
+2021-01-14 00:54:43 - Leitura Relatórios Processados
+2021-01-14 00:54:43 - Leitura Ficheiro Segurança Social
+2021-01-14 00:54:43 - Leitura Ficheiro Funcionários
+2021-01-14 00:54:43 - Leitura Ficheiro IRS
+2021-01-14 00:54:56 - Escrita Ficheiro Funcionários
+2021-01-14 00:54:56 - Escrita Ficheiro Irs
+2021-01-14 00:54:56 - Escrita Ficheiro Segurança Social
+2021-01-14 00:54:56 - Escrita Relatorio Percentagem Idade
+2021-01-14 00:54:56 - Escrita Relatorio Tempo Empresa
+2021-01-14 00:54:56 - Escrita Relatorio Despesas Totais
+2021-01-14 00:54:56 - Escrita Relatorio Faltas
+2021-01-14 00:54:56 - Escrita Relatorio Valor Hora
+2021-01-14 00:54:56 - Escrita Relatorio Estado Civil
+2021-01-14 00:55:12 - Leitura Relatórios Processados
+2021-01-14 00:55:12 - Leitura Ficheiro Segurança Social
+2021-01-14 00:55:12 - Leitura Ficheiro Funcionários
+2021-01-14 00:55:12 - Leitura Ficheiro IRS
+2021-01-14 00:56:19 - Leitura Relatórios Processados
+2021-01-14 00:56:19 - Leitura Ficheiro Segurança Social
+2021-01-14 00:56:19 - Leitura Ficheiro Funcionários
+2021-01-14 00:56:19 - Leitura Ficheiro IRS
+2021-01-14 00:59:48 - Leitura Relatórios Processados
+2021-01-14 00:59:48 - Leitura Ficheiro Segurança Social
+2021-01-14 00:59:48 - Leitura Ficheiro Funcionários
+2021-01-14 00:59:48 - Leitura Ficheiro IRS
+2021-01-14 10:34:08 - Leitura Relatórios Processados
+2021-01-14 10:34:08 - Leitura Ficheiro Segurança Social
+2021-01-14 10:34:08 - Leitura Ficheiro Funcionários
+2021-01-14 10:34:08 - Leitura Ficheiro IRS
+2021-01-14 10:34:36 - Escrita Ficheiro Funcionários
+2021-01-14 10:34:36 - Escrita Ficheiro Irs
+2021-01-14 10:34:36 - Escrita Ficheiro Segurança Social
+2021-01-14 10:34:36 - Escrita Relatorio Percentagem Idade
+2021-01-14 10:34:36 - Escrita Relatorio Tempo Empresa
+2021-01-14 10:34:36 - Escrita Relatorio Despesas Totais
+2021-01-14 10:34:36 - Escrita Relatorio Faltas
+2021-01-14 10:34:36 - Escrita Relatorio Valor Hora
+2021-01-14 10:34:36 - Escrita Relatorio Estado Civil
+2021-01-14 10:35:02 - Leitura Relatórios Processados
+2021-01-14 10:35:02 - Leitura Ficheiro Segurança Social
+2021-01-14 10:35:02 - Leitura Ficheiro Funcionários
+2021-01-14 10:35:02 - Leitura Ficheiro IRS
+2021-01-14 10:37:06 - Leitura Relatórios Processados
+2021-01-14 10:37:06 - Leitura Ficheiro Segurança Social
+2021-01-14 10:37:06 - Leitura Ficheiro Funcionários
+2021-01-14 10:37:06 - Leitura Ficheiro IRS
+2021-01-14 10:38:38 - Leitura Relatórios Processados
+2021-01-14 10:38:38 - Leitura Ficheiro Segurança Social
+2021-01-14 10:38:38 - Leitura Ficheiro Funcionários
+2021-01-14 10:38:38 - Leitura Ficheiro IRS
+2021-01-14 10:39:42 - Leitura Relatórios Processados
+2021-01-14 10:39:42 - Leitura Ficheiro Segurança Social
+2021-01-14 10:39:42 - Leitura Ficheiro Funcionários
+2021-01-14 10:39:42 - Leitura Ficheiro IRS
+2021-01-14 10:40:37 - Leitura Relatórios Processados
+2021-01-14 10:40:37 - Leitura Ficheiro Segurança Social
+2021-01-14 10:40:37 - Leitura Ficheiro Funcionários
+2021-01-14 10:40:37 - Leitura Ficheiro IRS
+2021-01-14 10:40:51 - Escrita Ficheiro Funcionários
+2021-01-14 10:40:51 - Escrita Ficheiro Irs
+2021-01-14 10:40:51 - Escrita Ficheiro Segurança Social
+2021-01-14 10:40:51 - Escrita Relatorio Percentagem Idade
+2021-01-14 10:40:51 - Escrita Relatorio Tempo Empresa
+2021-01-14 10:40:51 - Escrita Relatorio Despesas Totais
+2021-01-14 10:40:51 - Escrita Relatorio Faltas
+2021-01-14 10:40:51 - Escrita Relatorio Valor Hora
+2021-01-14 10:40:51 - Escrita Relatorio Estado Civil
+2021-01-14 10:41:07 - Leitura Relatórios Processados
+2021-01-14 10:41:07 - Leitura Ficheiro Segurança Social
+2021-01-14 10:41:07 - Leitura Ficheiro Funcionários
+2021-01-14 10:41:07 - Leitura Ficheiro IRS
+2021-01-14 10:41:44 - Leitura Relatórios Processados
+2021-01-14 10:41:44 - Leitura Ficheiro Segurança Social
+2021-01-14 10:41:44 - Leitura Ficheiro Funcionários
+2021-01-14 10:41:44 - Leitura Ficheiro IRS
+2021-01-14 10:41:48 - Escrita Ficheiro Funcionários
+2021-01-14 10:41:48 - Escrita Ficheiro Irs
+2021-01-14 10:41:48 - Escrita Ficheiro Segurança Social
+2021-01-14 10:41:48 - Escrita Relatorio Percentagem Idade
+2021-01-14 10:41:48 - Escrita Relatorio Tempo Empresa
+2021-01-14 10:41:48 - Escrita Relatorio Despesas Totais
+2021-01-14 10:41:48 - Escrita Relatorio Faltas
+2021-01-14 10:41:48 - Escrita Relatorio Valor Hora
+2021-01-14 10:41:48 - Escrita Relatorio Estado Civil
+2021-01-14 10:54:50 - Leitura Relatórios Processados
+2021-01-14 10:54:50 - Leitura Ficheiro Segurança Social
+2021-01-14 10:54:50 - Leitura Ficheiro Funcionários
+2021-01-14 10:54:50 - Leitura Ficheiro IRS
+2021-01-14 10:55:13 - Escrita Ficheiro Funcionários
+2021-01-14 10:55:13 - Escrita Ficheiro Irs
+2021-01-14 10:55:13 - Escrita Ficheiro Segurança Social
+2021-01-14 10:55:13 - Escrita Relatorio Percentagem Idade
+2021-01-14 10:55:13 - Escrita Relatorio Tempo Empresa
+2021-01-14 10:55:13 - Escrita Relatorio Despesas Totais
+2021-01-14 10:55:13 - Escrita Relatorio Faltas
+2021-01-14 10:55:13 - Escrita Relatorio Valor Hora
+2021-01-14 10:55:13 - Escrita Relatorio Estado Civil
+2021-01-14 10:57:18 - Leitura Relatórios Processados
+2021-01-14 10:57:18 - Leitura Ficheiro Segurança Social
+2021-01-14 10:57:18 - Leitura Ficheiro Funcionários
+2021-01-14 10:57:18 - Leitura Ficheiro IRS
+2021-01-14 10:58:20 - Leitura Relatórios Processados
+2021-01-14 10:58:20 - Leitura Ficheiro Segurança Social
+2021-01-14 10:58:20 - Leitura Ficheiro Funcionários
+2021-01-14 10:58:20 - Leitura Ficheiro IRS
+2021-01-14 10:59:23 - Leitura Relatórios Processados
+2021-01-14 10:59:23 - Leitura Ficheiro Segurança Social
+2021-01-14 10:59:23 - Leitura Ficheiro Funcionários
+2021-01-14 10:59:23 - Leitura Ficheiro IRS
+2021-01-14 11:34:26 - Escrita Ficheiro Funcionários
+2021-01-14 11:34:26 - Escrita Ficheiro Irs
+2021-01-14 11:34:26 - Escrita Ficheiro Segurança Social
+2021-01-14 11:34:26 - Escrita Relatorio Percentagem Idade
+2021-01-14 11:34:26 - Escrita Relatorio Tempo Empresa
+2021-01-14 11:34:26 - Escrita Relatorio Despesas Totais
+2021-01-14 11:34:26 - Escrita Relatorio Faltas
+2021-01-14 11:34:26 - Escrita Relatorio Valor Hora
+2021-01-14 11:34:26 - Escrita Relatorio Estado Civil
+2021-01-14 11:34:30 - Leitura Relatórios Processados
+2021-01-14 11:34:30 - Leitura Ficheiro Segurança Social
+2021-01-14 11:34:30 - Leitura Ficheiro Funcionários
+2021-01-14 11:34:30 - Leitura Ficheiro IRS
+2021-01-14 11:37:32 - Leitura Relatórios Processados
+2021-01-14 11:37:32 - Leitura Ficheiro Segurança Social
+2021-01-14 11:37:32 - Leitura Ficheiro Funcionários
+2021-01-14 11:37:32 - Leitura Ficheiro IRS
+2021-01-14 11:38:25 - Escrita Ficheiro Funcionários
+2021-01-14 11:38:25 - Escrita Ficheiro Irs
+2021-01-14 11:38:25 - Escrita Ficheiro Segurança Social
+2021-01-14 11:38:25 - Escrita Relatorio Percentagem Idade
+2021-01-14 11:38:25 - Escrita Relatorio Tempo Empresa
+2021-01-14 11:38:25 - Escrita Relatorio Despesas Totais
+2021-01-14 11:38:25 - Escrita Relatorio Faltas
+2021-01-14 11:38:25 - Escrita Relatorio Valor Hora
+2021-01-14 11:38:25 - Escrita Relatorio Estado Civil
+2021-01-14 11:41:17 - Escrita Ficheiro Funcionários
+2021-01-14 11:41:17 - Escrita Ficheiro Irs
+2021-01-14 11:41:17 - Escrita Ficheiro Segurança Social
+2021-01-14 11:41:17 - Escrita Relatorio Percentagem Idade
+2021-01-14 11:41:17 - Escrita Relatorio Tempo Empresa
+2021-01-14 11:41:17 - Escrita Relatorio Despesas Totais
+2021-01-14 11:41:17 - Escrita Relatorio Faltas
+2021-01-14 11:41:17 - Escrita Relatorio Valor Hora
+2021-01-14 11:41:17 - Escrita Relatorio Estado Civil
+2021-01-14 11:44:31 - Escrita Ficheiro Funcionários
+2021-01-14 11:44:31 - Escrita Ficheiro Irs
+2021-01-14 11:44:31 - Escrita Ficheiro Segurança Social
+2021-01-14 11:44:31 - Escrita Relatorio Percentagem Idade
+2021-01-14 11:44:31 - Escrita Relatorio Tempo Empresa
+2021-01-14 11:44:31 - Escrita Relatorio Despesas Totais
+2021-01-14 11:44:31 - Escrita Relatorio Faltas
+2021-01-14 11:44:31 - Escrita Relatorio Valor Hora
+2021-01-14 11:44:31 - Escrita Relatorio Estado Civil
+2021-01-14 11:46:40 - Escrita Ficheiro Funcionários
+2021-01-14 11:46:40 - Escrita Ficheiro Irs
+2021-01-14 11:46:40 - Escrita Ficheiro Segurança Social
+2021-01-14 11:46:40 - Escrita Relatorio Percentagem Idade
+2021-01-14 11:46:40 - Escrita Relatorio Tempo Empresa
+2021-01-14 11:46:40 - Escrita Relatorio Despesas Totais
+2021-01-14 11:46:40 - Escrita Relatorio Faltas
+2021-01-14 11:46:40 - Escrita Relatorio Valor Hora
+2021-01-14 11:46:40 - Escrita Relatorio Estado Civil
+2021-01-14 11:52:26 - Leitura Relatórios Processados
+2021-01-14 11:52:26 - Leitura Ficheiro Segurança Social
+2021-01-14 11:52:26 - Leitura Ficheiro Funcionários
+2021-01-14 11:52:26 - Leitura Ficheiro IRS
+2021-01-14 11:53:09 - Leitura Relatórios Processados
+2021-01-14 11:53:09 - Leitura Ficheiro Segurança Social
+2021-01-14 11:53:09 - Leitura Ficheiro Funcionários
+2021-01-14 11:53:09 - Leitura Ficheiro IRS
+2021-01-14 11:53:38 - Leitura Relatórios Processados
+2021-01-14 11:53:38 - Leitura Ficheiro Segurança Social
+2021-01-14 11:53:38 - Leitura Ficheiro Funcionários
+2021-01-14 11:53:38 - Leitura Ficheiro IRS
+2021-01-14 11:54:01 - Escrita Ficheiro Funcionários
+2021-01-14 11:54:01 - Escrita Ficheiro Irs
+2021-01-14 11:54:01 - Escrita Ficheiro Segurança Social
+2021-01-14 11:54:01 - Escrita Relatorio Percentagem Idade
+2021-01-14 11:54:01 - Escrita Relatorio Tempo Empresa
+2021-01-14 11:54:01 - Escrita Relatorio Despesas Totais
+2021-01-14 11:54:01 - Escrita Relatorio Faltas
+2021-01-14 11:54:01 - Escrita Relatorio Valor Hora
+2021-01-14 11:54:01 - Escrita Relatorio Estado Civil
+2021-01-14 11:54:03 - Leitura Relatórios Processados
+2021-01-14 11:54:03 - Leitura Ficheiro Segurança Social
+2021-01-14 11:54:03 - Leitura Ficheiro Funcionários
+2021-01-14 11:54:03 - Leitura Ficheiro IRS
+2021-01-14 11:58:43 - Leitura Relatórios Processados
+2021-01-14 11:58:43 - Leitura Ficheiro Segurança Social
+2021-01-14 11:58:43 - Leitura Ficheiro Funcionários
+2021-01-14 11:58:43 - Leitura Ficheiro IRS
+2021-01-14 12:00:28 - Leitura Relatórios Processados
+2021-01-14 12:00:28 - Leitura Ficheiro Segurança Social
+2021-01-14 12:00:28 - Leitura Ficheiro Funcionários
+2021-01-14 12:00:28 - Leitura Ficheiro IRS
+2021-01-14 12:01:13 - Leitura Relatórios Processados
+2021-01-14 12:01:13 - Leitura Ficheiro Segurança Social
+2021-01-14 12:01:13 - Leitura Ficheiro Funcionários
+2021-01-14 12:01:13 - Leitura Ficheiro IRS
+2021-01-14 14:07:38 - Leitura Relatórios Processados
+2021-01-14 14:07:38 - Leitura Ficheiro Segurança Social
+2021-01-14 14:07:38 - Leitura Ficheiro Funcionários
+2021-01-14 14:07:38 - Leitura Ficheiro IRS
+2021-01-14 14:15:16 - Escrita Ficheiro Funcionários
+2021-01-14 14:15:16 - Escrita Ficheiro Irs
+2021-01-14 14:15:16 - Escrita Ficheiro Segurança Social
+2021-01-14 14:15:16 - Escrita Relatorio Percentagem Idade
+2021-01-14 14:15:16 - Escrita Relatorio Tempo Empresa
+2021-01-14 14:15:16 - Escrita Relatorio Despesas Totais
+2021-01-14 14:15:16 - Escrita Relatorio Faltas
+2021-01-14 14:15:16 - Escrita Relatorio Valor Hora
+2021-01-14 14:15:16 - Escrita Relatorio Estado Civil
+2021-01-14 14:16:57 - Leitura Relatórios Processados
+2021-01-14 14:16:57 - Leitura Ficheiro Segurança Social
+2021-01-14 14:16:57 - Leitura Ficheiro Funcionários
+2021-01-14 14:16:57 - Leitura Ficheiro IRS
+2021-01-14 14:18:16 - Leitura Relatórios Processados
+2021-01-14 14:18:16 - Leitura Ficheiro Segurança Social
+2021-01-14 14:18:16 - Leitura Ficheiro Funcionários
+2021-01-14 14:18:16 - Leitura Ficheiro IRS
+2021-01-14 14:20:18 - Leitura Relatórios Processados
+2021-01-14 14:20:18 - Leitura Ficheiro Segurança Social
+2021-01-14 14:20:18 - Leitura Ficheiro Funcionários
+2021-01-14 14:20:18 - Leitura Ficheiro IRS
+2021-01-14 14:22:39 - Leitura Relatórios Processados
+2021-01-14 14:22:39 - Leitura Ficheiro Segurança Social
+2021-01-14 14:22:39 - Leitura Ficheiro Funcionários
+2021-01-14 14:22:39 - Leitura Ficheiro IRS
+2021-01-14 14:25:04 - Leitura Relatórios Processados
+2021-01-14 14:25:04 - Leitura Ficheiro Segurança Social
+2021-01-14 14:25:04 - Leitura Ficheiro Funcionários
+2021-01-14 14:25:04 - Leitura Ficheiro IRS
+2021-01-14 14:25:43 - Leitura Relatórios Processados
+2021-01-14 14:25:43 - Leitura Ficheiro Segurança Social
+2021-01-14 14:25:43 - Leitura Ficheiro Funcionários
+2021-01-14 14:25:43 - Leitura Ficheiro IRS
+2021-01-14 14:27:02 - Leitura Relatórios Processados
+2021-01-14 14:27:02 - Leitura Ficheiro Segurança Social
+2021-01-14 14:27:02 - Leitura Ficheiro Funcionários
+2021-01-14 14:27:02 - Leitura Ficheiro IRS
+2021-01-14 14:27:58 - Leitura Relatórios Processados
+2021-01-14 14:27:58 - Leitura Ficheiro Segurança Social
+2021-01-14 14:27:58 - Leitura Ficheiro Funcionários
+2021-01-14 14:27:58 - Leitura Ficheiro IRS
+2021-01-14 14:28:24 - Leitura Relatórios Processados
+2021-01-14 14:28:24 - Leitura Ficheiro Segurança Social
+2021-01-14 14:28:24 - Leitura Ficheiro Funcionários
+2021-01-14 14:28:24 - Leitura Ficheiro IRS
+2021-01-14 14:30:34 - Leitura Relatórios Processados
+2021-01-14 14:30:34 - Leitura Ficheiro Segurança Social
+2021-01-14 14:30:34 - Leitura Ficheiro Funcionários
+2021-01-14 14:30:34 - Leitura Ficheiro IRS
+2021-01-14 14:33:31 - Leitura Relatórios Processados
+2021-01-14 14:33:31 - Leitura Ficheiro Segurança Social
+2021-01-14 14:33:31 - Leitura Ficheiro Funcionários
+2021-01-14 14:33:31 - Leitura Ficheiro IRS
+2021-01-14 14:37:00 - Leitura Relatórios Processados
+2021-01-14 14:37:00 - Leitura Ficheiro Segurança Social
+2021-01-14 14:37:00 - Leitura Ficheiro Funcionários
+2021-01-14 14:37:00 - Leitura Ficheiro IRS
+2021-01-14 14:37:54 - Leitura Relatórios Processados
+2021-01-14 14:37:54 - Leitura Ficheiro Segurança Social
+2021-01-14 14:37:54 - Leitura Ficheiro Funcionários
+2021-01-14 14:37:54 - Leitura Ficheiro IRS
+2021-01-14 14:40:16 - Leitura Relatórios Processados
+2021-01-14 14:40:16 - Leitura Ficheiro Segurança Social
+2021-01-14 14:40:16 - Leitura Ficheiro Funcionários
+2021-01-14 14:40:16 - Leitura Ficheiro IRS
+2021-01-14 14:41:18 - Leitura Relatórios Processados
+2021-01-14 14:41:18 - Leitura Ficheiro Segurança Social
+2021-01-14 14:41:18 - Leitura Ficheiro Funcionários
+2021-01-14 14:41:18 - Leitura Ficheiro IRS
+2021-01-14 14:42:26 - Leitura Relatórios Processados
+2021-01-14 14:42:26 - Leitura Ficheiro Segurança Social
+2021-01-14 14:42:26 - Leitura Ficheiro Funcionários
+2021-01-14 14:42:26 - Leitura Ficheiro IRS
+2021-01-14 14:43:45 - Leitura Relatórios Processados
+2021-01-14 14:43:45 - Leitura Ficheiro Segurança Social
+2021-01-14 14:43:45 - Leitura Ficheiro Funcionários
+2021-01-14 14:43:45 - Leitura Ficheiro IRS
+2021-01-14 14:44:09 - Leitura Relatórios Processados
+2021-01-14 14:44:09 - Leitura Ficheiro Segurança Social
+2021-01-14 14:44:09 - Leitura Ficheiro Funcionários
+2021-01-14 14:44:09 - Leitura Ficheiro IRS
+2021-01-14 14:45:41 - Leitura Relatórios Processados
+2021-01-14 14:45:41 - Leitura Ficheiro Segurança Social
+2021-01-14 14:45:41 - Leitura Ficheiro Funcionários
+2021-01-14 14:45:41 - Leitura Ficheiro IRS
+2021-01-14 14:46:56 - Leitura Relatórios Processados
+2021-01-14 14:46:56 - Leitura Ficheiro Segurança Social
+2021-01-14 14:46:56 - Leitura Ficheiro Funcionários
+2021-01-14 14:46:56 - Leitura Ficheiro IRS
+2021-01-14 14:47:16 - Leitura Relatórios Processados
+2021-01-14 14:47:16 - Leitura Ficheiro Segurança Social
+2021-01-14 14:47:16 - Leitura Ficheiro Funcionários
+2021-01-14 14:47:16 - Leitura Ficheiro IRS
+2021-01-14 14:47:57 - Leitura Relatórios Processados
+2021-01-14 14:47:57 - Leitura Ficheiro Segurança Social
+2021-01-14 14:47:57 - Leitura Ficheiro Funcionários
+2021-01-14 14:47:57 - Leitura Ficheiro IRS
+2021-01-14 14:48:22 - Leitura Relatórios Processados
+2021-01-14 14:48:22 - Leitura Ficheiro Segurança Social
+2021-01-14 14:48:22 - Leitura Ficheiro Funcionários
+2021-01-14 14:48:22 - Leitura Ficheiro IRS
+2021-01-14 14:48:38 - Leitura Relatórios Processados
+2021-01-14 14:48:38 - Leitura Ficheiro Segurança Social
+2021-01-14 14:48:38 - Leitura Ficheiro Funcionários
+2021-01-14 14:48:38 - Leitura Ficheiro IRS
+2021-01-14 15:01:24 - Leitura Relatórios Processados
+2021-01-14 15:01:24 - Leitura Ficheiro Segurança Social
+2021-01-14 15:01:24 - Leitura Ficheiro Funcionários
+2021-01-14 15:01:24 - Leitura Ficheiro IRS
+2021-01-14 15:02:05 - Leitura Relatórios Processados
+2021-01-14 15:02:05 - Leitura Ficheiro Segurança Social
+2021-01-14 15:02:05 - Leitura Ficheiro Funcionários
+2021-01-14 15:02:05 - Leitura Ficheiro IRS
+2021-01-14 15:02:39 - Leitura Relatórios Processados
+2021-01-14 15:02:39 - Leitura Ficheiro Segurança Social
+2021-01-14 15:02:39 - Leitura Ficheiro Funcionários
+2021-01-14 15:02:39 - Leitura Ficheiro IRS
+2021-01-14 15:17:05 - Leitura Relatórios Processados
+2021-01-14 15:17:05 - Leitura Ficheiro Segurança Social
+2021-01-14 15:17:05 - Leitura Ficheiro Funcionários
+2021-01-14 15:17:05 - Leitura Ficheiro IRS
+2021-01-14 15:19:28 - Leitura Relatórios Processados
+2021-01-14 15:19:28 - Leitura Ficheiro Segurança Social
+2021-01-14 15:19:28 - Leitura Ficheiro Funcionários
+2021-01-14 15:19:28 - Leitura Ficheiro IRS
+2021-01-14 15:23:51 - Leitura Relatórios Processados
+2021-01-14 15:23:51 - Leitura Ficheiro Segurança Social
+2021-01-14 15:23:51 - Leitura Ficheiro Funcionários
+2021-01-14 15:23:51 - Leitura Ficheiro IRS
+2021-01-14 15:25:46 - Leitura Relatórios Processados
+2021-01-14 15:25:46 - Leitura Ficheiro Segurança Social
+2021-01-14 15:25:46 - Leitura Ficheiro Funcionários
+2021-01-14 15:25:46 - Leitura Ficheiro IRS
+2021-01-14 15:36:20 - Leitura Relatórios Processados
+2021-01-14 15:36:20 - Leitura Ficheiro Segurança Social
+2021-01-14 15:36:20 - Leitura Ficheiro Funcionários
+2021-01-14 15:36:20 - Leitura Ficheiro IRS
+2021-01-14 15:36:31 - Escrita Ficheiro Funcionários
+2021-01-14 15:36:31 - Escrita Ficheiro Irs
+2021-01-14 15:36:31 - Escrita Ficheiro Segurança Social
+2021-01-14 15:36:31 - Escrita Relatorio Percentagem Idade
+2021-01-14 15:36:31 - Escrita Relatorio Tempo Empresa
+2021-01-14 15:36:31 - Escrita Relatorio Despesas Totais
+2021-01-14 15:36:31 - Escrita Relatorio Faltas
+2021-01-14 15:36:31 - Escrita Relatorio Valor Hora
+2021-01-14 15:36:31 - Escrita Relatorio Estado Civil
+2021-01-14 15:36:38 - Leitura Relatórios Processados
+2021-01-14 15:36:38 - Leitura Ficheiro Segurança Social
+2021-01-14 15:36:38 - Leitura Ficheiro Funcionários
+2021-01-14 15:36:38 - Leitura Ficheiro IRS
+2021-01-14 15:48:37 - Leitura Relatórios Processados
+2021-01-14 15:48:37 - Leitura Ficheiro Segurança Social
+2021-01-14 15:48:37 - Leitura Ficheiro Funcionários
+2021-01-14 15:48:37 - Leitura Ficheiro IRS
+2021-01-14 15:50:18 - Escrita Ficheiro Funcionários
+2021-01-14 15:50:18 - Escrita Ficheiro Irs
+2021-01-14 15:50:18 - Escrita Ficheiro Segurança Social
+2021-01-14 15:50:18 - Escrita Relatorio Percentagem Idade
+2021-01-14 15:50:18 - Escrita Relatorio Tempo Empresa
+2021-01-14 15:50:18 - Escrita Relatorio Despesas Totais
+2021-01-14 15:50:18 - Escrita Relatorio Faltas
+2021-01-14 15:50:18 - Escrita Relatorio Valor Hora
+2021-01-14 15:50:18 - Escrita Relatorio Estado Civil
+2021-01-14 15:50:25 - Leitura Relatórios Processados
+2021-01-14 15:50:25 - Leitura Ficheiro Segurança Social
+2021-01-14 15:50:25 - Leitura Ficheiro Funcionários
+2021-01-14 15:50:25 - Leitura Ficheiro IRS
+2021-01-14 15:51:09 - Escrita Ficheiro Funcionários
+2021-01-14 15:51:09 - Escrita Ficheiro Irs
+2021-01-14 15:51:09 - Escrita Ficheiro Segurança Social
+2021-01-14 15:51:09 - Escrita Relatorio Percentagem Idade
+2021-01-14 15:51:09 - Escrita Relatorio Tempo Empresa
+2021-01-14 15:51:09 - Escrita Relatorio Despesas Totais
+2021-01-14 15:51:09 - Escrita Relatorio Faltas
+2021-01-14 15:51:09 - Escrita Relatorio Valor Hora
+2021-01-14 15:51:09 - Escrita Relatorio Estado Civil
+2021-01-14 16:08:31 - Leitura Relatórios Processados
+2021-01-14 16:08:31 - Leitura Ficheiro Segurança Social
+2021-01-14 16:08:31 - Leitura Ficheiro Funcionários
+2021-01-14 16:08:31 - Leitura Ficheiro IRS
+2021-01-14 16:10:49 - Escrita Ficheiro Funcionários
+2021-01-14 16:10:49 - Escrita Ficheiro Irs
+2021-01-14 16:10:49 - Escrita Ficheiro Segurança Social
+2021-01-14 16:10:49 - Escrita Relatorio Percentagem Idade
+2021-01-14 16:10:49 - Escrita Relatorio Tempo Empresa
+2021-01-14 16:10:49 - Escrita Relatorio Despesas Totais
+2021-01-14 16:10:49 - Escrita Relatorio Faltas
+2021-01-14 16:10:49 - Escrita Relatorio Valor Hora
+2021-01-14 16:10:49 - Escrita Relatorio Estado Civil
+2021-01-14 16:12:37 - Leitura Relatórios Processados
+2021-01-14 16:12:37 - Leitura Ficheiro Segurança Social
+2021-01-14 16:12:37 - Leitura Ficheiro Funcionários
+2021-01-14 16:12:37 - Leitura Ficheiro IRS
+2021-01-15 14:07:26 - Leitura Relatórios Processados
+2021-01-15 14:07:26 - Leitura Ficheiro Segurança Social
+2021-01-15 14:07:26 - Leitura Ficheiro Funcionários
+2021-01-15 14:07:26 - Leitura Ficheiro IRS
+2021-01-15 14:08:37 - Escrita Ficheiro Funcionários
+2021-01-15 14:08:37 - Escrita Ficheiro Irs
+2021-01-15 14:08:37 - Escrita Ficheiro Segurança Social
+2021-01-15 14:08:37 - Escrita Relatorio Percentagem Idade
+2021-01-15 14:08:37 - Escrita Relatorio Tempo Empresa
+2021-01-15 14:08:37 - Escrita Relatorio Despesas Totais
+2021-01-15 14:08:37 - Escrita Relatorio Faltas
+2021-01-15 14:08:37 - Escrita Relatorio Valor Hora
+2021-01-15 14:08:37 - Escrita Relatorio Estado Civil
+2021-01-15 14:08:46 - Leitura Relatórios Processados
+2021-01-15 14:08:46 - Leitura Ficheiro Segurança Social
+2021-01-15 14:08:46 - Leitura Ficheiro Funcionários
+2021-01-15 14:08:46 - Leitura Ficheiro IRS
+2021-01-15 14:12:06 - Leitura Relatórios Processados
+2021-01-15 14:12:06 - Leitura Ficheiro Segurança Social
+2021-01-15 14:12:06 - Leitura Ficheiro Funcionários
+2021-01-15 14:12:06 - Leitura Ficheiro IRS
+2021-01-15 14:13:25 - Leitura Relatórios Processados
+2021-01-15 14:13:25 - Leitura Ficheiro Segurança Social
+2021-01-15 14:13:25 - Leitura Ficheiro Funcionários
+2021-01-15 14:13:25 - Leitura Ficheiro IRS
+2021-01-15 15:31:26 - Leitura Relatórios Processados
+2021-01-15 15:31:26 - Leitura Ficheiro Segurança Social
+2021-01-15 15:31:26 - Leitura Ficheiro Funcionários
+2021-01-15 15:31:26 - Leitura Ficheiro IRS
+2021-01-15 15:33:05 - Leitura Relatórios Processados
+2021-01-15 15:33:05 - Leitura Ficheiro Segurança Social
+2021-01-15 15:33:05 - Leitura Ficheiro Funcionários
+2021-01-15 15:33:05 - Leitura Ficheiro IRS
+2021-01-15 15:33:52 - Leitura Relatórios Processados
+2021-01-15 15:33:52 - Leitura Ficheiro Segurança Social
+2021-01-15 15:33:52 - Leitura Ficheiro Funcionários
+2021-01-15 15:33:52 - Leitura Ficheiro IRS
+2021-01-15 15:33:52 - Leitura Relatórios Processados
+2021-01-15 15:33:52 - Leitura Ficheiro Segurança Social
+2021-01-15 15:33:52 - Leitura Ficheiro Funcionários
+2021-01-15 15:33:52 - Leitura Ficheiro IRS
+2021-01-15 16:54:09 - Leitura Relatórios Processados
+2021-01-15 16:54:09 - Leitura Ficheiro Segurança Social
+2021-01-15 16:54:09 - Leitura Ficheiro Funcionários
+2021-01-15 16:54:09 - Leitura Ficheiro IRS
+2021-01-15 16:58:01 - Leitura Relatórios Processados
+2021-01-15 16:58:01 - Leitura Ficheiro Segurança Social
+2021-01-15 16:58:01 - Leitura Ficheiro Funcionários
+2021-01-15 16:58:01 - Leitura Ficheiro IRS
+2021-01-15 16:59:02 - Leitura Relatórios Processados
+2021-01-15 16:59:02 - Leitura Ficheiro Segurança Social
+2021-01-15 16:59:02 - Leitura Ficheiro Funcionários
+2021-01-15 16:59:02 - Leitura Ficheiro IRS
+2021-01-15 16:59:32 - Leitura Relatórios Processados
+2021-01-15 16:59:32 - Leitura Ficheiro Segurança Social
+2021-01-15 16:59:32 - Leitura Ficheiro Funcionários
+2021-01-15 16:59:32 - Leitura Ficheiro IRS
+2021-01-15 17:00:41 - Leitura Relatórios Processados
+2021-01-15 17:00:41 - Leitura Ficheiro Segurança Social
+2021-01-15 17:00:41 - Leitura Ficheiro Funcionários
+2021-01-15 17:00:41 - Leitura Ficheiro IRS
+2021-01-15 17:01:26 - Leitura Relatórios Processados
+2021-01-15 17:01:26 - Leitura Ficheiro Segurança Social
+2021-01-15 17:01:26 - Leitura Ficheiro Funcionários
+2021-01-15 17:01:26 - Leitura Ficheiro IRS
+2021-01-15 17:04:08 - Leitura Relatórios Processados
+2021-01-15 17:04:08 - Leitura Ficheiro Segurança Social
+2021-01-15 17:04:08 - Leitura Ficheiro Funcionários
+2021-01-15 17:04:08 - Leitura Ficheiro IRS
+2021-01-15 17:07:36 - Leitura Relatórios Processados
+2021-01-15 17:07:36 - Leitura Ficheiro Segurança Social
+2021-01-15 17:07:36 - Leitura Ficheiro Funcionários
+2021-01-15 17:07:36 - Leitura Ficheiro IRS
+2021-01-15 17:08:34 - Leitura Relatórios Processados
+2021-01-15 17:08:34 - Leitura Ficheiro Segurança Social
+2021-01-15 17:08:34 - Leitura Ficheiro Funcionários
+2021-01-15 17:08:34 - Leitura Ficheiro IRS
+2021-01-15 17:19:31 - Leitura Relatórios Processados
+2021-01-15 17:19:31 - Leitura Ficheiro Segurança Social
+2021-01-15 17:19:31 - Leitura Ficheiro Funcionários
+2021-01-15 17:19:31 - Leitura Ficheiro IRS
+2021-01-15 17:25:13 - Leitura Relatórios Processados
+2021-01-15 17:25:13 - Leitura Ficheiro Segurança Social
+2021-01-15 17:25:13 - Leitura Ficheiro Funcionários
+2021-01-15 17:25:13 - Leitura Ficheiro IRS
+2021-01-15 17:31:12 - Leitura Relatórios Processados
+2021-01-15 17:31:12 - Leitura Ficheiro Segurança Social
+2021-01-15 17:31:12 - Leitura Ficheiro Funcionários
+2021-01-15 17:31:12 - Leitura Ficheiro IRS
+2021-01-15 17:32:12 - Leitura Relatórios Processados
+2021-01-15 17:32:12 - Leitura Ficheiro Segurança Social
+2021-01-15 17:32:12 - Leitura Ficheiro Funcionários
+2021-01-15 17:32:12 - Leitura Ficheiro IRS
+2021-01-15 17:34:39 - Leitura Relatórios Processados
+2021-01-15 17:34:39 - Leitura Ficheiro Segurança Social
+2021-01-15 17:34:39 - Leitura Ficheiro Funcionários
+2021-01-15 17:34:39 - Leitura Ficheiro IRS
+2021-01-15 17:35:21 - Leitura Relatórios Processados
+2021-01-15 17:35:21 - Leitura Ficheiro Segurança Social
+2021-01-15 17:35:21 - Leitura Ficheiro Funcionários
+2021-01-15 17:35:21 - Leitura Ficheiro IRS
+2021-01-15 17:46:22 - Leitura Relatórios Processados
+2021-01-15 17:46:22 - Leitura Ficheiro Segurança Social
+2021-01-15 17:46:22 - Leitura Ficheiro Funcionários
+2021-01-15 17:46:22 - Leitura Ficheiro IRS
+2021-01-15 17:47:17 - Leitura Relatórios Processados
+2021-01-15 17:47:17 - Leitura Ficheiro Segurança Social
+2021-01-15 17:47:17 - Leitura Ficheiro Funcionários
+2021-01-15 17:47:17 - Leitura Ficheiro IRS
+2021-01-15 17:48:39 - Leitura Relatórios Processados
+2021-01-15 17:48:39 - Leitura Ficheiro Segurança Social
+2021-01-15 17:48:39 - Leitura Ficheiro Funcionários
+2021-01-15 17:48:39 - Leitura Ficheiro IRS
+2021-01-15 17:49:43 - Leitura Relatórios Processados
+2021-01-15 17:49:43 - Leitura Ficheiro Segurança Social
+2021-01-15 17:49:43 - Leitura Ficheiro Funcionários
+2021-01-15 17:49:43 - Leitura Ficheiro IRS
+2021-01-15 17:50:12 - Leitura Relatórios Processados
+2021-01-15 17:50:12 - Leitura Ficheiro Segurança Social
+2021-01-15 17:50:12 - Leitura Ficheiro Funcionários
+2021-01-15 17:50:12 - Leitura Ficheiro IRS
+2021-01-15 17:50:58 - Leitura Relatórios Processados
+2021-01-15 17:50:58 - Leitura Ficheiro Segurança Social
+2021-01-15 17:50:58 - Leitura Ficheiro Funcionários
+2021-01-15 17:50:58 - Leitura Ficheiro IRS
+2021-01-15 17:51:36 - Leitura Relatórios Processados
+2021-01-15 17:51:36 - Leitura Ficheiro Segurança Social
+2021-01-15 17:51:36 - Leitura Ficheiro Funcionários
+2021-01-15 17:51:36 - Leitura Ficheiro IRS
+2021-01-15 17:56:29 - Leitura Relatórios Processados
+2021-01-15 17:56:29 - Leitura Ficheiro Segurança Social
+2021-01-15 17:56:29 - Leitura Ficheiro Funcionários
+2021-01-15 17:56:29 - Leitura Ficheiro IRS
+2021-01-15 17:56:33 - Leitura Relatórios Processados
+2021-01-15 17:56:33 - Leitura Ficheiro Segurança Social
+2021-01-15 17:56:33 - Leitura Ficheiro Funcionários
+2021-01-15 17:56:33 - Leitura Ficheiro IRS
+2021-01-15 17:57:02 - Leitura Relatórios Processados
+2021-01-15 17:57:02 - Leitura Ficheiro Segurança Social
+2021-01-15 17:57:02 - Leitura Ficheiro Funcionários
+2021-01-15 17:57:02 - Leitura Ficheiro IRS
+2021-01-15 17:58:30 - Leitura Relatórios Processados
+2021-01-15 17:58:30 - Leitura Ficheiro Segurança Social
+2021-01-15 17:58:30 - Leitura Ficheiro Funcionários
+2021-01-15 17:58:30 - Leitura Ficheiro IRS
+2021-01-15 17:59:38 - Leitura Relatórios Processados
+2021-01-15 17:59:38 - Leitura Ficheiro Segurança Social
+2021-01-15 17:59:38 - Leitura Ficheiro Funcionários
+2021-01-15 17:59:38 - Leitura Ficheiro IRS
+2021-01-15 18:02:24 - Leitura Relatórios Processados
+2021-01-15 18:02:24 - Leitura Ficheiro Segurança Social
+2021-01-15 18:02:24 - Leitura Ficheiro Funcionários
+2021-01-15 18:02:24 - Leitura Ficheiro IRS
+2021-01-15 18:04:06 - Leitura Relatórios Processados
+2021-01-15 18:04:06 - Leitura Ficheiro Segurança Social
+2021-01-15 18:04:06 - Leitura Ficheiro Funcionários
+2021-01-15 18:04:06 - Leitura Ficheiro IRS
+2021-01-15 18:05:08 - Leitura Relatórios Processados
+2021-01-15 18:05:08 - Leitura Ficheiro Segurança Social
+2021-01-15 18:05:08 - Leitura Ficheiro Funcionários
+2021-01-15 18:05:08 - Leitura Ficheiro IRS
+2021-01-15 18:06:18 - Leitura Relatórios Processados
+2021-01-15 18:06:18 - Leitura Ficheiro Segurança Social
+2021-01-15 18:06:18 - Leitura Ficheiro Funcionários
+2021-01-15 18:06:18 - Leitura Ficheiro IRS
+2021-01-15 18:07:28 - Leitura Relatórios Processados
+2021-01-15 18:07:28 - Leitura Ficheiro Segurança Social
+2021-01-15 18:07:28 - Leitura Ficheiro Funcionários
+2021-01-15 18:07:28 - Leitura Ficheiro IRS
+2021-01-15 18:08:17 - Leitura Relatórios Processados
+2021-01-15 18:08:17 - Leitura Ficheiro Segurança Social
+2021-01-15 18:08:17 - Leitura Ficheiro Funcionários
+2021-01-15 18:08:17 - Leitura Ficheiro IRS
+2021-01-15 18:08:50 - Leitura Relatórios Processados
+2021-01-15 18:08:50 - Leitura Ficheiro Segurança Social
+2021-01-15 18:08:50 - Leitura Ficheiro Funcionários
+2021-01-15 18:08:50 - Leitura Ficheiro IRS
+2021-01-15 18:10:07 - Leitura Relatórios Processados
+2021-01-15 18:10:07 - Leitura Ficheiro Segurança Social
+2021-01-15 18:10:07 - Leitura Ficheiro Funcionários
+2021-01-15 18:10:07 - Leitura Ficheiro IRS
+2021-01-15 18:10:55 - Leitura Relatórios Processados
+2021-01-15 18:10:55 - Leitura Ficheiro Segurança Social
+2021-01-15 18:10:55 - Leitura Ficheiro Funcionários
+2021-01-15 18:10:55 - Leitura Ficheiro IRS
+2021-01-15 18:11:40 - Leitura Relatórios Processados
+2021-01-15 18:11:40 - Leitura Ficheiro Segurança Social
+2021-01-15 18:11:40 - Leitura Ficheiro Funcionários
+2021-01-15 18:11:40 - Leitura Ficheiro IRS
+2021-01-15 18:12:57 - Leitura Relatórios Processados
+2021-01-15 18:12:57 - Leitura Ficheiro Segurança Social
+2021-01-15 18:12:57 - Leitura Ficheiro Funcionários
+2021-01-15 18:12:57 - Leitura Ficheiro IRS
+2021-01-15 18:13:45 - Leitura Relatórios Processados
+2021-01-15 18:13:45 - Leitura Ficheiro Segurança Social
+2021-01-15 18:13:45 - Leitura Ficheiro Funcionários
+2021-01-15 18:13:45 - Leitura Ficheiro IRS
+2021-01-15 18:14:53 - Leitura Relatórios Processados
+2021-01-15 18:14:53 - Leitura Ficheiro Segurança Social
+2021-01-15 18:14:53 - Leitura Ficheiro Funcionários
+2021-01-15 18:14:53 - Leitura Ficheiro IRS
+2021-01-15 18:15:44 - Leitura Relatórios Processados
+2021-01-15 18:15:44 - Leitura Ficheiro Segurança Social
+2021-01-15 18:15:44 - Leitura Ficheiro Funcionários
+2021-01-15 18:15:44 - Leitura Ficheiro IRS
+2021-01-15 18:16:12 - Leitura Relatórios Processados
+2021-01-15 18:16:12 - Leitura Ficheiro Segurança Social
+2021-01-15 18:16:12 - Leitura Ficheiro Funcionários
+2021-01-15 18:16:12 - Leitura Ficheiro IRS
+2021-01-15 18:16:45 - Leitura Relatórios Processados
+2021-01-15 18:16:45 - Leitura Ficheiro Segurança Social
+2021-01-15 18:16:45 - Leitura Ficheiro Funcionários
+2021-01-15 18:16:45 - Leitura Ficheiro IRS
+2021-01-15 18:17:25 - Leitura Relatórios Processados
+2021-01-15 18:17:25 - Leitura Ficheiro Segurança Social
+2021-01-15 18:17:25 - Leitura Ficheiro Funcionários
+2021-01-15 18:17:25 - Leitura Ficheiro IRS
+2021-01-15 18:18:21 - Leitura Relatórios Processados
+2021-01-15 18:18:21 - Leitura Ficheiro Segurança Social
+2021-01-15 18:18:21 - Leitura Ficheiro Funcionários
+2021-01-15 18:18:21 - Leitura Ficheiro IRS
+2021-01-15 18:18:48 - Leitura Relatórios Processados
+2021-01-15 18:18:48 - Leitura Ficheiro Segurança Social
+2021-01-15 18:18:48 - Leitura Ficheiro Funcionários
+2021-01-15 18:18:48 - Leitura Ficheiro IRS
+2021-01-15 18:19:20 - Leitura Relatórios Processados
+2021-01-15 18:19:20 - Leitura Ficheiro Segurança Social
+2021-01-15 18:19:20 - Leitura Ficheiro Funcionários
+2021-01-15 18:19:20 - Leitura Ficheiro IRS
+2021-01-15 18:23:59 - Leitura Relatórios Processados
+2021-01-15 18:23:59 - Leitura Ficheiro Segurança Social
+2021-01-15 18:23:59 - Leitura Ficheiro Funcionários
+2021-01-15 18:23:59 - Leitura Ficheiro IRS
+2021-01-15 18:25:47 - Leitura Relatórios Processados
+2021-01-15 18:25:47 - Leitura Ficheiro Segurança Social
+2021-01-15 18:25:47 - Leitura Ficheiro Funcionários
+2021-01-15 18:25:47 - Leitura Ficheiro IRS
+2021-01-15 18:28:16 - Leitura Relatórios Processados
+2021-01-15 18:28:16 - Leitura Ficheiro Segurança Social
+2021-01-15 18:28:16 - Leitura Ficheiro Funcionários
+2021-01-15 18:28:16 - Leitura Ficheiro IRS
+2021-01-15 18:29:01 - Leitura Relatórios Processados
+2021-01-15 18:29:01 - Leitura Ficheiro Segurança Social
+2021-01-15 18:29:01 - Leitura Ficheiro Funcionários
+2021-01-15 18:29:01 - Leitura Ficheiro IRS
+2021-01-15 18:30:18 - Leitura Relatórios Processados
+2021-01-15 18:30:18 - Leitura Ficheiro Segurança Social
+2021-01-15 18:30:18 - Leitura Ficheiro Funcionários
+2021-01-15 18:30:18 - Leitura Ficheiro IRS
+2021-01-15 18:31:21 - Leitura Relatórios Processados
+2021-01-15 18:31:21 - Leitura Ficheiro Segurança Social
+2021-01-15 18:31:21 - Leitura Ficheiro Funcionários
+2021-01-15 18:31:21 - Leitura Ficheiro IRS
+2021-01-15 18:32:10 - Leitura Relatórios Processados
+2021-01-15 18:32:10 - Leitura Ficheiro Segurança Social
+2021-01-15 18:32:10 - Leitura Ficheiro Funcionários
+2021-01-15 18:32:10 - Leitura Ficheiro IRS
+2021-01-15 18:33:01 - Leitura Relatórios Processados
+2021-01-15 18:33:01 - Leitura Ficheiro Segurança Social
+2021-01-15 18:33:01 - Leitura Ficheiro Funcionários
+2021-01-15 18:33:01 - Leitura Ficheiro IRS
+2021-01-15 18:33:47 - Leitura Relatórios Processados
+2021-01-15 18:33:47 - Leitura Ficheiro Segurança Social
+2021-01-15 18:33:47 - Leitura Ficheiro Funcionários
+2021-01-15 18:33:47 - Leitura Ficheiro IRS
+2021-01-15 18:34:39 - Leitura Relatórios Processados
+2021-01-15 18:34:39 - Leitura Ficheiro Segurança Social
+2021-01-15 18:34:39 - Leitura Ficheiro Funcionários
+2021-01-15 18:34:39 - Leitura Ficheiro IRS
+2021-01-15 18:43:03 - Leitura Relatórios Processados
+2021-01-15 18:43:03 - Leitura Ficheiro Segurança Social
+2021-01-15 18:43:03 - Leitura Ficheiro Funcionários
+2021-01-15 18:43:03 - Leitura Ficheiro IRS
+2021-01-15 18:44:50 - Leitura Relatórios Processados
+2021-01-15 18:44:50 - Leitura Ficheiro Segurança Social
+2021-01-15 18:44:50 - Leitura Ficheiro Funcionários
+2021-01-15 18:44:50 - Leitura Ficheiro IRS
+2021-01-15 18:46:38 - Leitura Relatórios Processados
+2021-01-15 18:46:38 - Leitura Ficheiro Segurança Social
+2021-01-15 18:46:38 - Leitura Ficheiro Funcionários
+2021-01-15 18:46:38 - Leitura Ficheiro IRS
+2021-01-15 18:50:09 - Leitura Relatórios Processados
+2021-01-15 18:50:09 - Leitura Ficheiro Segurança Social
+2021-01-15 18:50:09 - Leitura Ficheiro Funcionários
+2021-01-15 18:50:09 - Leitura Ficheiro IRS
+2021-01-15 18:50:55 - Leitura Relatórios Processados
+2021-01-15 18:50:55 - Leitura Ficheiro Segurança Social
+2021-01-15 18:50:55 - Leitura Ficheiro Funcionários
+2021-01-15 18:50:55 - Leitura Ficheiro IRS
+2021-01-15 18:51:34 - Leitura Relatórios Processados
+2021-01-15 18:51:34 - Leitura Ficheiro Segurança Social
+2021-01-15 18:51:34 - Leitura Ficheiro Funcionários
+2021-01-15 18:51:34 - Leitura Ficheiro IRS
+2021-01-15 18:52:19 - Leitura Relatórios Processados
+2021-01-15 18:52:19 - Leitura Ficheiro Segurança Social
+2021-01-15 18:52:19 - Leitura Ficheiro Funcionários
+2021-01-15 18:52:19 - Leitura Ficheiro IRS
+2021-01-15 18:59:56 - Leitura Relatórios Processados
+2021-01-15 18:59:56 - Leitura Ficheiro Segurança Social
+2021-01-15 18:59:56 - Leitura Ficheiro Funcionários
+2021-01-15 18:59:56 - Leitura Ficheiro IRS
+2021-01-15 19:02:19 - Leitura Relatórios Processados
+2021-01-15 19:02:19 - Leitura Ficheiro Segurança Social
+2021-01-15 19:02:19 - Leitura Ficheiro Funcionários
+2021-01-15 19:02:19 - Leitura Ficheiro IRS
+2021-01-15 19:03:05 - Leitura Relatórios Processados
+2021-01-15 19:03:05 - Leitura Ficheiro Segurança Social
+2021-01-15 19:03:05 - Leitura Ficheiro Funcionários
+2021-01-15 19:03:05 - Leitura Ficheiro IRS
+2021-01-15 19:25:32 - Leitura Relatórios Processados
+2021-01-15 19:25:32 - Leitura Ficheiro Segurança Social
+2021-01-15 19:25:32 - Leitura Ficheiro Funcionários
+2021-01-15 19:25:32 - Leitura Ficheiro IRS
+2021-01-15 19:29:55 - Leitura Relatórios Processados
+2021-01-15 19:29:55 - Leitura Ficheiro Segurança Social
+2021-01-15 19:30:16 - Leitura Relatórios Processados
+2021-01-15 19:30:16 - Leitura Ficheiro Segurança Social
+2021-01-15 19:30:16 - Leitura Ficheiro Funcionários
+2021-01-15 19:30:16 - Leitura Ficheiro IRS
+2021-01-15 19:32:05 - Leitura Relatórios Processados
+2021-01-15 19:32:05 - Leitura Ficheiro Segurança Social
+2021-01-15 19:32:05 - Leitura Ficheiro Funcionários
+2021-01-15 19:32:05 - Leitura Ficheiro IRS
+2021-01-15 19:33:26 - Leitura Relatórios Processados
+2021-01-15 19:33:26 - Leitura Ficheiro Segurança Social
+2021-01-15 19:33:26 - Leitura Ficheiro Funcionários
+2021-01-15 19:33:26 - Leitura Ficheiro IRS
+2021-01-15 19:34:58 - Leitura Relatórios Processados
+2021-01-15 19:34:58 - Leitura Ficheiro Segurança Social
+2021-01-15 19:34:58 - Leitura Ficheiro Funcionários
+2021-01-15 19:34:58 - Leitura Ficheiro IRS
+2021-01-15 19:37:44 - Leitura Relatórios Processados
+2021-01-15 19:37:44 - Leitura Ficheiro Segurança Social
+2021-01-15 19:37:44 - Leitura Ficheiro Funcionários
+2021-01-15 19:37:44 - Leitura Ficheiro IRS
+2021-01-15 19:37:48 - Leitura Relatórios Processados
+2021-01-15 19:37:48 - Leitura Ficheiro Segurança Social
+2021-01-15 19:37:48 - Leitura Ficheiro Funcionários
+2021-01-15 19:37:48 - Leitura Ficheiro IRS
+2021-01-15 19:38:23 - Escrita Ficheiro Funcionários
+2021-01-15 19:38:23 - Escrita Ficheiro Irs
+2021-01-15 19:38:23 - Escrita Ficheiro Segurança Social
+2021-01-15 19:38:23 - Escrita Relatorio Percentagem Idade
+2021-01-15 19:38:23 - Escrita Relatorio Tempo Empresa
+2021-01-15 19:38:23 - Escrita Relatorio Despesas Totais
+2021-01-15 19:38:23 - Escrita Relatorio Faltas
+2021-01-15 19:38:23 - Escrita Relatorio Valor Hora
+2021-01-15 19:38:23 - Escrita Relatorio Estado Civil
+2021-01-15 19:39:35 - Escrita Ficheiro Funcionários
+2021-01-15 19:39:35 - Escrita Ficheiro Irs
+2021-01-15 19:39:35 - Escrita Ficheiro Segurança Social
+2021-01-15 19:39:35 - Escrita Relatorio Percentagem Idade
+2021-01-15 19:39:35 - Escrita Relatorio Tempo Empresa
+2021-01-15 19:39:35 - Escrita Relatorio Despesas Totais
+2021-01-15 19:39:35 - Escrita Relatorio Faltas
+2021-01-15 19:39:35 - Escrita Relatorio Valor Hora
+2021-01-15 19:39:35 - Escrita Relatorio Estado Civil
+2021-01-15 19:43:55 - Leitura Relatórios Processados
+2021-01-15 19:43:55 - Leitura Ficheiro Segurança Social
+2021-01-15 19:43:55 - Leitura Ficheiro Funcionários
+2021-01-15 19:43:55 - Leitura Ficheiro IRS
+2021-01-15 19:45:42 - Leitura Relatórios Processados
+2021-01-15 19:45:42 - Leitura Ficheiro Segurança Social
+2021-01-15 19:45:42 - Leitura Ficheiro Funcionários
+2021-01-15 19:45:42 - Leitura Ficheiro IRS
+2021-01-15 19:47:32 - Leitura Relatórios Processados
+2021-01-15 19:47:32 - Leitura Ficheiro Segurança Social
+2021-01-15 19:47:32 - Leitura Ficheiro Funcionários
+2021-01-15 19:47:32 - Leitura Ficheiro IRS
+2021-01-15 19:48:28 - Leitura Relatórios Processados
+2021-01-15 19:48:28 - Leitura Ficheiro Segurança Social
+2021-01-15 19:48:28 - Leitura Ficheiro Funcionários
+2021-01-15 19:48:28 - Leitura Ficheiro IRS
+2021-01-15 19:49:20 - Leitura Relatórios Processados
+2021-01-15 19:49:20 - Leitura Ficheiro Segurança Social
+2021-01-15 19:49:20 - Leitura Ficheiro Funcionários
+2021-01-15 19:49:20 - Leitura Ficheiro IRS
+2021-01-15 19:51:02 - Leitura Relatórios Processados
+2021-01-15 19:51:02 - Leitura Ficheiro Segurança Social
+2021-01-15 19:51:02 - Leitura Ficheiro Funcionários
+2021-01-15 19:51:02 - Leitura Ficheiro IRS
+2021-01-15 20:46:31 - Leitura Relatórios Processados
+2021-01-15 20:46:31 - Leitura Ficheiro Segurança Social
+2021-01-15 20:46:31 - Leitura Ficheiro Funcionários
+2021-01-15 20:46:31 - Leitura Ficheiro IRS
+2021-01-15 20:47:26 - Leitura Relatórios Processados
+2021-01-15 20:47:26 - Leitura Ficheiro Segurança Social
+2021-01-15 20:47:26 - Leitura Ficheiro Funcionários
+2021-01-15 20:47:26 - Leitura Ficheiro IRS
+2021-01-15 20:49:53 - Leitura Relatórios Processados
+2021-01-15 20:49:53 - Leitura Ficheiro Segurança Social
+2021-01-15 20:49:53 - Leitura Ficheiro Funcionários
+2021-01-15 20:49:53 - Leitura Ficheiro IRS
+2021-01-15 20:50:52 - Leitura Relatórios Processados
+2021-01-15 20:50:52 - Leitura Ficheiro Segurança Social
+2021-01-15 20:50:52 - Leitura Ficheiro Funcionários
+2021-01-15 20:50:52 - Leitura Ficheiro IRS
+2021-01-15 20:51:19 - Leitura Relatórios Processados
+2021-01-15 20:51:19 - Leitura Ficheiro Segurança Social
+2021-01-15 20:51:19 - Leitura Ficheiro Funcionários
+2021-01-15 20:51:19 - Leitura Ficheiro IRS
+2021-01-15 20:51:35 - Escrita Ficheiro Funcionários
+2021-01-15 20:51:35 - Escrita Ficheiro Irs
+2021-01-15 20:51:35 - Escrita Ficheiro Segurança Social
+2021-01-15 20:51:35 - Escrita Relatorio Percentagem Idade
+2021-01-15 20:51:35 - Escrita Relatorio Tempo Empresa
+2021-01-15 20:51:35 - Escrita Relatorio Despesas Totais
+2021-01-15 20:51:35 - Escrita Relatorio Faltas
+2021-01-15 20:51:35 - Escrita Relatorio Valor Hora
+2021-01-15 20:51:35 - Escrita Relatorio Estado Civil
+2021-01-15 20:52:13 - Leitura Relatórios Processados
+2021-01-15 20:52:13 - Leitura Ficheiro Segurança Social
+2021-01-15 20:52:13 - Leitura Ficheiro Funcionários
+2021-01-15 20:52:13 - Leitura Ficheiro IRS
+2021-01-15 20:54:05 - Leitura Relatórios Processados
+2021-01-15 20:54:05 - Leitura Ficheiro Segurança Social
+2021-01-15 20:54:05 - Leitura Ficheiro Funcionários
+2021-01-15 20:54:05 - Leitura Ficheiro IRS
+2021-01-15 20:54:46 - Leitura Relatórios Processados
+2021-01-15 20:54:46 - Leitura Ficheiro Segurança Social
+2021-01-15 20:54:46 - Leitura Ficheiro Funcionários
+2021-01-15 20:54:46 - Leitura Ficheiro IRS
+2021-01-15 20:56:20 - Leitura Relatórios Processados
+2021-01-15 20:56:20 - Leitura Ficheiro Segurança Social
+2021-01-15 20:56:20 - Leitura Ficheiro Funcionários
+2021-01-15 20:56:20 - Leitura Ficheiro IRS
+2021-01-15 20:58:08 - Leitura Relatórios Processados
+2021-01-15 20:58:08 - Leitura Ficheiro Segurança Social
+2021-01-15 20:58:08 - Leitura Ficheiro Funcionários
+2021-01-15 20:58:08 - Leitura Ficheiro IRS
+2021-01-15 21:31:24 - Leitura Relatórios Processados
+2021-01-15 21:31:24 - Leitura Ficheiro Segurança Social
+2021-01-15 21:31:24 - Leitura Ficheiro Funcionários
+2021-01-15 21:31:24 - Leitura Ficheiro IRS
+2021-01-15 21:59:51 - Leitura Relatórios Processados
+2021-01-15 21:59:51 - Leitura Ficheiro Segurança Social
+2021-01-15 21:59:51 - Leitura Ficheiro Funcionários
+2021-01-15 21:59:51 - Leitura Ficheiro IRS
+2021-01-15 22:00:33 - Leitura Relatórios Processados
+2021-01-15 22:00:33 - Leitura Ficheiro Segurança Social
+2021-01-15 22:00:33 - Leitura Ficheiro Funcionários
+2021-01-15 22:00:33 - Leitura Ficheiro IRS
+2021-01-15 22:01:00 - Escrita Ficheiro Funcionários
+2021-01-15 22:01:00 - Escrita Ficheiro Irs
+2021-01-15 22:01:00 - Escrita Ficheiro Segurança Social
+2021-01-15 22:01:00 - Escrita Relatorio Percentagem Idade
+2021-01-15 22:01:00 - Escrita Relatorio Tempo Empresa
+2021-01-15 22:01:00 - Escrita Relatorio Despesas Totais
+2021-01-15 22:01:00 - Escrita Relatorio Faltas
+2021-01-15 22:01:00 - Escrita Relatorio Valor Hora
+2021-01-15 22:01:00 - Escrita Relatorio Estado Civil
+2021-01-15 22:01:11 - Leitura Relatórios Processados
+2021-01-15 22:01:11 - Leitura Ficheiro Segurança Social
+2021-01-15 22:01:11 - Leitura Ficheiro Funcionários
+2021-01-15 22:01:11 - Leitura Ficheiro IRS
+2021-01-15 23:45:51 - Leitura Relatórios Processados
+2021-01-15 23:45:51 - Leitura Ficheiro Segurança Social
+2021-01-15 23:45:51 - Leitura Ficheiro Funcionários
+2021-01-15 23:45:51 - Leitura Ficheiro IRS
+2021-01-15 23:46:50 - Escrita Ficheiro Funcionários
+2021-01-15 23:46:50 - Escrita Ficheiro Irs
+2021-01-15 23:46:50 - Escrita Ficheiro Segurança Social
+2021-01-15 23:46:50 - Escrita Relatorio Percentagem Idade
+2021-01-15 23:46:50 - Escrita Relatorio Tempo Empresa
+2021-01-15 23:46:50 - Escrita Relatorio Despesas Totais
+2021-01-15 23:46:50 - Escrita Relatorio Faltas
+2021-01-15 23:46:50 - Escrita Relatorio Valor Hora
+2021-01-15 23:46:50 - Escrita Relatorio Estado Civil
+2021-01-15 23:46:52 - Leitura Relatórios Processados
+2021-01-15 23:46:52 - Leitura Ficheiro Segurança Social
+2021-01-15 23:46:52 - Leitura Ficheiro Funcionários
+2021-01-15 23:46:52 - Leitura Ficheiro IRS
